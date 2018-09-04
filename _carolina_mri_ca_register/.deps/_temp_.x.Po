@@ -1,84 +1,61 @@
-_temp_.x.o: _temp_.c /usr/include/stdc-predef.h init.h \
- /usr/include/math.h /usr/include/features.h \
- /usr/include/x86_64-linux-gnu/sys/cdefs.h \
- /usr/include/x86_64-linux-gnu/bits/wordsize.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs.h \
- /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
- /usr/include/x86_64-linux-gnu/bits/huge_val.h \
- /usr/include/x86_64-linux-gnu/bits/huge_valf.h \
- /usr/include/x86_64-linux-gnu/bits/huge_vall.h \
- /usr/include/x86_64-linux-gnu/bits/inf.h \
- /usr/include/x86_64-linux-gnu/bits/nan.h \
- /usr/include/x86_64-linux-gnu/bits/mathdef.h \
- /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h /usr/include/stdlib.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
- /usr/include/x86_64-linux-gnu/bits/waitstatus.h /usr/include/endian.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap.h \
- /usr/include/x86_64-linux-gnu/bits/types.h \
- /usr/include/x86_64-linux-gnu/bits/typesizes.h \
- /usr/include/x86_64-linux-gnu/bits/byteswap-16.h \
- /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/time.h \
- /usr/include/x86_64-linux-gnu/sys/select.h \
- /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/time.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h \
- /usr/include/x86_64-linux-gnu/sys/sysmacros.h \
- /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h /usr/include/stdio.h \
- /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/string.h \
- /usr/include/xlocale.h /usr/include/x86_64-linux-gnu/bits/string.h \
- /usr/include/x86_64-linux-gnu/bits/string2.h \
- /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/ctype.h \
- /usr/include/x86_64-linux-gnu/sys/time.h \
- /usr/include/x86_64-linux-gnu/sys/resource.h \
- /usr/include/x86_64-linux-gnu/bits/resource.h ../include/romp_support.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/omp.h ../include/timer.h \
- ../include/base.h /usr/include/malloc.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdbool.h \
+_temp_.x.o: _temp_.c init.h /usr/include/math.h /usr/include/features.h \
+ /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-64.h \
+ /usr/include/bits/huge_val.h /usr/include/bits/huge_valf.h \
+ /usr/include/bits/huge_vall.h /usr/include/bits/inf.h \
+ /usr/include/bits/nan.h /usr/include/bits/mathdef.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathinline.h \
+ /usr/include/stdlib.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/stddef.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/sigset.h /usr/include/bits/time.h \
+ /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
+ /usr/include/alloca.h /usr/include/stdio.h /usr/include/libio.h \
+ /usr/include/_G_config.h /usr/include/wchar.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/string.h /usr/include/xlocale.h \
+ /usr/include/bits/string.h /usr/include/bits/string2.h \
+ /usr/include/ctype.h /usr/include/sys/time.h /usr/include/sys/resource.h \
+ /usr/include/bits/resource.h ../include/romp_support.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/omp.h \
+ ../include/timer.h ../include/base.h /usr/include/malloc.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/stdbool.h \
  ../include/sys/timeb.h ../include/proto.h ../include/macros.h \
  ../include/const.h ../include/utils.h ../include/mri.h \
  ../include/faster_variants.h ../include/minc_volume_io.h \
  ../netcdf_3_6_0_p1/netcdf.h /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- ../include/minc_multidim_arrays.h ../include/minc_structures.h \
- ../include/matrix.h ../include/dmatrix.h ../include/machine.h \
- ../include/mghendian.h ../include/colortab.h ../include/znzlib.h \
- ../include/affine.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h ../include/histo.h \
- ../include/matrix.h ../include/proto.h ../include/macros.h \
- ../include/error.h ../include/timer.h ../include/diag.h \
- ../include/image.h ../include/hipl_format.h ../include/hips_basic.h \
- ../include/hips_header.h ../include/hips_error.h \
+ /usr/include/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
+ /usr/include/asm-generic/errno-base.h ../include/minc_multidim_arrays.h \
+ ../include/minc_structures.h ../include/matrix.h ../include/dmatrix.h \
+ ../include/machine.h ../include/mghendian.h ../include/colortab.h \
+ ../include/znzlib.h ../include/affine.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/xmmintrin.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/mmintrin.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/mm_malloc.h \
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/emmintrin.h \
+ ../include/histo.h ../include/matrix.h ../include/proto.h \
+ ../include/macros.h ../include/error.h ../include/timer.h \
+ ../include/diag.h ../include/image.h ../include/hipl_format.h \
+ ../include/hips_basic.h ../include/hips_header.h ../include/hips_error.h \
  ../include/hips_parser.h ../include/kernel.h ../include/filter.h \
  ../include/mrimorph.h ../include/mri.h ../include/transform.h \
- /usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h ../include/mrisurf.h \
- ../include/field_code.h ../include/mrishash.h ../include/label.h \
- ../include/gca.h ../include/utils.h ../include/gca.h ../include/cma.h \
- ../include/stats.h ../include/resample.h ../include/MRIio_old.h \
- ../include/mri2.h ../include/mriTransform.h ../include/xDebug.h \
- ../include/xTypes.h ../include/xVoxel.h ../include/connectcomp.h \
- ../include/mrinorm.h ../include/region.h ../include/gcamorph.h \
- ../include/transform.h ../include/mrisegment.h ../include/version.h \
- ../include/mri2.h ../include/fsinit.h ../include/ctrpoints.h \
- ../include/gcamorphtestutils.h ../include/gcamorph.h
-
-/usr/include/stdc-predef.h:
+ /u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/float.h \
+ ../include/mrisurf.h ../include/field_code.h ../include/mrishash.h \
+ ../include/label.h ../include/gca.h ../include/utils.h ../include/gca.h \
+ ../include/cma.h ../include/stats.h ../include/resample.h \
+ ../include/MRIio_old.h ../include/mri2.h ../include/mriTransform.h \
+ ../include/xDebug.h ../include/xTypes.h ../include/xVoxel.h \
+ ../include/connectcomp.h ../include/mrinorm.h ../include/region.h \
+ ../include/gcamorph.h ../include/transform.h ../include/mrisegment.h \
+ ../include/version.h ../include/mri2.h ../include/fsinit.h \
+ ../include/ctrpoints.h ../include/gcamorphtestutils.h \
+ ../include/gcamorph.h
 
 init.h:
 
@@ -86,75 +63,65 @@ init.h:
 
 /usr/include/features.h:
 
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+/usr/include/sys/cdefs.h:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/usr/include/bits/wordsize.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+/usr/include/gnu/stubs.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_val.h:
+/usr/include/bits/huge_val.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_valf.h:
+/usr/include/bits/huge_valf.h:
 
-/usr/include/x86_64-linux-gnu/bits/huge_vall.h:
+/usr/include/bits/huge_vall.h:
 
-/usr/include/x86_64-linux-gnu/bits/inf.h:
+/usr/include/bits/inf.h:
 
-/usr/include/x86_64-linux-gnu/bits/nan.h:
+/usr/include/bits/nan.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathdef.h:
+/usr/include/bits/mathdef.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/bits/mathcalls.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathinline.h:
+/usr/include/bits/mathinline.h:
 
 /usr/include/stdlib.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stddef.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/stddef.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/bits/waitflags.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/bits/waitstatus.h:
 
 /usr/include/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/bits/endian.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap.h:
+/usr/include/bits/byteswap.h:
 
-/usr/include/x86_64-linux-gnu/bits/types.h:
+/usr/include/sys/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+/usr/include/bits/types.h:
 
-/usr/include/x86_64-linux-gnu/bits/byteswap-16.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
+/usr/include/bits/typesizes.h:
 
 /usr/include/time.h:
 
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/sys/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/select.h:
+/usr/include/bits/select.h:
 
-/usr/include/x86_64-linux-gnu/bits/sigset.h:
+/usr/include/bits/sigset.h:
 
-/usr/include/x86_64-linux-gnu/bits/time.h:
+/usr/include/bits/time.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
+/usr/include/sys/sysmacros.h:
 
-/usr/include/x86_64-linux-gnu/sys/sysmacros.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
+/usr/include/bits/pthreadtypes.h:
 
 /usr/include/alloca.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/stdio.h:
 
@@ -164,37 +131,33 @@ init.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/stdarg.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/bits/stdio_lim.h:
 
-/usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
+/usr/include/bits/sys_errlist.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+/usr/include/bits/stdio.h:
 
 /usr/include/string.h:
 
 /usr/include/xlocale.h:
 
-/usr/include/x86_64-linux-gnu/bits/string.h:
+/usr/include/bits/string.h:
 
-/usr/include/x86_64-linux-gnu/bits/string2.h:
-
-/usr/include/x86_64-linux-gnu/bits/string3.h:
+/usr/include/bits/string2.h:
 
 /usr/include/ctype.h:
 
-/usr/include/x86_64-linux-gnu/sys/time.h:
+/usr/include/sys/time.h:
 
-/usr/include/x86_64-linux-gnu/sys/resource.h:
+/usr/include/sys/resource.h:
 
-/usr/include/x86_64-linux-gnu/bits/resource.h:
+/usr/include/bits/resource.h:
 
 ../include/romp_support.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/omp.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/omp.h:
 
 ../include/timer.h:
 
@@ -202,7 +165,7 @@ init.h:
 
 /usr/include/malloc.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdbool.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/stdbool.h:
 
 ../include/sys/timeb.h:
 
@@ -224,11 +187,11 @@ init.h:
 
 /usr/include/errno.h:
 
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+/usr/include/bits/errno.h:
 
 /usr/include/linux/errno.h:
 
-/usr/include/x86_64-linux-gnu/asm/errno.h:
+/usr/include/asm/errno.h:
 
 /usr/include/asm-generic/errno.h:
 
@@ -252,13 +215,13 @@ init.h:
 
 ../include/affine.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/xmmintrin.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/xmmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/mmintrin.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/mmintrin.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/mm_malloc.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/mm_malloc.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/emmintrin.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/emmintrin.h:
 
 ../include/histo.h:
 
@@ -296,7 +259,7 @@ init.h:
 
 ../include/transform.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/4.8/include/float.h:
+/u/shared/programs/x86_64/gcc/4.8.2/lib/gcc/x86_64-redhat-linux-gnu/4.8.2/include/float.h:
 
 ../include/mrisurf.h:
 
