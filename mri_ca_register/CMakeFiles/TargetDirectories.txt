@@ -1,0 +1,1 @@
+/root/freesurfer/mri_ca_register/CMakeFiles/mri_ca_register.dir

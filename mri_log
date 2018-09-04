@@ -1,0 +1,153 @@
+mri_ca_register.c:147:static int write_vector_field(MRI *mri, GCA_MORPH *gcam, char *vf_fname) ;
+mri_ca_register.c:148:static int remove_bright_stuff(MRI *mri, GCA *gca, TRANSFORM *transform) ;
+mri_ca_register.c:190:  MRI          *mri_inputs, *mri_tmp ;
+mri_ca_register.c:297:    mri_tmp = MRIread(in_fname) ;
+mri_ca_register.c:306:    if (mri_tmp->type == MRI_FLOAT)
+mri_ca_register.c:308:      MRIchangeType(mri_tmp, MRI_SHORT, 0, 10000,  1) ;
+mri_ca_register.c:315:      MRI *mri_mask ;
+mri_ca_register.c:318:      mri_mask = MRIread(mask_fname) ;
+mri_ca_register.c:325:        MRImask(mri_tmp, mri_mask, mri_tmp, val, 0) ;
+mri_ca_register.c:327:      MRIfree(&mri_mask) ;
+mri_ca_register.c:331:      MRI *mri_T2, *mri_aparc_aseg ;
+mri_ca_register.c:333:      mri_T2 = MRIread(T2_mask_fname) ;
+mri_ca_register.c:339:        mri_aparc_aseg = MRIread(aparc_aseg_fname) ;
+mri_ca_register.c:345:      MRImask_with_T2_and_aparc_aseg(mri_tmp,
+mri_ca_register.c:351:      MRIfree(&mri_T2) ;
+mri_ca_register.c:352:      MRIfree(&mri_aparc_aseg) ;
+mri_ca_register.c:368:      mri_inputs = MRIallocSequence(mri_tmp->width,
+mri_ca_register.c:374:      MRIcopyHeader(mri_tmp, mri_inputs) ;
+mri_ca_register.c:376:    MRIcopyFrame(mri_tmp, mri_inputs, 0, input) ;
+mri_ca_register.c:377:    MRIfree(&mri_tmp) ;
+mri_ca_register.c:550:    MRI *mri_T1, *mri_seg ;
+mri_ca_register.c:552:    mri_seg = MRIread(example_segmentation) ;
+mri_ca_register.c:556:    mri_T1 = MRIread(example_T1) ;
+mri_ca_register.c:561:    MRIeraseBorderPlanes(mri_seg, 1) ;
+mri_ca_register.c:563:    MRIfree(&mri_seg) ;
+mri_ca_register.c:564:    MRIfree(&mri_T1) ;
+mri_ca_register.c:573:    parms.mri_twm = MRIalloc(mri_inputs->width,
+mri_ca_register.c:576:                             MRI_UCHAR) ;
+mri_ca_register.c:577:    MRIcopyHeader(mri_inputs, parms.mri_twm) ;
+mri_ca_register.c:578:    pArray = MRIreadControlPoints(twm_fname, &nctrl, &useRealRAS);
+mri_ca_register.c:584:        MRIsurfaceRASToVoxel(parms.mri_twm,
+mri_ca_register.c:589:        MRIworldToVoxel(parms.mri_twm,
+mri_ca_register.c:595:                  "MRI3dUseFileControlPoints has bad useRealRAS flag %d\n",
+mri_ca_register.c:601:      if (MRIindexNotInVolume(parms.mri_twm, x, y, z) == 0)
+mri_ca_register.c:606:        if (MRIvox(parms.mri_twm, x, y, z) == 0)
+mri_ca_register.c:610:        MRIvox(parms.mri_twm, x, y, z) = 1 ;
+mri_ca_register.c:620:          MRIsetVoxVal(mri_inputs, x, y,z, 0, gc->means[0]) ;
+mri_ca_register.c:624:          MRIsetVoxVal(mri_inputs, x, y,z, 0, 100) ;
+mri_ca_register.c:676:    MRI *mri_kernel, *mri_smooth, *mri_grad, *mri_tmp ;
+mri_ca_register.c:678:    mri_kernel = MRIgaussian1d(1.0, 30) ;
+mri_ca_register.c:679:    mri_smooth = MRIconvolveGaussian(mri_inputs, NULL, mri_kernel) ;
+mri_ca_register.c:681:    if (mri_inputs->type != MRI_FLOAT)
+mri_ca_register.c:684:      mri_tmp = MRISeqchangeType(mri_inputs, MRI_FLOAT, 0, 0, 1) ;
+mri_ca_register.c:685:      MRIfree(&mri_inputs) ;
+mri_ca_register.c:693:        mri_grad = MRIxSobel(mri_smooth, NULL, i) ;
+mri_ca_register.c:694:        MRIcopyFrame(mri_grad, mri_inputs, 0, start+i) ;
+mri_ca_register.c:695:        MRIfree(&mri_grad) ;
+mri_ca_register.c:703:        mri_grad = MRIySobel(mri_smooth, NULL, i) ;
+mri_ca_register.c:704:        MRIcopyFrame(mri_grad, mri_inputs, 0, start+i) ;
+mri_ca_register.c:705:        MRIfree(&mri_grad) ;
+mri_ca_register.c:713:        mri_grad = MRIzSobel(mri_smooth, NULL, i) ;
+mri_ca_register.c:714:        MRIcopyFrame(mri_grad, mri_inputs, 0, start+i) ;
+mri_ca_register.c:715:        MRIfree(&mri_grad) ;
+mri_ca_register.c:720:    MRIfree(&mri_kernel) ;
+mri_ca_register.c:721:    MRIfree(&mri_smooth) ;
+mri_ca_register.c:735:    MRI *mri_tmp, *mri_kernel ;
+mri_ca_register.c:737:    mri_kernel = MRIgaussian1d(blur_sigma, 100) ;
+mri_ca_register.c:738:    mri_tmp = MRIconvolveGaussian(mri_inputs, NULL, mri_kernel) ;
+mri_ca_register.c:739:    MRIfree(&mri_inputs) ;
+mri_ca_register.c:781:      MRI  *mri ;
+mri_ca_register.c:783:      mri = GCAMwriteMRI(gcam, NULL, GCAM_INVALID) ;
+mri_ca_register.c:785:      MRIwrite(mri, fname) ;
+mri_ca_register.c:786:      MRIfree(&mri) ;
+mri_ca_register.c:788:      mri = GCAMwriteMRI(gcam, NULL, GCAM_STATUS) ;
+mri_ca_register.c:790:      MRIwrite(mri, fname) ;
+mri_ca_register.c:791:      MRIfree(&mri) ;
+mri_ca_register.c:853:      MRI  *mri_gca, *mri_tmp ;
+mri_ca_register.c:854:      mri_gca = MRIclone(mri_inputs, NULL) ;
+mri_ca_register.c:859:        mri_tmp = MRIcopyFrame(mri_gca, NULL, mri_gca->nframes-1, 0) ;
+mri_ca_register.c:860:        MRIfree(&mri_gca) ;
+mri_ca_register.c:864:      MRIwriteImageViews(mri_gca, fname, IMAGE_SIZE) ;
+mri_ca_register.c:867:      MRIwrite(mri_gca, fname) ;
+mri_ca_register.c:868:      MRIfree(&mri_gca) ;
+mri_ca_register.c:966:      MRI  *mri_gca, *mri_tmp ;
+mri_ca_register.c:970:        MRIwriteImageViews(mri_inputs, fname, IMAGE_SIZE) ;
+mri_ca_register.c:973:        MRIwrite(mri_inputs, fname) ;
+mri_ca_register.c:977:        mri_gca = MRIclone(mri_inputs, NULL) ;
+mri_ca_register.c:982:          mri_tmp = MRIcopyFrame(mri_gca, NULL, mri_gca->nframes-1, 0) ;
+mri_ca_register.c:983:          MRIfree(&mri_gca) ;
+mri_ca_register.c:987:        MRIwriteImageViews(mri_gca, fname, IMAGE_SIZE) ;
+mri_ca_register.c:990:        MRIwrite(mri_gca, fname) ;
+mri_ca_register.c:991:        MRIfree(&mri_gca) ;
+mri_ca_register.c:1072:      MRI *mri_seg, *mri_aligned ;
+mri_ca_register.c:1074:      mri_seg = MRIclone(mri_inputs, NULL) ;
+mri_ca_register.c:1077:      mri_aligned = MRIlinearTransform(mri_seg, NULL, lta->xforms[0].m_L) ;
+mri_ca_register.c:1078:      MRIwrite(mri_seg, "s.mgz")  ;
+mri_ca_register.c:1079:      MRIwrite(mri_aligned, "a.mgz") ;
+mri_ca_register.c:1080:      MRIfree(&mri_seg) ;
+mri_ca_register.c:1081:      MRIfree(&mri_aligned) ;
+mri_ca_register.c:1105:        MRI *mri_morphed ;
+mri_ca_register.c:1239:      MRI *mri_seg, *mri_aligned ;
+mri_ca_register.c:1242:      mri_seg = MRIclone(mri_inputs, NULL) ;
+mri_ca_register.c:1247:      mri_aligned = MRIlinearTransform(mri_seg, NULL, lta->xforms[0].m_L) ;
+mri_ca_register.c:1248:      MRIwrite(mri_seg, "s.mgz")  ;
+mri_ca_register.c:1249:      MRIwrite(mri_aligned, "a.mgz") ;
+mri_ca_register.c:1250:      MRIfree(&mri_seg) ;
+mri_ca_register.c:1251:      MRIfree(&mri_aligned) ;
+mri_ca_register.c:1260:      MRI *mri_seg ;
+mri_ca_register.c:1263:      mri_seg = MRIclone(mri_inputs, NULL) ;
+mri_ca_register.c:1266:      MRIwrite(mri_seg, "sa.mgz") ;
+mri_ca_register.c:1267:      MRIfree(&mri_seg) ;
+mri_ca_register.c:1287:      MRIwriteImageViews(mri_inputs, fname, IMAGE_SIZE) ;
+mri_ca_register.c:1290:      MRIwrite(mri_inputs, fname) ;
+mri_ca_register.c:1294:      MRI  *mri_gca ;
+mri_ca_register.c:1296:      mri_gca = MRIalloc(gcam->atlas.width, gcam->atlas.height, gcam->atlas.depth, MRI_FLOAT) ;
+mri_ca_register.c:1297:      MRIcopyHeader(mri_inputs, mri_gca) ;
+mri_ca_register.c:1302:	 MRI *mri_tmp ;
+mri_ca_register.c:1304:        mri_tmp = MRIcopyFrame(mri_gca, NULL, mri_gca->nframes-1, 0) ;
+mri_ca_register.c:1305:        MRIfree(&mri_gca) ;
+mri_ca_register.c:1310:      MRIwriteImageViews(mri_gca, fname, IMAGE_SIZE) ;
+mri_ca_register.c:1313:      MRIwrite(mri_gca, fname) ;
+mri_ca_register.c:1314:      MRIfree(&mri_gca) ;
+mri_ca_register.c:1479:        MRI  *mri_gca, *mri_tmp ;
+mri_ca_register.c:1483:          MRIwriteImageViews(mri_inputs, fname, IMAGE_SIZE) ;
+mri_ca_register.c:1486:          MRIwrite(mri_inputs, fname) ;
+mri_ca_register.c:1490://          mri_gca = MRIclone(mri_inputs, NULL) ;
+mri_ca_register.c:1491:	  mri_gca = MRIalloc(gcam->atlas.width, gcam->atlas.height, gcam->atlas.depth, MRI_FLOAT) ;
+mri_ca_register.c:1492:	  MRIcopyHeader(mri_inputs, mri_gca) ;
+mri_ca_register.c:1497:            mri_tmp = MRIcopyFrame(mri_gca, NULL, mri_gca->nframes-1, 0) ;
+mri_ca_register.c:1498:            MRIfree(&mri_gca) ;
+mri_ca_register.c:1502:          MRIwriteImageViews(mri_gca, fname, IMAGE_SIZE) ;
+mri_ca_register.c:1505:          MRIwrite(mri_gca, fname) ;
+mri_ca_register.c:1506:          MRIfree(&mri_gca) ;
+mri_ca_register.c:1628:    MRIfree(&mri_inputs) ;
+mri_ca_register.c:2359:write_vector_field(MRI *mri, GCA_MORPH *gcam, char *vf_fname)
+mri_ca_register.c:2391:remove_bright_stuff(MRI *mri, GCA *gca, TRANSFORM *transform)
+mri_ca_register.c:2398:  MRI              *mri_tmp, *mri_nonbrain, *mri_tmp2 ;
+mri_ca_register.c:2400:  MRI_SEGMENTATION *mriseg ;
+mri_ca_register.c:2401:  MRI_SEGMENT      *mseg ;
+mri_ca_register.c:2409:  mri_tmp = MRIalloc(mri->width, mri->height, mri->depth, MRI_UCHAR) ;
+mri_ca_register.c:2410:  mri_nonbrain = MRIalloc(mri->width, mri->height, mri->depth, MRI_UCHAR) ;
+mri_ca_register.c:2421:          MRIvox(mri_nonbrain, x, y, z) = 1 ;
+mri_ca_register.c:2425:          MRIsampleVolume(mri, x, y, z, &val) ;
+mri_ca_register.c:2428:            MRIvox(mri_nonbrain, x, y, z) = 128 ;
+mri_ca_register.c:2438:    MRIdilate(mri_nonbrain, mri_tmp) ;
+mri_ca_register.c:2439:    MRIcopy(mri_tmp, mri_nonbrain) ;
+mri_ca_register.c:2442:  MRIclear(mri_tmp) ;
+mri_ca_register.c:2443:  h = MRIhistogram(mri, 0) ;
+mri_ca_register.c:2464:        MRIsampleVolume(mri, x, y, z, &val) ;
+mri_ca_register.c:2468:          MRIvox(mri_tmp, x, y, z) = 128 ;
+mri_ca_register.c:2469:          /* MRIsetVoxVal(mri, x, y, z, 0, (float)new_val) ;*/
+mri_ca_register.c:2481:  mri_tmp2 = MRIcopy(mri_tmp, NULL) ;
+mri_ca_register.c:2488:        if (MRIvox(mri_tmp2, x, y, z) == 0)
+mri_ca_register.c:2505:              MRIsampleVolume(mri, xi, yi, zi, &val) ;
+mri_ca_register.c:2509:                MRIvox(mri_tmp, xi, yi, zi) = 128 ;
+mri_ca_register.c:2510:                /* MRIsetVoxVal
+mri_ca_register.c:2520:  MRIfree(&mri_tmp2) ;
+mri_ca_register.c:2521:  mriseg = MRIsegment(mri_tmp, 1, 255) ;
+mri_ca_register.c:2537:      if (MRIvox(mri_nonbrain, msv->x, msv->y, msv->z) > 0)
+mri_ca_register.c:2556:        MRIsetVoxVal(mri, msv->x, msv->y, msv->z, 0, 0.0f) ;
+mri_ca_register.c:2565:  MRIfree(&mri_tmp) ;
+mri_ca_register.c:2566:  MRIfree(&mri_nonbrain) ;
+mri_ca_register.c:2567:  MRIsegmentFree(&mriseg) ;

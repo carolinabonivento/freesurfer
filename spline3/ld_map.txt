@@ -1,0 +1,615 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libstdc++.so.6                Spline3_test.o (_ZSt17__throw_bad_allocv@@GLIBCXX_3.4)
+libm.so.6                     Spline3_test.o (sqrt@@GLIBC_2.2.5)
+libgcc_s.so.1                 Spline3_test.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     Spline3_test.o (exit@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .group         0x0000000000000000        0x8 Spline3_test.o
+ .text          0x0000000000000000        0x0 Spline3_test.o
+ .data          0x0000000000000000        0x0 Spline3_test.o
+ .bss           0x0000000000000000        0x0 Spline3_test.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Spline3_test.o
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+LOAD Spline3_test.o
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKIO.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKAlgorithms.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKCommon.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKNumerics.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKMetaIO.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKniftiio.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKNrrdIO.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkpng.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitksys.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitktiff.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkv3p_netlib.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkzlib.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkgdcm.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkopenjpeg.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg8.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg12.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg16.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKDICOMParser.a
+LOAD /usr/lib/x86_64-linux-gnu/libuuid.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libz.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libcrypt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libvnl_algo.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libvnl.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libvcl.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libnetlib.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libv3p_netlib.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libm.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgomp.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x34
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x34 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynsym         0x00000000004002d0      0x2b8
+ *(.dynsym)
+ .dynsym        0x00000000004002d0      0x2b8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynstr         0x0000000000400588      0x2d5
+ *(.dynstr)
+ .dynstr        0x0000000000400588      0x2d5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version    0x000000000040085e       0x3a
+ *(.gnu.version)
+ .gnu.version   0x000000000040085e       0x3a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000000400898        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000000400898       0xa0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400898       0xa0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.rela.dyn       0x0000000000400938       0x48
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc.constprop.91
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt6vectorIfSaIfEE6resizeEmf.constprop.90
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IdED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IfED2Ev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZNSt6vectorIdSaIdEEaSERKS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IdE8computeMERKSt6vectorIdSaIdEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IdE9preCacheXERKSt6vectorIdSaIdEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IdE6interpERKSt6vectorIdSaIdEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IfE8computeMERKSt6vectorIfSaIfEE
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZN7Spline3IfE6interpEjPKf
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startup.main
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startup._GLOBAL__sub_I_main
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400938       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400950       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.eh_frame
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.rela.plt       0x0000000000400980      0x228
+ *(.rela.plt)
+ .rela.plt      0x0000000000400980      0x228 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400ba8                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400ba8                PROVIDE (__rela_iplt_end, .)
+
+.init           0x0000000000400ba8       0x1a
+ *(SORT(.init))
+ .init          0x0000000000400ba8       0x15 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000400ba8                _init
+ .init          0x0000000000400bbd        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000400bd0      0x180
+ *(.plt)
+ .plt           0x0000000000400bd0      0x180 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400be0                _ZSt20__throw_length_errorPKc@@GLIBCXX_3.4
+                0x0000000000400bf0                memset@@GLIBC_2.2.5
+                0x0000000000400c10                _ZdlPv@@GLIBCXX_3.4
+                0x0000000000400c20                exit@@GLIBC_2.2.5
+                0x0000000000400c30                __assert_fail@@GLIBC_2.2.5
+                0x0000000000400c40                _ZNSt8ios_base4InitC1Ev@@GLIBCXX_3.4
+                0x0000000000400c50                malloc@@GLIBC_2.2.5
+                0x0000000000400c60                __libc_start_main@@GLIBC_2.2.5
+                0x0000000000400c70                __cxa_atexit@@GLIBC_2.2.5
+                0x0000000000400c80                _ZNSt8ios_base4InitD1Ev@@GLIBCXX_3.4
+                0x0000000000400c90                _ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@@GLIBCXX_3.4
+                0x0000000000400ca0                strlen@@GLIBC_2.2.5
+                0x0000000000400cb0                _ZSt16__ostream_insertIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_PKS3_l@@GLIBCXX_3.4.9
+                0x0000000000400cc0                memmove@@GLIBC_2.2.5
+                0x0000000000400cd0                _ZNSt9basic_iosIcSt11char_traitsIcEE5clearESt12_Ios_Iostate@@GLIBCXX_3.4
+                0x0000000000400ce0                _ZNSo9_M_insertIdEERSoT_@@GLIBCXX_3.4.9
+                0x0000000000400cf0                _ZSt17__throw_bad_allocv@@GLIBCXX_3.4
+                0x0000000000400d00                _ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_@@GLIBCXX_3.4
+                0x0000000000400d10                __gxx_personality_v0@@CXXABI_1.3
+                0x0000000000400d20                _Znwm@@GLIBCXX_3.4
+                0x0000000000400d30                _Unwind_Resume@@GCC_3.0
+                0x0000000000400d40                sqrt@@GLIBC_2.2.5
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.text           0x0000000000400d50     0x4ce2
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000000400d50     0x2667 Spline3_test.o
+                0x0000000000400d50                main
+ *fill*         0x00000000004033b7        0x9 
+ .text.startup._GLOBAL__sub_I_main
+                0x00000000004033c0       0x26 Spline3_test.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00000000004033e6       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x00000000004033e6                _start
+ .text          0x0000000000403410       0xbd /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ *fill*         0x00000000004034cd        0x3 
+ .text._ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc.constprop.91
+                0x00000000004034d0       0x44 Spline3_test.o
+ *fill*         0x0000000000403514        0xc 
+ .text._ZNSt6vectorIfSaIfEE6resizeEmf.constprop.90
+                0x0000000000403520      0x1b0 Spline3_test.o
+ .text._ZN7Spline3IdED2Ev
+                0x00000000004036d0       0xea Spline3_test.o
+                0x00000000004036d0                _ZN7Spline3IdED1Ev
+                0x00000000004036d0                _ZN7Spline3IdED2Ev
+ *fill*         0x00000000004037ba        0x6 
+ .text._ZN7Spline3IfED2Ev
+                0x00000000004037c0       0xea Spline3_test.o
+                0x00000000004037c0                _ZN7Spline3IfED1Ev
+                0x00000000004037c0                _ZN7Spline3IfED2Ev
+ *fill*         0x00000000004038aa        0x6 
+ .text._ZNSt6vectorIdSaIdEEaSERKS1_
+                0x00000000004038b0      0x1b5 Spline3_test.o
+                0x00000000004038b0                _ZNSt6vectorIdSaIdEEaSERKS1_
+ *fill*         0x0000000000403a65        0xb 
+ .text._ZN7Spline3IdE8computeMERKSt6vectorIdSaIdEE
+                0x0000000000403a70      0x6da Spline3_test.o
+                0x0000000000403a70                _ZN7Spline3IdE8computeMERKSt6vectorIdSaIdEE
+ *fill*         0x000000000040414a        0x6 
+ .text._ZN7Spline3IdE9preCacheXERKSt6vectorIdSaIdEE
+                0x0000000000404150      0xd75 Spline3_test.o
+                0x0000000000404150                _ZN7Spline3IdE9preCacheXERKSt6vectorIdSaIdEE
+ *fill*         0x0000000000404ec5        0xb 
+ .text._ZN7Spline3IdE10computeYppEv
+                0x0000000000404ed0      0x134 Spline3_test.o
+                0x0000000000404ed0                _ZN7Spline3IdE10computeYppEv
+ *fill*         0x0000000000405004        0xc 
+ .text._ZN7Spline3IdE6interpERKSt6vectorIdSaIdEE
+                0x0000000000405010       0xc9 Spline3_test.o
+                0x0000000000405010                _ZN7Spline3IdE6interpERKSt6vectorIdSaIdEE
+ *fill*         0x00000000004050d9        0x7 
+ .text._ZN7Spline3IfE8computeMERKSt6vectorIfSaIfEE
+                0x00000000004050e0      0x6da Spline3_test.o
+                0x00000000004050e0                _ZN7Spline3IfE8computeMERKSt6vectorIfSaIfEE
+ *fill*         0x00000000004057ba        0x6 
+ .text._ZN7Spline3IfE10computeYppEv
+                0x00000000004057c0      0x134 Spline3_test.o
+                0x00000000004057c0                _ZN7Spline3IfE10computeYppEv
+ *fill*         0x00000000004058f4        0xc 
+ .text._ZN7Spline3IfE6interpEjPKf
+                0x0000000000405900       0xb9 Spline3_test.o
+                0x0000000000405900                _ZN7Spline3IfE6interpEjPKf
+ *fill*         0x00000000004059b9        0x7 
+ .text          0x00000000004059c0       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x00000000004059c0                __libc_csu_init
+                0x0000000000405a30                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x0000000000405a34        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000405a34        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000405a34                _fini
+ .fini          0x0000000000405a38        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000405a3d                PROVIDE (__etext, .)
+                0x0000000000405a3d                PROVIDE (_etext, .)
+                0x0000000000405a3d                PROVIDE (etext, .)
+
+.rodata         0x0000000000405a40      0x20c
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000405a40       0x97 Spline3_test.o
+                                         0x99 (size before relaxing)
+ *fill*         0x0000000000405ad7        0x1 
+ .rodata.str1.8
+                0x0000000000405ad8       0x28 Spline3_test.o
+ .rodata._ZZN7Spline3IfE6interpEjPKfE19__PRETTY_FUNCTION__
+                0x0000000000405b00       0x41 Spline3_test.o
+ *fill*         0x0000000000405b41       0x1f 
+ .rodata._ZZN7Spline3IdE6interpERKSt6vectorIdSaIdEEE19__PRETTY_FUNCTION__
+                0x0000000000405b60       0x41 Spline3_test.o
+ *fill*         0x0000000000405ba1       0x1f 
+ .rodata._ZZ4mainE3arr
+                0x0000000000405bc0       0x50 Spline3_test.o
+ .rodata.cst8   0x0000000000405c10       0x30 Spline3_test.o
+ .rodata.cst4   0x0000000000405c40        0xc Spline3_test.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000405c4c       0x94
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000405c4c       0x94 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.eh_frame       0x0000000000405ce0      0x3ec
+ *(.eh_frame)
+ .eh_frame      0x0000000000405ce0       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000405d10       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000405d50      0x318 Spline3_test.o
+                                        0x2f8 (size before relaxing)
+ .eh_frame      0x0000000000406068       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x00000000004060c8        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.gcc_except_table
+                0x00000000004060cc       0x4e
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table.main
+                0x00000000004060cc       0x4e Spline3_test.o
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000040611a                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x0000000000606dd2                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000606dd2        0x0
+                0x0000000000606dd2                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000000606dd2                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000606dd8       0x10
+                0x0000000000606dd8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000606dd8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .init_array    0x0000000000606de0        0x8 Spline3_test.o
+                0x0000000000606de8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000606de8        0x8
+                0x0000000000606de8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000606de8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x0000000000606df0                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000606df0        0x8
+ *(.jcr)
+ .jcr           0x0000000000606df0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .jcr           0x0000000000606df0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000606df8      0x200
+ *(.dynamic)
+ .dynamic       0x0000000000606df8      0x200 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000606df8                _DYNAMIC
+
+.got            0x0000000000606ff8        0x8
+ *(.got)
+ .got           0x0000000000606ff8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.igot)
+                0x0000000000607fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000607000       0xd0
+ *(.got.plt)
+ .got.plt       0x0000000000607000       0xd0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000607000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.data           0x00000000006070d0        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00000000006070d0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x00000000006070d0                __dso_handle
+
+.tm_clone_table
+                0x00000000006070d8        0x0
+ .tm_clone_table
+                0x00000000006070d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .tm_clone_table
+                0x00000000006070d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000006070d8                _edata = .
+                0x00000000006070d8                PROVIDE (edata, .)
+                0x00000000006070d8                . = .
+                0x00000000006070d8                __bss_start = .
+
+.bss            0x00000000006070e0      0x238
+ *(.dynbss)
+ *fill*         0x00000000006070e0        0x0 
+ .dynbss        0x00000000006070e0      0x230 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x00000000006070e0                _ZSt4cerr@@GLIBCXX_3.4
+                0x0000000000607200                _ZSt4cout@@GLIBCXX_3.4
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000607310        0x1 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .bss._ZStL8__ioinit
+                0x0000000000607311        0x1 Spline3_test.o
+ *(COMMON)
+                0x0000000000607318                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000607312        0x6 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000607318                . = ALIGN (0x8)
+                0x0000000000607318                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a07318        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a07318                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a07318                . = ALIGN (0x8)
+                0x0000000000a07318                _end = .
+                0x0000000000a07318                PROVIDE (end, .)
+                0x0000000000a07318                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x56
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c Spline3_test.o
+ .comment       0x000000000000002b       0x2b /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x100
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x100 Spline3_test.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x1caae
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000    0x1caae Spline3_test.o
+
+.debug_abbrev   0x0000000000000000      0x9a7
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x9a7 Spline3_test.o
+
+.debug_line     0x0000000000000000     0x1c4f
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x1c4f Spline3_test.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x6530
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x6530 Spline3_test.o
+                                       0x69f1 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x1f7aa
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000    0x1f7aa Spline3_test.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x47c0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x47c0 Spline3_test.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(Spline3_test elf64-x86-64)

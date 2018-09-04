@@ -1,0 +1,1222 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libQt5Widgets.so.5            nmovie_qt-moc_MainWindow.o (_ZNK7QWidget11paintEngineEv@@Qt_5)
+libQt5Gui.so.5                nmovie_qt-RenderWidget.o (_ZN6QImageC1ERKS_@@Qt_5)
+libQt5Core.so.5               nmovie_qt-moc_MainWindow.o (_ZN7QObject16disconnectNotifyERK11QMetaMethod@@Qt_5)
+libstdc++.so.6                nmovie_qt-MainWindow.o (__cxa_rethrow@@CXXABI_1.3)
+libgcc_s.so.1                 nmovie_qt-MainWindow.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     nmovie_qt-MainWindow.o (strlen@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_MainWindow.o
+ .text          0x0000000000000000        0x0 nmovie_qt-moc_MainWindow.o
+ .data          0x0000000000000000        0x0 nmovie_qt-moc_MainWindow.o
+ .bss           0x0000000000000000        0x0 nmovie_qt-moc_MainWindow.o
+ .qtversion     0x0000000000000000       0x10 nmovie_qt-moc_MainWindow.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nmovie_qt-moc_MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-moc_RenderWidget.o
+ .text          0x0000000000000000        0x0 nmovie_qt-moc_RenderWidget.o
+ .data          0x0000000000000000        0x0 nmovie_qt-moc_RenderWidget.o
+ .bss           0x0000000000000000        0x0 nmovie_qt-moc_RenderWidget.o
+ .qtversion     0x0000000000000000       0x10 nmovie_qt-moc_RenderWidget.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nmovie_qt-moc_RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0xc nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0xc nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0xc nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .text          0x0000000000000000        0x0 nmovie_qt-MainWindow.o
+ .data          0x0000000000000000        0x0 nmovie_qt-MainWindow.o
+ .bss           0x0000000000000000        0x0 nmovie_qt-MainWindow.o
+ .qtversion     0x0000000000000000       0x10 nmovie_qt-MainWindow.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 nmovie_qt-MainWindow.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nmovie_qt-MainWindow.o
+ .group         0x0000000000000000        0x8 nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0xc nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-RenderWidget.o
+ .text          0x0000000000000000        0x0 nmovie_qt-RenderWidget.o
+ .data          0x0000000000000000        0x0 nmovie_qt-RenderWidget.o
+ .bss           0x0000000000000000        0x0 nmovie_qt-RenderWidget.o
+ .qtversion     0x0000000000000000       0x10 nmovie_qt-RenderWidget.o
+ .text._ZN7QStringD2Ev
+                0x0000000000000000       0x32 nmovie_qt-RenderWidget.o
+ .text._ZN5QListI7QStringED2Ev
+                0x0000000000000000       0xa8 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN5QListI7QStringED2Ev
+                0x0000000000000000        0x4 nmovie_qt-RenderWidget.o
+ .text._ZN5QListI6QImageED2Ev
+                0x0000000000000000       0x28 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN5QListI6QImageED2Ev
+                0x0000000000000000        0x4 nmovie_qt-RenderWidget.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 nmovie_qt-RenderWidget.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nmovie_qt-RenderWidget.o
+ .group         0x0000000000000000        0x8 nmovie_qt-main.o
+ .group         0x0000000000000000        0xc nmovie_qt-main.o
+ .group         0x0000000000000000        0x8 nmovie_qt-main.o
+ .text          0x0000000000000000        0x0 nmovie_qt-main.o
+ .data          0x0000000000000000        0x0 nmovie_qt-main.o
+ .bss           0x0000000000000000        0x0 nmovie_qt-main.o
+ .qtversion     0x0000000000000000       0x10 nmovie_qt-main.o
+ .data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 nmovie_qt-main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 nmovie_qt-main.o
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+LOAD nmovie_qt-moc_MainWindow.o
+LOAD nmovie_qt-moc_RenderWidget.o
+LOAD nmovie_qt-MainWindow.o
+LOAD nmovie_qt-RenderWidget.o
+LOAD nmovie_qt-main.o
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5OpenGL.so
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5Widgets.so
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5X11Extras.so
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5Gui.so
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5Script.so
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5ScriptTools.so
+LOAD /root/centos6-x86_64-packages/qt/current/lib/libQt5Core.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libGL.so
+LOAD ../utils/libutils.a
+LOAD ../fsgdf/libfsgdf.a
+LOAD ../rgb/librgb.a
+LOAD ../unix/libunix.a
+LOAD ../dicom/libdicom.a
+LOAD ../hipsstubs/libhipsstubs.a
+LOAD ../log/liblog.a
+LOAD ../xml2/libxml2.a
+LOAD ../jpeg/libjpeg.a
+LOAD ../tiff/libtiff.a
+LOAD ../expat/libexpat.a
+LOAD ../minc_1_5_1/libminc_1_5_1.a
+LOAD ../netcdf_3_6_0_p1/libnetcdf_3_6_0_p1.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKIO.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKAlgorithms.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKCommon.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKNumerics.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKMetaIO.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKniftiio.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKNrrdIO.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkpng.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitksys.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitktiff.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkv3p_netlib.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkzlib.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkgdcm.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkopenjpeg.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg8.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg12.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg16.a
+LOAD /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKDICOMParser.a
+LOAD /usr/lib/x86_64-linux-gnu/libuuid.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libz.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libcrypt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libvnl_algo.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libvnl.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libvcl.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libnetlib.a
+LOAD /root/centos6-x86_64-packages/vxl/current/lib/libv3p_netlib.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libm.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgomp.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298      0x2e8
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298      0x2e8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynsym         0x0000000000400580     0x1278
+ *(.dynsym)
+ .dynsym        0x0000000000400580     0x1278 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynstr         0x00000000004017f8     0x19c4
+ *(.dynstr)
+ .dynstr        0x00000000004017f8     0x19c4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version    0x00000000004031bc      0x18a
+ *(.gnu.version)
+ .gnu.version   0x00000000004031bc      0x18a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000000403348        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000000403348       0xd0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000403348       0xd0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.rela.dyn       0x0000000000403418      0x108
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro._ZTI10MainWindow
+                0x0000000000403418       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.data.rel.ro._ZTV10MainWindow
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.data.rel.ro._ZN10MainWindow16staticMetaObjectE
+                0x0000000000403448       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.data.rel.ro._ZTI12RenderWidget
+                0x0000000000403460       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.data.rel.ro._ZTV12RenderWidget
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.data.rel.ro._ZN12RenderWidget16staticMetaObjectE
+                0x0000000000403490       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.data.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000004034a8       0x78 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.eh_frame
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.rela.plt       0x0000000000403520     0x10c8
+ *(.rela.plt)
+ .rela.plt      0x0000000000403520     0x10c8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x00000000004045e8                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x00000000004045e8                PROVIDE (__rela_iplt_end, .)
+
+.init           0x00000000004045e8       0x1a
+ *(SORT(.init))
+ .init          0x00000000004045e8       0x15 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x00000000004045e8                _init
+ .init          0x00000000004045fd        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000404610      0xb40
+ *(.plt)
+ .plt           0x0000000000404610      0xb40 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000404620                _ZN7QWidget10leaveEventEP6QEvent@@Qt_5
+                0x0000000000404630                _ZN7QWidget4showEv@@Qt_5
+                0x0000000000404640                _ZN11QMainWindow16setCentralWidgetEP7QWidget@@Qt_5
+                0x0000000000404650                __cxa_begin_catch@@CXXABI_1.3
+                0x0000000000404660                _ZN7QWidget13keyPressEventEP9QKeyEvent@@Qt_5
+                0x0000000000404670                _ZN7QWidget10closeEventEP11QCloseEvent@@Qt_5
+                0x0000000000404680                _ZN9QSettingsD1Ev@@Qt_5
+                0x0000000000404690                _ZN7QLayout18setContentsMarginsEiiii@@Qt_5
+                0x00000000004046a0                _ZN9QListData7disposeEPNS_4DataE@@Qt_5
+                0x00000000004046b0                _ZThn16_NK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE@@Qt_5
+                0x00000000004046c0                _ZNK6QImage6scaledERK5QSizeN2Qt15AspectRatioModeENS3_18TransformationModeE@@Qt_5
+                0x00000000004046d0                _ZN11QTextStreamlsERK7QString@@Qt_5
+                0x00000000004046e0                _ZN7QObject16disconnectNotifyERK11QMetaMethod@@Qt_5
+                0x00000000004046f0                _ZNK7QObject10objectNameEv@@Qt_5
+                0x0000000000404700                _ZN7QWidget14setWindowTitleERK7QString@@Qt_5
+                0x0000000000404710                _ZN6QImage7setTextERK7QStringS2_@@Qt_5
+                0x0000000000404720                _ZNK7QWidget17hasHeightForWidthEv@@Qt_5
+                0x0000000000404730                _ZN8QVariantC1ERK10QByteArray@@Qt_5
+                0x0000000000404740                _ZN7QWidget13focusOutEventEP11QFocusEvent@@Qt_5
+                0x0000000000404750                _ZN6QLabel7setTextERK7QString@@Qt_5
+                0x0000000000404760                _ZN7QWidget16contextMenuEventEP17QContextMenuEvent@@Qt_5
+                0x0000000000404770                _ZN7QWidget14setFocusPolicyEN2Qt11FocusPolicyE@@Qt_5
+                0x0000000000404780                _ZN6QLabelC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@@Qt_5
+                0x0000000000404790                _ZN15QAbstractButton10setCheckedEb@@Qt_5
+                0x00000000004047a0                _ZN6QFrame14setFrameShadowENS_6ShadowE@@Qt_5
+                0x00000000004047b0                strlen@@GLIBC_2.2.5
+                0x00000000004047c0                _ZN6QTimerC1EP7QObject@@Qt_5
+                0x00000000004047d0                _ZN7QWidget15restoreGeometryERK10QByteArray@@Qt_5
+                0x00000000004047e0                _ZN6QImageC1Ev@@Qt_5
+                0x00000000004047f0                _ZN7QWidget6updateEv@@Qt_5
+                0x0000000000404800                _ZN10QArrayData10deallocateEPS_mm@@Qt_5
+                0x0000000000404810                _ZN11QMessageBox7warningEP7QWidgetRK7QStringS4_6QFlagsINS_14StandardButtonEES6_@@Qt_5
+                0x0000000000404820                _ZN12QApplicationC1ERiPPci@@Qt_5
+                0x0000000000404830                _ZdlPv@@GLIBCXX_3.4
+                0x0000000000404840                _ZN11QMainWindow16contextMenuEventEP17QContextMenuEvent@@Qt_5
+                0x0000000000404850                _ZN7QWidget14dragEnterEventEP15QDragEnterEvent@@Qt_5
+                0x0000000000404860                _ZNK7QWidget11paintEngineEv@@Qt_5
+                0x0000000000404870                _ZN7QWidget15mousePressEventEP11QMouseEvent@@Qt_5
+                0x0000000000404880                _ZNK7QWidget13sharedPainterEv@@Qt_5
+                0x0000000000404890                _ZN8QPainter8fillRectERK5QRectRK6QColor@@Qt_5
+                0x00000000004048a0                _ZN7QWidget11actionEventEP12QActionEvent@@Qt_5
+                0x00000000004048b0                _ZN7QWidget9hideEventEP10QHideEvent@@Qt_5
+                0x00000000004048c0                _ZN7QWidget9showEventEP10QShowEvent@@Qt_5
+                0x00000000004048d0                _ZN12QKeySequenceC1ERK7QStringNS_14SequenceFormatE@@Qt_5
+                0x00000000004048e0                _ZN7QWidget4hideEv@@Qt_5
+                0x00000000004048f0                _Unwind_Resume@@GCC_3.0
+                0x0000000000404900                _ZThn16_NK7QWidget11initPainterEP8QPainter@@Qt_5
+                0x0000000000404910                _ZNK14QMessageLogger7warningEv@@Qt_5
+                0x0000000000404920                _ZN7QWidget12focusInEventEP11QFocusEvent@@Qt_5
+                0x0000000000404930                _ZNK7QWidget15minimumSizeHintEv@@Qt_5
+                0x0000000000404940                _ZNK8QVariant11toByteArrayEv@@Qt_5
+                0x0000000000404950                _ZN7QWidget10paintEventEP11QPaintEvent@@Qt_5
+                0x0000000000404960                _ZN7QWidget13dragMoveEventEP14QDragMoveEvent@@Qt_5
+                0x0000000000404970                _ZNK7QWidget7devTypeEv@@Qt_5
+                0x0000000000404980                _ZN11QLayoutItemD2Ev@@Qt_5
+                0x0000000000404990                _ZNK14QMessageLogger7warningEPKcz@@Qt_5
+                0x00000000004049a0                _ZN8QPainterC1EP12QPaintDevice@@Qt_5
+                0x00000000004049b0                _ZN7QWidget5eventEP6QEvent@@Qt_5
+                0x00000000004049c0                _ZN6QImageD1Ev@@Qt_5
+                0x00000000004049d0                _ZN15QAbstractSlider14setOrientationEN2Qt11OrientationE@@Qt_5
+                0x00000000004049e0                _ZN7QObject12blockSignalsEb@@Qt_5
+                0x00000000004049f0                _ZN11QMetaObject18connectSlotsByNameEP7QObject@@Qt_5
+                0x0000000000404a00                _ZN7QWidget11qt_metacallEN11QMetaObject4CallEiPPv@@Qt_5
+                0x0000000000404a10                _ZN15QAbstractSlider10setMaximumEi@@Qt_5
+                0x0000000000404a20                _ZN15QAbstractSlider8setValueEi@@Qt_5
+                0x0000000000404a30                _ZN7QObject7connectEPKS_PKcS1_S3_N2Qt14ConnectionTypeE@@Qt_5
+                0x0000000000404a40                _ZNK7QWidget16inputMethodQueryEN2Qt16InputMethodQueryE@@Qt_5
+                0x0000000000404a50                _ZN7QAction11setShortcutERK12QKeySequence@@Qt_5
+                0x0000000000404a60                _ZN7QWidget11qt_metacastEPKc@@Qt_5
+                0x0000000000404a70                _ZThn16_NK7QWidget7devTypeEv@@Qt_5
+                0x0000000000404a80                _ZN7QWidgetC2EPS_6QFlagsIN2Qt10WindowTypeEE@@Qt_5
+                0x0000000000404a90                _ZNK11QObjectData17dynamicMetaObjectEv@@Qt_5
+                0x0000000000404aa0                _ZNK7QWidget14heightForWidthEi@@Qt_5
+                0x0000000000404ab0                _ZN11QMainWindow15createPopupMenuEv@@Qt_5
+                0x0000000000404ac0                _ZThn16_NK7QWidget10redirectedEP6QPoint@@Qt_5
+                0x0000000000404ad0                _ZN9QFileInfoC1ERK7QString@@Qt_5
+                0x0000000000404ae0                _ZN9QFileInfoD1Ev@@Qt_5
+                0x0000000000404af0                _ZN15QAbstractSlider8setRangeEii@@Qt_5
+                0x0000000000404b00                _ZNK7QWidget10sizePolicyEv@@Qt_5
+                0x0000000000404b10                _ZN10QBoxLayout10setSpacingEi@@Qt_5
+                0x0000000000404b20                _ZN15QAbstractSlider17setSliderPositionEi@@Qt_5
+                0x0000000000404b30                _ZN6QDebugD1Ev@@Qt_5
+                0x0000000000404b40                _ZN6QTimer5startEi@@Qt_5
+                0x0000000000404b50                _ZN9QListData11detach_growEPii@@Qt_5
+                0x0000000000404b60                _ZN7QWidgetD2Ev@@Qt_5
+                0x0000000000404b70                _ZNK6QImage4textERK7QString@@Qt_5
+                0x0000000000404b80                _ZN16QCoreApplication9translateEPKcS1_S1_i@@Qt_5
+                0x0000000000404b90                _ZN7QWidget9addActionEP7QAction@@Qt_5
+                0x0000000000404ba0                _ZNK6QImage6heightEv@@Qt_5
+                0x0000000000404bb0                _ZN11QMainWindow10addToolBarEN2Qt11ToolBarAreaEP8QToolBar@@Qt_5
+                0x0000000000404bc0                _ZNK7QWidget6metricEN12QPaintDevice17PaintDeviceMetricE@@Qt_5
+                0x0000000000404bd0                _ZN9QListData6appendEv@@Qt_5
+                0x0000000000404be0                _ZN15QAbstractButton7setTextERK7QString@@Qt_5
+                0x0000000000404bf0                _ZN9QListData6detachEi@@Qt_5
+                0x0000000000404c00                _ZN7QWidget11tabletEventEP12QTabletEvent@@Qt_5
+                0x0000000000404c10                _Znwm@@GLIBCXX_3.4
+                0x0000000000404c20                _ZThn16_NK7QWidget13sharedPainterEv@@Qt_5
+                0x0000000000404c30                _ZN15QAbstractSlider13setSingleStepEi@@Qt_5
+                0x0000000000404c40                _ZN7QObject10timerEventEP11QTimerEvent@@Qt_5
+                0x0000000000404c50                _ZN11QSizePolicy14setControlTypeENS_11ControlTypeE@@Qt_5
+                0x0000000000404c60                _ZN7QSliderC1EP7QWidget@@Qt_5
+                0x0000000000404c70                _ZN7QObject10childEventEP11QChildEvent@@Qt_5
+                0x0000000000404c80                _ZN6QFrameC1EP7QWidget6QFlagsIN2Qt10WindowTypeEE@@Qt_5
+                0x0000000000404c90                _ZN7QWidget7repaintEv@@Qt_5
+                0x0000000000404ca0                _ZN7QWidget18focusNextPrevChildEb@@Qt_5
+                0x0000000000404cb0                _ZN7QWidget14setMaximumSizeEii@@Qt_5
+                0x0000000000404cc0                _ZN7QWidget11resizeEventEP12QResizeEvent@@Qt_5
+                0x0000000000404cd0                _ZN7QWidget14dragLeaveEventEP15QDragLeaveEvent@@Qt_5
+                0x0000000000404ce0                _ZN11QMainWindowC2EP7QWidget6QFlagsIN2Qt10WindowTypeEE@@Qt_5
+                0x0000000000404d00                _ZN7QWidgetC1EPS_6QFlagsIN2Qt10WindowTypeEE@@Qt_5
+                0x0000000000404d10                _ZNK9QFileInfo16absoluteFilePathEv@@Qt_5
+                0x0000000000404d20                _ZNK7QWidget10redirectedEP6QPoint@@Qt_5
+                0x0000000000404d30                _ZThn16_NK7QWidget11paintEngineEv@@Qt_5
+                0x0000000000404d40                _ZN6QColorC1EN2Qt11GlobalColorE@@Qt_5
+                0x0000000000404d50                _ZN9QSettings8setValueERK7QStringRK8QVariant@@Qt_5
+                0x0000000000404d60                _ZN7QActionC1EP7QObject@@Qt_5
+                0x0000000000404d70                _ZN11QTextStreamlsEc@@Qt_5
+                0x0000000000404d80                _ZN7QWidget9moveEventEP10QMoveEvent@@Qt_5
+                0x0000000000404d90                _ZN7QWidget10enterEventEP6QEvent@@Qt_5
+                0x0000000000404da0                _ZN6QTimer4stopEv@@Qt_5
+                0x0000000000404db0                _ZN9QSettingsC1EP7QObject@@Qt_5
+                0x0000000000404dc0                _ZN11QMetaObject10ConnectionD1Ev@@Qt_5
+                0x0000000000404dd0                _ZN7QObject11customEventEP6QEvent@@Qt_5
+                0x0000000000404de0                _ZNK6QImage6isNullEv@@Qt_5
+                0x0000000000404df0                __gxx_personality_v0@@CXXABI_1.3
+                0x0000000000404e00                _ZN7QWidget10wheelEventEP11QWheelEvent@@Qt_5
+                0x0000000000404e10                _ZNK9QSettings5valueERK7QStringRK8QVariant@@Qt_5
+                0x0000000000404e20                _ZN8QVariantD1Ev@@Qt_5
+                0x0000000000404e30                _ZNK9QFileInfo8fileNameEv@@Qt_5
+                0x0000000000404e40                _ZN7QWidget16inputMethodEventEP17QInputMethodEvent@@Qt_5
+                0x0000000000404e50                _ZN7QWidget15keyReleaseEventEP9QKeyEvent@@Qt_5
+                0x0000000000404e60                _ZN7QObject11eventFilterEPS_P6QEvent@@Qt_5
+                0x0000000000404e70                _ZN11QHBoxLayoutC1EP7QWidget@@Qt_5
+                0x0000000000404e80                _ZN7QWidget14mouseMoveEventEP11QMouseEvent@@Qt_5
+                0x0000000000404e90                _ZN7QWidget9dropEventEP10QDropEvent@@Qt_5
+                0x0000000000404ea0                _ZN12QApplication4execEv@@Qt_5
+                0x0000000000404eb0                _ZN7QObject13setObjectNameERK7QString@@Qt_5
+                0x0000000000404ec0                _ZN7QWidget17mouseReleaseEventEP11QMouseEvent@@Qt_5
+                0x0000000000404ed0                _ZN7QWidget11nativeEventERK10QByteArrayPvPl@@Qt_5
+                0x0000000000404ee0                _ZNK7QWidget12saveGeometryEv@@Qt_5
+                0x0000000000404ef0                _ZN6QFrame13setFrameShapeENS_5ShapeE@@Qt_5
+                0x0000000000404f00                _ZN6QImageaSERKS_@@Qt_5
+                0x0000000000404f10                __cxa_end_catch@@CXXABI_1.3
+                0x0000000000404f20                _ZN7QWidget13setSizePolicyE11QSizePolicy@@Qt_5
+                0x0000000000404f30                _ZNK7QWidget11initPainterEP8QPainter@@Qt_5
+                0x0000000000404f40                strcmp@@GLIBC_2.2.5
+                0x0000000000404f50                _ZN11QToolButtonC1EP7QWidget@@Qt_5
+                0x0000000000404f60                __cxa_rethrow@@CXXABI_1.3
+                0x0000000000404f70                _ZN15QAbstractButton12setCheckableEb@@Qt_5
+                0x0000000000404f80                _ZN10QBoxLayout9addWidgetEP7QWidgeti6QFlagsIN2Qt13AlignmentFlagEE@@Qt_5
+                0x0000000000404f90                _ZN7QWidget6resizeERK5QSize@@Qt_5
+                0x0000000000404fa0                _ZN8QPainterD1Ev@@Qt_5
+                0x0000000000404fb0                _ZN7QWidget5closeEv@@Qt_5
+                0x0000000000404fc0                _ZN7QString6appendERKS_@@Qt_5
+                0x0000000000404fd0                _ZN7QWidget11changeEventEP6QEvent@@Qt_5
+                0x0000000000404fe0                _ZN8QPainter9drawImageERK7QPointFRK6QImage@@Qt_5
+                0x0000000000404ff0                _ZN6QImageC1ERK7QStringPKc@@Qt_5
+                0x0000000000405000                __libc_start_main@@GLIBC_2.2.5
+                0x0000000000405010                _ZN6QTimerD1Ev@@Qt_5
+                0x0000000000405020                _ZN11QVBoxLayoutC1EP7QWidget@@Qt_5
+                0x0000000000405030                _ZN11QMainWindowD2Ev@@Qt_5
+                0x0000000000405040                _ZN6QTimer11setIntervalEi@@Qt_5
+                0x0000000000405050                _ZN7QWidget21mouseDoubleClickEventEP11QMouseEvent@@Qt_5
+                0x0000000000405060                _ZN7QObject13connectNotifyERK11QMetaMethod@@Qt_5
+                0x0000000000405070                _ZN12QApplicationD1Ev@@Qt_5
+                0x0000000000405080                _ZN11QMainWindow5eventEP6QEvent@@Qt_5
+                0x0000000000405090                _ZNK6QImage5widthEv@@Qt_5
+                0x00000000004050a0                _ZN11QMetaObject8activateEP7QObjectPKS_iPPv@@Qt_5
+                0x00000000004050b0                _ZN11QMainWindow11qt_metacastEPKc@@Qt_5
+                0x00000000004050c0                _ZN7QString18toLocal8Bit_helperEPK5QChari@@Qt_5
+                0x00000000004050d0                _ZN12QKeySequenceD1Ev@@Qt_5
+                0x00000000004050e0                _ZNK7QWidget8sizeHintEv@@Qt_5
+                0x00000000004050f0                _ZN8QToolBarC1EP7QWidget@@Qt_5
+                0x0000000000405100                _ZN7QWidget10setVisibleEb@@Qt_5
+                0x0000000000405110                _ZN6QImageC1ERKS_@@Qt_5
+                0x0000000000405120                _ZN7QString15fromUtf8_helperEPKci@@Qt_5
+                0x0000000000405130                _ZN11QMainWindow11qt_metacallEN11QMetaObject4CallEiPPv@@Qt_5
+                0x0000000000405140                _ZN7QString16fromAscii_helperEPKci@@Qt_5
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.text           0x0000000000405150     0x3b42
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000000405150      0x10c nmovie_qt-main.o
+                0x0000000000405150                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000040525c       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x000000000040525c                _start
+ *fill*         0x0000000000405286        0xa 
+ .text          0x0000000000405290       0xbd /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ *fill*         0x000000000040534d        0x3 
+ .text._ZNK10MainWindow10metaObjectEv
+                0x0000000000405350       0x18 nmovie_qt-moc_MainWindow.o
+                0x0000000000405350                _ZNK10MainWindow10metaObjectEv
+ *fill*         0x0000000000405368        0x8 
+ .text._ZN10MainWindow18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+                0x0000000000405370       0x1f nmovie_qt-moc_MainWindow.o
+                0x0000000000405370                _ZN10MainWindow18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+ *fill*         0x000000000040538f        0x1 
+ .text._ZN10MainWindow11qt_metacastEPKc
+                0x0000000000405390       0x4c nmovie_qt-moc_MainWindow.o
+                0x0000000000405390                _ZN10MainWindow11qt_metacastEPKc
+ *fill*         0x00000000004053dc        0x4 
+ .text._ZN10MainWindow11qt_metacallEN11QMetaObject4CallEiPPv
+                0x00000000004053e0       0x64 nmovie_qt-moc_MainWindow.o
+                0x00000000004053e0                _ZN10MainWindow11qt_metacallEN11QMetaObject4CallEiPPv
+ *fill*         0x0000000000405444        0xc 
+ .text._ZNK12RenderWidget10metaObjectEv
+                0x0000000000405450       0x18 nmovie_qt-moc_RenderWidget.o
+                0x0000000000405450                _ZNK12RenderWidget10metaObjectEv
+ *fill*         0x0000000000405468        0x8 
+ .text._ZN12RenderWidget19CurrentImageChangedERK6QImagei
+                0x0000000000405470       0x38 nmovie_qt-moc_RenderWidget.o
+                0x0000000000405470                _ZN12RenderWidget19CurrentImageChangedERK6QImagei
+ *fill*         0x00000000004054a8        0x8 
+ .text._ZN12RenderWidget12ErrorMessageERK7QString
+                0x00000000004054b0       0x2a nmovie_qt-moc_RenderWidget.o
+                0x00000000004054b0                _ZN12RenderWidget12ErrorMessageERK7QString
+ *fill*         0x00000000004054da        0x6 
+ .text._ZN12RenderWidget18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+                0x00000000004054e0       0xfa nmovie_qt-moc_RenderWidget.o
+                0x00000000004054e0                _ZN12RenderWidget18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+ *fill*         0x00000000004055da        0x6 
+ .text._ZN5QListI6QImageED2Ev
+                0x00000000004055e0       0x7f nmovie_qt-moc_RenderWidget.o
+                0x00000000004055e0                _ZN5QListI6QImageED1Ev
+                0x00000000004055e0                _ZN5QListI6QImageED2Ev
+ *fill*         0x000000000040565f        0x1 
+ .text._ZN12RenderWidget11qt_metacastEPKc
+                0x0000000000405660       0x4c nmovie_qt-moc_RenderWidget.o
+                0x0000000000405660                _ZN12RenderWidget11qt_metacastEPKc
+ *fill*         0x00000000004056ac        0x4 
+ .text._ZN12RenderWidget11qt_metacallEN11QMetaObject4CallEiPPv
+                0x00000000004056b0       0x69 nmovie_qt-moc_RenderWidget.o
+                0x00000000004056b0                _ZN12RenderWidget11qt_metacallEN11QMetaObject4CallEiPPv
+ *fill*         0x0000000000405719        0x7 
+ .text._ZN12RenderWidgetD2Ev
+                0x0000000000405720       0x41 nmovie_qt-moc_RenderWidget.o
+                0x0000000000405720                _ZN12RenderWidgetD2Ev
+                0x0000000000405720                _ZN12RenderWidgetD1Ev
+ *fill*         0x0000000000405761        0xf 
+ .text._ZN12RenderWidgetD1Ev
+                0x0000000000405770        0x9 nmovie_qt-moc_RenderWidget.o
+                0x0000000000405770                _ZThn16_N12RenderWidgetD1Ev
+ *fill*         0x0000000000405779        0x7 
+ .text._ZN12RenderWidgetD0Ev
+                0x0000000000405780       0x56 nmovie_qt-moc_RenderWidget.o
+                0x0000000000405780                _ZN12RenderWidgetD0Ev
+                0x00000000004057d0                _ZThn16_N12RenderWidgetD0Ev
+ *fill*         0x00000000004057d6        0xa 
+ .text._ZN10MainWindow13keyPressEventEP9QKeyEvent
+                0x00000000004057e0       0x45 nmovie_qt-MainWindow.o
+                0x00000000004057e0                _ZN10MainWindow13keyPressEventEP9QKeyEvent
+ *fill*         0x0000000000405825        0xb 
+ .text._ZN7QStringD2Ev
+                0x0000000000405830       0x32 nmovie_qt-MainWindow.o
+                0x0000000000405830                _ZN7QStringD1Ev
+                0x0000000000405830                _ZN7QStringD2Ev
+ *fill*         0x0000000000405862        0xe 
+ .text._ZN13Ui_MainWindow7setupUiEP11QMainWindow
+                0x0000000000405870     0x1535 nmovie_qt-MainWindow.o
+                0x0000000000405870                _ZN13Ui_MainWindow7setupUiEP11QMainWindow
+ *fill*         0x0000000000406da5        0xb 
+ .text._ZN10MainWindow21OnCurrentImageChangedERK6QImagei
+                0x0000000000406db0      0x203 nmovie_qt-MainWindow.o
+                0x0000000000406db0                _ZN10MainWindow21OnCurrentImageChangedERK6QImagei
+ *fill*         0x0000000000406fb3        0xd 
+ .text._ZN5QListI7QStringED2Ev
+                0x0000000000406fc0       0xa8 nmovie_qt-MainWindow.o
+                0x0000000000406fc0                _ZN5QListI7QStringED2Ev
+                0x0000000000406fc0                _ZN5QListI7QStringED1Ev
+ *fill*         0x0000000000407068        0x8 
+ .text._ZN5QListI7QStringE18detach_helper_growEii
+                0x0000000000407070      0x1a7 nmovie_qt-MainWindow.o
+                0x0000000000407070                _ZN5QListI7QStringE18detach_helper_growEii
+ *fill*         0x0000000000407217        0x9 
+ .text._ZN5QListI7QStringE6appendERKS0_
+                0x0000000000407220       0x95 nmovie_qt-MainWindow.o
+                0x0000000000407220                _ZN5QListI7QStringE6appendERKS0_
+ *fill*         0x00000000004072b5        0xb 
+ .text._ZN10MainWindow4LoadEiPPc
+                0x00000000004072c0      0x216 nmovie_qt-MainWindow.o
+                0x00000000004072c0                _ZN10MainWindow4LoadEiPPc
+ *fill*         0x00000000004074d6        0xa 
+ .text._ZN10MainWindowC2EP7QWidget
+                0x00000000004074e0      0x352 nmovie_qt-MainWindow.o
+                0x00000000004074e0                _ZN10MainWindowC2EP7QWidget
+                0x00000000004074e0                _ZN10MainWindowC1EP7QWidget
+ *fill*         0x0000000000407832        0xe 
+ .text._ZN10MainWindowD2Ev
+                0x0000000000407840      0x101 nmovie_qt-MainWindow.o
+                0x0000000000407840                _ZN10MainWindowD2Ev
+                0x0000000000407840                _ZN10MainWindowD1Ev
+ *fill*         0x0000000000407941        0xf 
+ .text._ZThn16_N10MainWindowD1Ev
+                0x0000000000407950        0x9 nmovie_qt-MainWindow.o
+                0x0000000000407950                _ZThn16_N10MainWindowD1Ev
+ *fill*         0x0000000000407959        0x7 
+ .text._ZN10MainWindowD0Ev
+                0x0000000000407960       0x12 nmovie_qt-MainWindow.o
+                0x0000000000407960                _ZN10MainWindowD0Ev
+ *fill*         0x0000000000407972        0xe 
+ .text._ZThn16_N10MainWindowD0Ev
+                0x0000000000407980        0x9 nmovie_qt-MainWindow.o
+                0x0000000000407980                _ZThn16_N10MainWindowD0Ev
+ *fill*         0x0000000000407989        0x7 
+ .text._ZN12RenderWidget17mouseReleaseEventEP11QMouseEvent
+                0x0000000000407990        0x5 nmovie_qt-RenderWidget.o
+                0x0000000000407990                _ZN12RenderWidget17mouseReleaseEventEP11QMouseEvent
+ *fill*         0x0000000000407995        0xb 
+ .text._ZN12RenderWidget15mousePressEventEP11QMouseEvent
+                0x00000000004079a0       0x60 nmovie_qt-RenderWidget.o
+                0x00000000004079a0                _ZN12RenderWidget15mousePressEventEP11QMouseEvent
+ .text._ZN5QListI6QImageE7deallocEPN9QListData4DataE.isra.13
+                0x0000000000407a00       0x5f nmovie_qt-RenderWidget.o
+ *fill*         0x0000000000407a5f        0x1 
+ .text._ZN12RenderWidget6OnStopEv
+                0x0000000000407a60        0x9 nmovie_qt-RenderWidget.o
+                0x0000000000407a60                _ZN12RenderWidget6OnStopEv
+ *fill*         0x0000000000407a69        0x7 
+ .text._ZN12RenderWidget13SetAutoResizeEb
+                0x0000000000407a70        0x9 nmovie_qt-RenderWidget.o
+                0x0000000000407a70                _ZN12RenderWidget13SetAutoResizeEb
+ *fill*         0x0000000000407a79        0x7 
+ .text._ZN12RenderWidget8SetSpeedEi
+                0x0000000000407a80       0x21 nmovie_qt-RenderWidget.o
+                0x0000000000407a80                _ZN12RenderWidget8SetSpeedEi
+ *fill*         0x0000000000407aa1        0xf 
+ .text._ZN5QListI7QStringEC2ERKS1_
+                0x0000000000407ab0       0x8e nmovie_qt-RenderWidget.o
+                0x0000000000407ab0                _ZN5QListI7QStringEC1ERKS1_
+                0x0000000000407ab0                _ZN5QListI7QStringEC2ERKS1_
+ *fill*         0x0000000000407b3e        0x2 
+ .text._ZN5QListI6QImageE18detach_helper_growEii
+                0x0000000000407b40      0x267 nmovie_qt-RenderWidget.o
+                0x0000000000407b40                _ZN5QListI6QImageE18detach_helper_growEii
+ *fill*         0x0000000000407da7        0x9 
+ .text._ZN5QListI6QImageE6appendERKS0_
+                0x0000000000407db0       0xef nmovie_qt-RenderWidget.o
+                0x0000000000407db0                _ZN5QListI6QImageE6appendERKS0_
+ *fill*         0x0000000000407e9f        0x1 
+ .text._ZN5QListI6QImageE13detach_helperEi
+                0x0000000000407ea0      0x122 nmovie_qt-RenderWidget.o
+                0x0000000000407ea0                _ZN5QListI6QImageE13detach_helperEi
+ *fill*         0x0000000000407fc2        0xe 
+ .text._ZN12RenderWidget20SetCurrentImageIndexEi
+                0x0000000000407fd0       0x4e nmovie_qt-RenderWidget.o
+                0x0000000000407fd0                _ZN12RenderWidget20SetCurrentImageIndexEi
+ *fill*         0x000000000040801e        0x2 
+ .text._ZN12RenderWidget6OnLoopEv
+                0x0000000000408020       0x1f nmovie_qt-RenderWidget.o
+                0x0000000000408020                _ZN12RenderWidget6OnLoopEv
+ *fill*         0x000000000040803f        0x1 
+ .text._ZN12RenderWidget7OnSwingEv
+                0x0000000000408040       0x1c nmovie_qt-RenderWidget.o
+                0x0000000000408040                _ZN12RenderWidget7OnSwingEv
+ *fill*         0x000000000040805c        0x4 
+ .text._ZN12RenderWidget6OnBackEv
+                0x0000000000408060       0x1a nmovie_qt-RenderWidget.o
+                0x0000000000408060                _ZN12RenderWidget6OnBackEv
+ *fill*         0x000000000040807a        0x6 
+ .text._ZN12RenderWidget9OnForwardEv
+                0x0000000000408080       0x1f nmovie_qt-RenderWidget.o
+                0x0000000000408080                _ZN12RenderWidget9OnForwardEv
+ *fill*         0x000000000040809f        0x1 
+ .text._ZN12RenderWidget14mouseMoveEventEP11QMouseEvent
+                0x00000000004080a0      0x109 nmovie_qt-RenderWidget.o
+                0x00000000004080a0                _ZN12RenderWidget14mouseMoveEventEP11QMouseEvent
+ *fill*         0x00000000004081a9        0x7 
+ .text._ZN12RenderWidget7OnTimerEv
+                0x00000000004081b0       0x76 nmovie_qt-RenderWidget.o
+                0x00000000004081b0                _ZN12RenderWidget7OnTimerEv
+ *fill*         0x0000000000408226        0xa 
+ .text._ZN12RenderWidgetC2EP7QWidget
+                0x0000000000408230       0xbe nmovie_qt-RenderWidget.o
+                0x0000000000408230                _ZN12RenderWidgetC2EP7QWidget
+                0x0000000000408230                _ZN12RenderWidgetC1EP7QWidget
+ *fill*         0x00000000004082ee        0x2 
+ .text._ZN12RenderWidget10LoadImagesERK11QStringList
+                0x00000000004082f0      0x53f nmovie_qt-RenderWidget.o
+                0x00000000004082f0                _ZN12RenderWidget10LoadImagesERK11QStringList
+ *fill*         0x000000000040882f        0x1 
+ .text._ZN12RenderWidget10paintEventEP11QPaintEvent
+                0x0000000000408830      0x27b nmovie_qt-RenderWidget.o
+                0x0000000000408830                _ZN12RenderWidget10paintEventEP11QPaintEvent
+ *fill*         0x0000000000408aab        0x5 
+ .text._ZN12RenderWidget11resizeEventEP12QResizeEvent
+                0x0000000000408ab0       0x9b nmovie_qt-RenderWidget.o
+                0x0000000000408ab0                _ZN12RenderWidget11resizeEventEP12QResizeEvent
+ *fill*         0x0000000000408b4b        0x5 
+ .text._ZN6QDebuglsEPKc
+                0x0000000000408b50       0xce nmovie_qt-main.o
+                0x0000000000408b50                _ZN6QDebuglsEPKc
+ *fill*         0x0000000000408c1e        0x2 
+ .text          0x0000000000408c20       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x0000000000408c20                __libc_csu_init
+                0x0000000000408c90                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x0000000000408c94        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000408c94        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000408c94                _fini
+ .fini          0x0000000000408c98        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000408c9d                PROVIDE (__etext, .)
+                0x0000000000408c9d                PROVIDE (_etext, .)
+                0x0000000000408c9d                PROVIDE (etext, .)
+
+.rodata         0x0000000000408ca0      0xcc0
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._ZL23qt_meta_data_MainWindow
+                0x0000000000408ca0       0x64 nmovie_qt-moc_MainWindow.o
+ *fill*         0x0000000000408d04       0x1c 
+ .rodata._ZL29qt_meta_stringdata_MainWindow
+                0x0000000000408d20       0xa8 nmovie_qt-moc_MainWindow.o
+ .rodata._ZTS10MainWindow
+                0x0000000000408dc8        0xd nmovie_qt-moc_MainWindow.o
+                0x0000000000408dc8                _ZTS10MainWindow
+ *fill*         0x0000000000408dd5        0x3 
+ .rodata._ZN12RenderWidget18qt_static_metacallEP7QObjectN11QMetaObject4CallEiPPv
+                0x0000000000408dd8       0x2c nmovie_qt-moc_RenderWidget.o
+ *fill*         0x0000000000408e04       0x1c 
+ .rodata._ZL25qt_meta_data_RenderWidget
+                0x0000000000408e20      0x174 nmovie_qt-moc_RenderWidget.o
+ *fill*         0x0000000000408f94        0xc 
+ .rodata._ZL31qt_meta_stringdata_RenderWidget
+                0x0000000000408fa0      0x258 nmovie_qt-moc_RenderWidget.o
+ .rodata._ZTS12RenderWidget
+                0x00000000004091f8        0xf nmovie_qt-moc_RenderWidget.o
+                0x00000000004091f8                _ZTS12RenderWidget
+ .rodata.str1.1
+                0x0000000000409207      0x114 nmovie_qt-MainWindow.o
+                                        0x11b (size before relaxing)
+ *fill*         0x000000000040931b        0x5 
+ .rodata.str1.8
+                0x0000000000409320       0x72 nmovie_qt-MainWindow.o
+ *fill*         0x0000000000409392        0xe 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE18_clEvE15qstring_literal
+                0x00000000004093a0       0x30 nmovie_qt-MainWindow.o
+                0x00000000004093a0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE18_clEvE15qstring_literal
+ *fill*         0x00000000004093d0       0x10 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE17_clEvE15qstring_literal
+                0x00000000004093e0       0x30 nmovie_qt-MainWindow.o
+                0x00000000004093e0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE17_clEvE15qstring_literal
+ *fill*         0x0000000000409410       0x10 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE16_clEvE15qstring_literal
+                0x0000000000409420       0x40 nmovie_qt-MainWindow.o
+                0x0000000000409420                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE16_clEvE15qstring_literal
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE15_clEvE15qstring_literal
+                0x0000000000409460       0x28 nmovie_qt-MainWindow.o
+                0x0000000000409460                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE15_clEvE15qstring_literal
+ *fill*         0x0000000000409488       0x18 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE14_clEvE15qstring_literal
+                0x00000000004094a0       0x38 nmovie_qt-MainWindow.o
+                0x00000000004094a0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE14_clEvE15qstring_literal
+ *fill*         0x00000000004094d8        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE13_clEvE15qstring_literal
+                0x00000000004094e0       0x38 nmovie_qt-MainWindow.o
+                0x00000000004094e0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE13_clEvE15qstring_literal
+ *fill*         0x0000000000409518        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE12_clEvE15qstring_literal
+                0x0000000000409520       0x40 nmovie_qt-MainWindow.o
+                0x0000000000409520                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE12_clEvE15qstring_literal
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE11_clEvE15qstring_literal
+                0x0000000000409560       0x40 nmovie_qt-MainWindow.o
+                0x0000000000409560                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE11_clEvE15qstring_literal
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE10_clEvE15qstring_literal
+                0x00000000004095a0       0x38 nmovie_qt-MainWindow.o
+                0x00000000004095a0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE10_clEvE15qstring_literal
+ *fill*         0x00000000004095d8        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE9_clEvE15qstring_literal
+                0x00000000004095e0       0x38 nmovie_qt-MainWindow.o
+                0x00000000004095e0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE9_clEvE15qstring_literal
+ *fill*         0x0000000000409618        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE8_clEvE15qstring_literal
+                0x0000000000409620       0x28 nmovie_qt-MainWindow.o
+                0x0000000000409620                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE8_clEvE15qstring_literal
+ *fill*         0x0000000000409648       0x18 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE7_clEvE15qstring_literal
+                0x0000000000409660       0x48 nmovie_qt-MainWindow.o
+                0x0000000000409660                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE7_clEvE15qstring_literal
+ *fill*         0x00000000004096a8       0x18 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE6_clEvE15qstring_literal
+                0x00000000004096c0       0x28 nmovie_qt-MainWindow.o
+                0x00000000004096c0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE6_clEvE15qstring_literal
+ *fill*         0x00000000004096e8       0x18 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE5_clEvE15qstring_literal
+                0x0000000000409700       0x38 nmovie_qt-MainWindow.o
+                0x0000000000409700                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE5_clEvE15qstring_literal
+ *fill*         0x0000000000409738        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE4_clEvE15qstring_literal
+                0x0000000000409740       0x38 nmovie_qt-MainWindow.o
+                0x0000000000409740                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE4_clEvE15qstring_literal
+ *fill*         0x0000000000409778        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE3_clEvE15qstring_literal
+                0x0000000000409780       0x40 nmovie_qt-MainWindow.o
+                0x0000000000409780                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE3_clEvE15qstring_literal
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE2_clEvE15qstring_literal
+                0x00000000004097c0       0x28 nmovie_qt-MainWindow.o
+                0x00000000004097c0                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE2_clEvE15qstring_literal
+ *fill*         0x00000000004097e8       0x18 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE1_clEvE15qstring_literal
+                0x0000000000409800       0x38 nmovie_qt-MainWindow.o
+                0x0000000000409800                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE1_clEvE15qstring_literal
+ *fill*         0x0000000000409838        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE0_clEvE15qstring_literal
+                0x0000000000409840       0x38 nmovie_qt-MainWindow.o
+                0x0000000000409840                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE0_clEvE15qstring_literal
+ *fill*         0x0000000000409878        0x8 
+ .rodata._ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE_clEvE15qstring_literal
+                0x0000000000409880       0x30 nmovie_qt-MainWindow.o
+                0x0000000000409880                _ZZZN13Ui_MainWindow7setupUiEP11QMainWindowENKUlvE_clEvE15qstring_literal
+ .rodata.str1.1
+                0x00000000004098b0       0x3d nmovie_qt-RenderWidget.o
+                                         0x46 (size before relaxing)
+ *fill*         0x00000000004098ed        0x3 
+ .rodata.str1.8
+                0x00000000004098f0       0x23 nmovie_qt-RenderWidget.o
+ *fill*         0x0000000000409913        0x5 
+ .rodata.cst8   0x0000000000409918       0x18 nmovie_qt-RenderWidget.o
+ .rodata.str1.1
+                0x0000000000000000        0x8 nmovie_qt-main.o
+ .rodata.str1.8
+                0x0000000000409930       0x30 nmovie_qt-main.o
+                                         0x29 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000409960      0x1bc
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000409960      0x1bc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.eh_frame       0x0000000000409b20      0xa84
+ *(.eh_frame)
+ .eh_frame      0x0000000000409b20       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000409b50       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000409b90       0xb8 nmovie_qt-moc_MainWindow.o
+                                         0xb0 (size before relaxing)
+ .eh_frame      0x0000000000409c48      0x1b0 nmovie_qt-moc_RenderWidget.o
+ .eh_frame      0x0000000000409df8      0x2d8 nmovie_qt-MainWindow.o
+                                        0x2f0 (size before relaxing)
+ .eh_frame      0x000000000040a0d0      0x408 nmovie_qt-RenderWidget.o
+                                        0x488 (size before relaxing)
+ .eh_frame      0x000000000040a4d8       0x68 nmovie_qt-main.o
+                                         0x88 (size before relaxing)
+ .eh_frame      0x000000000040a540       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x000000000040a5a0        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.gcc_except_table
+                0x000000000040a5a4      0x444
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table._ZN5QListI6QImageED2Ev
+                0x000000000040a5a4        0x4 nmovie_qt-moc_RenderWidget.o
+ .gcc_except_table._ZN13Ui_MainWindow7setupUiEP11QMainWindow
+                0x000000000040a5a8      0x1df nmovie_qt-MainWindow.o
+ .gcc_except_table._ZN10MainWindow21OnCurrentImageChangedERK6QImagei
+                0x000000000040a787       0x23 nmovie_qt-MainWindow.o
+ .gcc_except_table._ZN5QListI7QStringED2Ev
+                0x000000000040a7aa        0x4 nmovie_qt-MainWindow.o
+ *fill*         0x000000000040a7ae        0x2 
+ .gcc_except_table._ZN5QListI7QStringE6appendERKS0_
+                0x000000000040a7b0       0x20 nmovie_qt-MainWindow.o
+ .gcc_except_table._ZN10MainWindow4LoadEiPPc
+                0x000000000040a7d0       0x2c nmovie_qt-MainWindow.o
+ .gcc_except_table._ZN10MainWindowC2EP7QWidget
+                0x000000000040a7fc       0x4c nmovie_qt-MainWindow.o
+ .gcc_except_table._ZN10MainWindowD2Ev
+                0x000000000040a848        0x4 nmovie_qt-MainWindow.o
+ .gcc_except_table._ZN5QListI6QImageE18detach_helper_growEii
+                0x000000000040a84c       0x50 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN5QListI6QImageE6appendERKS0_
+                0x000000000040a89c       0x40 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN5QListI6QImageE13detach_helperEi
+                0x000000000040a8dc       0x34 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN12RenderWidgetC2EP7QWidget
+                0x000000000040a910       0x17 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN12RenderWidget10LoadImagesERK11QStringList
+                0x000000000040a927       0x5b nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN12RenderWidget10paintEventEP11QPaintEvent
+                0x000000000040a982       0x25 nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN12RenderWidget11resizeEventEP12QResizeEvent
+                0x000000000040a9a7        0xe nmovie_qt-RenderWidget.o
+ .gcc_except_table._ZN6QDebuglsEPKc
+                0x000000000040a9b5       0x11 nmovie_qt-main.o
+ .gcc_except_table.main
+                0x000000000040a9c6       0x22 nmovie_qt-main.o
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x000000000040a9e8                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x000000000060b8a0                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000000060b8a0        0x0
+                0x000000000060b8a0                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000000000060b8a0                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000000060b8a0        0x8
+                0x000000000060b8a0                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x000000000060b8a0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x000000000060b8a8                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000000060b8a8        0x8
+                0x000000000060b8a8                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x000000000060b8a8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x000000000060b8b0                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x000000000060b8b0        0x8
+ *(.jcr)
+ .jcr           0x000000000060b8b0        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .jcr           0x000000000060b8b0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data.rel.ro    0x000000000060b8c0      0x4d0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro._ZTI10MainWindow
+                0x000000000060b8c0       0x18 nmovie_qt-moc_MainWindow.o
+                0x000000000060b8c0                _ZTI10MainWindow
+ *fill*         0x000000000060b8d8        0x8 
+ .data.rel.ro._ZTV10MainWindow
+                0x000000000060b8e0      0x208 nmovie_qt-moc_MainWindow.o
+                0x000000000060b8e0                _ZTV10MainWindow
+ *fill*         0x000000000060bae8       0x18 
+ .data.rel.ro._ZN10MainWindow16staticMetaObjectE
+                0x000000000060bb00       0x30 nmovie_qt-moc_MainWindow.o
+                0x000000000060bb00                _ZN10MainWindow16staticMetaObjectE
+ .data.rel.ro._ZTI12RenderWidget
+                0x000000000060bb30       0x18 nmovie_qt-moc_RenderWidget.o
+                0x000000000060bb30                _ZTI12RenderWidget
+ *fill*         0x000000000060bb48       0x18 
+ .data.rel.ro._ZTV12RenderWidget
+                0x000000000060bb60      0x200 nmovie_qt-moc_RenderWidget.o
+                0x000000000060bb60                _ZTV12RenderWidget
+ .data.rel.ro._ZN12RenderWidget16staticMetaObjectE
+                0x000000000060bd60       0x30 nmovie_qt-moc_RenderWidget.o
+                0x000000000060bd60                _ZN12RenderWidget16staticMetaObjectE
+
+.dynamic        0x000000000060bd90      0x230
+ *(.dynamic)
+ .dynamic       0x000000000060bd90      0x230 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x000000000060bd90                _DYNAMIC
+
+.got            0x000000000060bfc0       0x28
+ *(.got)
+ .got           0x000000000060bfc0       0x28 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.igot)
+                0x000000000060bfe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x000000000060c000      0x5b0
+ *(.got.plt)
+ .got.plt       0x000000000060c000      0x5b0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x000000000060c000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.data           0x000000000060c5b0        0x8
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.DW.ref.__gxx_personality_v0
+                0x000000000060c5b0        0x8 nmovie_qt-moc_RenderWidget.o
+                0x000000000060c5b0                DW.ref.__gxx_personality_v0
+
+.tm_clone_table
+                0x000000000060c5b8        0x0
+ .tm_clone_table
+                0x000000000060c5b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .tm_clone_table
+                0x000000000060c5b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data1
+ *(.data1)
+                0x000000000060c5b8                _edata = .
+                0x000000000060c5b8                PROVIDE (edata, .)
+                0x000000000060c5b8                . = .
+                0x000000000060c5b8                __bss_start = .
+
+.bss            0x000000000060c5b8        0x8
+ *(.dynbss)
+ .dynbss        0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000000060c5b8        0x1 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .bss._ZZN12RenderWidget7OnTimerEvE8bReverse
+                0x000000000060c5b9        0x1 nmovie_qt-RenderWidget.o
+ *(COMMON)
+                0x000000000060c5c0                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000060c5ba        0x6 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x000000000060c5c0                . = ALIGN (0x8)
+                0x000000000060c5c0                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a0c5c0        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a0c5c0                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a0c5c0                . = ALIGN (0x8)
+                0x0000000000a0c5c0                _end = .
+                0x0000000000a0c5c0                PROVIDE (end, .)
+                0x0000000000a0c5c0                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x56
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c nmovie_qt-moc_MainWindow.o
+ .comment       0x0000000000000000       0x2c nmovie_qt-moc_RenderWidget.o
+ .comment       0x0000000000000000       0x2c nmovie_qt-MainWindow.o
+ .comment       0x0000000000000000       0x2c nmovie_qt-RenderWidget.o
+ .comment       0x0000000000000000       0x2c nmovie_qt-main.o
+ .comment       0x000000000000002b       0x2b /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x400
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x60 nmovie_qt-moc_MainWindow.o
+ .debug_aranges
+                0x0000000000000060       0xd0 nmovie_qt-moc_RenderWidget.o
+ .debug_aranges
+                0x0000000000000130       0xf0 nmovie_qt-MainWindow.o
+ .debug_aranges
+                0x0000000000000220      0x1a0 nmovie_qt-RenderWidget.o
+ .debug_aranges
+                0x00000000000003c0       0x40 nmovie_qt-main.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0xf42d2
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000    0x1b989 nmovie_qt-moc_MainWindow.o
+ .debug_info    0x000000000001b989    0x1d1bb nmovie_qt-moc_RenderWidget.o
+ .debug_info    0x0000000000038b44    0x3ae1c nmovie_qt-MainWindow.o
+ .debug_info    0x0000000000073960    0x43852 nmovie_qt-RenderWidget.o
+ .debug_info    0x00000000000b71b2    0x3d120 nmovie_qt-main.o
+
+.debug_abbrev   0x0000000000000000     0x4116
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xac7 nmovie_qt-moc_MainWindow.o
+ .debug_abbrev  0x0000000000000ac7      0xc56 nmovie_qt-moc_RenderWidget.o
+ .debug_abbrev  0x000000000000171d      0xdb9 nmovie_qt-MainWindow.o
+ .debug_abbrev  0x00000000000024d6      0xe8f nmovie_qt-RenderWidget.o
+ .debug_abbrev  0x0000000000003365      0xdb1 nmovie_qt-main.o
+
+.debug_line     0x0000000000000000     0x4622
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x71a nmovie_qt-moc_MainWindow.o
+ .debug_line    0x000000000000071a      0x858 nmovie_qt-moc_RenderWidget.o
+ .debug_line    0x0000000000000f72     0x1870 nmovie_qt-MainWindow.o
+ .debug_line    0x00000000000027e2     0x1343 nmovie_qt-RenderWidget.o
+ .debug_line    0x0000000000003b25      0xafd nmovie_qt-main.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000    0x55fbe
+ *(.debug_str)
+ .debug_str     0x0000000000000000    0x1cd82 nmovie_qt-moc_MainWindow.o
+                                      0x1d72d (size before relaxing)
+ .debug_str     0x000000000001cd82     0x15c6 nmovie_qt-moc_RenderWidget.o
+                                      0x1e9b0 (size before relaxing)
+ .debug_str     0x000000000001e348    0x18341 nmovie_qt-MainWindow.o
+                                      0x36b86 (size before relaxing)
+ .debug_str     0x0000000000036689    0x1207b nmovie_qt-RenderWidget.o
+                                      0x41c7a (size before relaxing)
+ .debug_str     0x0000000000048704     0xd8ba nmovie_qt-main.o
+                                      0x407c3 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x16043
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0x501 nmovie_qt-moc_MainWindow.o
+ .debug_loc     0x0000000000000501     0x1172 nmovie_qt-moc_RenderWidget.o
+ .debug_loc     0x0000000000001673     0xf208 nmovie_qt-MainWindow.o
+ .debug_loc     0x000000000001087b     0x531e nmovie_qt-RenderWidget.o
+ .debug_loc     0x0000000000015b99      0x4aa nmovie_qt-main.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x2dc0
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x50 nmovie_qt-moc_MainWindow.o
+ .debug_ranges  0x0000000000000050      0x220 nmovie_qt-moc_RenderWidget.o
+ .debug_ranges  0x0000000000000270     0x14b0 nmovie_qt-MainWindow.o
+ .debug_ranges  0x0000000000001720     0x1550 nmovie_qt-RenderWidget.o
+ .debug_ranges  0x0000000000002c70      0x150 nmovie_qt-main.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(nmovie_qt elf64-x86-64)

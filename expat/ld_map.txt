@@ -1,0 +1,2375 @@
+Archive member included to satisfy reference by file (symbol)
+
+../expat/libexpat.a(xmlparse.o)
+                              runtestspp.o (XML_ParserReset)
+../expat/libexpat.a(xmltok.o)
+                              ../expat/libexpat.a(xmlparse.o) (XmlUtf8Encode)
+../expat/libexpat.a(xmlrole.o)
+                              ../expat/libexpat.a(xmlparse.o) (XmlPrologStateInit)
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libc.so.6                     runtestspp.o (__printf_chk@@GLIBC_2.3.4)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .text          0x0000000000000000        0x0 runtestspp.o
+ .data          0x0000000000000000        0x0 runtestspp.o
+ .bss           0x0000000000000000        0x0 runtestspp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 runtestspp.o
+ .text          0x0000000000000000        0x0 chardata.o
+ .data          0x0000000000000000        0x0 chardata.o
+ .bss           0x0000000000000000        0x0 chardata.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 chardata.o
+ .text          0x0000000000000000        0x0 minicheck.o
+ .data          0x0000000000000000        0x0 minicheck.o
+ .bss           0x0000000000000000        0x0 minicheck.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 minicheck.o
+ .text          0x0000000000000000        0x0 ../expat/libexpat.a(xmlparse.o)
+ .data          0x0000000000000000        0x0 ../expat/libexpat.a(xmlparse.o)
+ .bss           0x0000000000000000        0x0 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_ParserCreate_MM
+                0x0000000000000000       0x47 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_UseForeignDTD
+                0x0000000000000000       0x22 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetBase
+                0x0000000000000000       0xc7 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetBase
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetSpecifiedAttributeCount
+                0x0000000000000000        0x7 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetIdAttributeIndex
+                0x0000000000000000        0x7 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetCdataSectionHandler
+                0x0000000000000000        0xf ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetStartCdataSectionHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetEndCdataSectionHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetDefaultHandlerExpand
+                0x0000000000000000        0xf ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetStartDoctypeDeclHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetEndDoctypeDeclHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetUnparsedEntityDeclHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetNamespaceDeclHandler
+                0x0000000000000000        0xf ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetEndNamespaceDeclHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetNotStandaloneHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetExternalEntityRefHandlerArg
+                0x0000000000000000        0xf ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetSkippedEntityHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_SetXmlDeclHandler
+                0x0000000000000000        0x8 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_ResumeParser
+                0x0000000000000000       0xe2 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetParsingStatus
+                0x0000000000000000       0x2a ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetCurrentByteIndex
+                0x0000000000000000       0x1d ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetCurrentByteCount
+                0x0000000000000000       0x23 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetInputContext
+                0x0000000000000000       0x34 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_FreeContentModel
+                0x0000000000000000        0x9 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_MemMalloc
+                0x0000000000000000        0x9 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_MemRealloc
+                0x0000000000000000        0xf ../expat/libexpat.a(xmlparse.o)
+ .text.XML_MemFree
+                0x0000000000000000        0x9 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_DefaultCurrent
+                0x0000000000000000      0x189 ../expat/libexpat.a(xmlparse.o)
+ .text.XML_ExpatVersionInfo
+                0x0000000000000000       0x1b ../expat/libexpat.a(xmlparse.o)
+ .text.XML_GetFeatureList
+                0x0000000000000000        0x6 ../expat/libexpat.a(xmlparse.o)
+ .rodata.features.4258
+                0x0000000000000000       0x90 ../expat/libexpat.a(xmlparse.o)
+ .rodata.__PRETTY_FUNCTION__.4203
+                0x0000000000000000       0x15 ../expat/libexpat.a(xmlparse.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../expat/libexpat.a(xmlparse.o)
+ .text          0x0000000000000000        0x0 ../expat/libexpat.a(xmltok.o)
+ .data          0x0000000000000000        0x0 ../expat/libexpat.a(xmltok.o)
+ .bss           0x0000000000000000        0x0 ../expat/libexpat.a(xmltok.o)
+ .text.XmlUtf16Encode
+                0x0000000000000000       0x54 ../expat/libexpat.a(xmltok.o)
+ .text.XmlGetUtf16InternalEncoding
+                0x0000000000000000        0x6 ../expat/libexpat.a(xmltok.o)
+ .text.XmlGetUtf16InternalEncodingNS
+                0x0000000000000000        0x6 ../expat/libexpat.a(xmltok.o)
+ .rodata.internal_little2_encoding
+                0x0000000000000000      0x1d8 ../expat/libexpat.a(xmltok.o)
+ .rodata.internal_little2_encoding_ns
+                0x0000000000000000      0x1d8 ../expat/libexpat.a(xmltok.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../expat/libexpat.a(xmltok.o)
+ .text          0x0000000000000000        0x0 ../expat/libexpat.a(xmlrole.o)
+ .data          0x0000000000000000        0x0 ../expat/libexpat.a(xmlrole.o)
+ .bss           0x0000000000000000        0x0 ../expat/libexpat.a(xmlrole.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ../expat/libexpat.a(xmlrole.o)
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+LOAD runtestspp.o
+LOAD chardata.o
+LOAD minicheck.o
+LOAD ../expat/libexpat.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libm.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgomp.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x34
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x34 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynsym         0x00000000004002d0      0x1f8
+ *(.dynsym)
+ .dynsym        0x00000000004002d0      0x1f8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynstr         0x00000000004004c8      0x10f
+ *(.dynstr)
+ .dynstr        0x00000000004004c8      0x10f /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version    0x00000000004005d8       0x2a
+ *(.gnu.version)
+ .gnu.version   0x00000000004005d8       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000000400608        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000000400608       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400608       0x60 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.rela.dyn       0x0000000000400668       0x30
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL18start_element_failPvPKcPS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL21triplet_start_checkerPvPKcPS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL30test_column_number_after_errorv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL28test_line_number_after_errorv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL31start_ns_clearing_start_elementPvPKcS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL14basic_teardownv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL18namespace_teardownv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL26end_element_event_handler2PvPKc
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL28start_element_event_handler2PvPKcPS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL21overwrite_end_checkerPvPKc
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL23overwrite_start_checkerPvPKcPS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL21accumulate_charactersPvPKci
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL25end_element_event_handlerPvPKc
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL35clearing_aborting_character_handlerPvPKci
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL19triplet_end_checkerPvPKc.part.1
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL19triplet_end_checkerPvPKc
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL20accumulate_attributePvPKcPS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL15namespace_setupv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL11basic_setupv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL12_xml_failureP16XML_ParserStructPKci.constprop.34
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL58test_wfc_undeclared_entity_with_external_subset_standalonev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL17test_illegal_utf8v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL37test_unknown_encoding_internal_entityv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL35external_entity_loader_set_encodingP16XML_ParserStructPKcS2_S2_S2_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL40test_stop_parser_between_char_data_callsv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL43test_suspend_parser_between_char_data_callsv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL22test_return_ns_tripletv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL34test_start_ns_clears_start_elementv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL23external_entity_handlerP16XML_ParserStructPKcS2_S2_S2_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL22external_entity_loaderP16XML_ParserStructPKcS2_S2_S2_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL34test_attr_whitespace_normalizationv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL42test_default_ns_from_ext_subset_and_ext_gev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL47test_wfc_undeclared_entity_with_external_subsetv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL31test_ns_prefix_with_empty_uri_4v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL13test_nul_bytev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL13test_bom_utf8v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL17test_bom_utf16_bev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL17test_bom_utf16_lev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL28test_utf16_le_epilog_newlinev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL28test_line_number_after_parsev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL30test_column_number_after_parsev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL22test_really_long_linesv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL49test_wfc_undeclared_entity_unread_external_subsetv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL32test_empty_ns_without_namespacesv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL47test_ns_in_attribute_default_without_namespacesv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL30test_ns_default_with_empty_uriv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL31test_ns_prefix_with_empty_uri_3v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL37test_ns_duplicate_attrs_diff_prefixesv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL33test_ns_unbound_prefix_on_elementv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL31test_ns_prefix_with_empty_uri_1v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL35test_ns_unbound_prefix_on_attributev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL45test_wfc_undeclared_entity_no_external_subsetv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL22test_xmldecl_misplacedv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL33test_wfc_no_recursive_entity_refsv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL15test_u0000_charv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL37test_wfc_undeclared_entity_standalonev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL31test_ns_prefix_with_empty_uri_2v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL41check_attr_contains_normalized_whitespacePvPKcPS1_
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL10test_utf16v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL20_run_character_checkPcS_PKci.constprop.31
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL18test_danish_latin1v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL31test_french_charref_hexidecimalv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL27test_french_charref_decimalv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL18test_french_latin1v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL16test_french_utf8v
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL25test_utf8_false_rejectionv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL28test_ext_entity_set_encodingv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL25test_dtd_default_handlingv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL20_run_attribute_checkPKcS0_S0_i.constprop.30
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL19test_latin1_umlautsv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL29run_ns_tagname_overwrite_testPKcS0_.constprop.28
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL25test_ns_tagname_overwritev
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL33test_ns_tagname_overwrite_tripletv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL23test_end_element_eventsv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._ZL44test_line_and_column_numbers_inside_handlersv
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startup.main
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.unlikely.xmlstrlen.part.0
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.CharData_Init
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.CharData_AppendString
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.CharData_AppendXMLChars
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.CharData_CheckString
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.CharData_CheckXMLChars
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.suite_create
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.tcase_create
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.suite_add_tcase
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.tcase_add_checked_fixture
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.tcase_add_test
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.srunner_create
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.srunner_run_all
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text._fail_unless
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.srunner_ntests_failed
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.srunner_free
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.handleUnknownEncoding
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.poolGrow
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.lookup
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.storeRawNames.isra.2
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.addBinding.part.3
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.poolStoreString
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.getElementType
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.getAttributeId.isra.9
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.storeEntityValue
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.reportComment
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.appendAttributeValue
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.reportProcessingInstruction
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.processXmlDecl
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.storeAtts
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.doContent
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.externalEntityInitProcessor
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.doProlog
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.externalParEntInitProcessor
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.prologInitProcessor
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_ParserReset
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.parserCreate
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_ExternalEntityParserCreate
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_ParserCreate
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_ParserCreateNS
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_GetBuffer
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_Parse
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.XML_GetParsingStatus
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.findEncoding
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.findEncodingNS
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.unknown_toUtf8
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400668       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400680       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+
+.rela.plt       0x0000000000400698      0x1c8
+ *(.rela.plt)
+ .rela.plt      0x0000000000400698      0x1c8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400860                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400860                PROVIDE (__rela_iplt_end, .)
+
+.init           0x0000000000400860       0x1a
+ *(SORT(.init))
+ .init          0x0000000000400860       0x15 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000400860                _init
+ .init          0x0000000000400875        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000400880      0x140
+ *(.plt)
+ .plt           0x0000000000400880      0x140 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400890                free@@GLIBC_2.2.5
+                0x00000000004008a0                strlen@@GLIBC_2.2.5
+                0x00000000004008b0                __stack_chk_fail@@GLIBC_2.4
+                0x00000000004008c0                __assert_fail@@GLIBC_2.2.5
+                0x00000000004008d0                memset@@GLIBC_2.2.5
+                0x00000000004008e0                __libc_start_main@@GLIBC_2.2.5
+                0x00000000004008f0                memcmp@@GLIBC_2.2.5
+                0x0000000000400900                _setjmp@@GLIBC_2.2.5
+                0x0000000000400910                calloc@@GLIBC_2.2.5
+                0x0000000000400920                strcmp@@GLIBC_2.2.5
+                0x0000000000400940                memcpy@@GLIBC_2.14
+                0x0000000000400950                malloc@@GLIBC_2.2.5
+                0x0000000000400960                realloc@@GLIBC_2.2.5
+                0x0000000000400970                __printf_chk@@GLIBC_2.3.4
+                0x0000000000400980                __longjmp_chk@@GLIBC_2.11
+                0x0000000000400990                memmove@@GLIBC_2.2.5
+                0x00000000004009a0                __fprintf_chk@@GLIBC_2.3.4
+                0x00000000004009b0                __sprintf_chk@@GLIBC_2.3.4
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.text           0x00000000004009c0    0x22aa2
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely.xmlstrlen.part.0
+                0x00000000004009c0       0x1a chardata.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *fill*         0x00000000004009da        0x6 
+ .text.startup.main
+                0x00000000004009e0      0x75f runtestspp.o
+                0x00000000004009e0                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x000000000040113f       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x000000000040113f                _start
+ *fill*         0x0000000000401169        0x7 
+ .text          0x0000000000401170       0xbd /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ *fill*         0x000000000040122d        0x3 
+ .text._ZL27dummy_start_doctype_handlerPvPKcS1_S1_i
+                0x0000000000401230        0x2 runtestspp.o
+ *fill*         0x0000000000401232        0xe 
+ .text._ZL25dummy_end_doctype_handlerPv
+                0x0000000000401240        0x2 runtestspp.o
+ *fill*         0x0000000000401242        0xe 
+ .text._ZL25dummy_entity_decl_handlerPvPKciS1_iS1_S1_S1_S1_
+                0x0000000000401250        0x2 runtestspp.o
+ *fill*         0x0000000000401252        0xe 
+ .text._ZL27dummy_notation_decl_handlerPvPKcS1_S1_S1_
+                0x0000000000401260        0x2 runtestspp.o
+ *fill*         0x0000000000401262        0xe 
+ .text._ZL26dummy_element_decl_handlerPvPKcP6XML_cp
+                0x0000000000401270        0x2 runtestspp.o
+ *fill*         0x0000000000401272        0xe 
+ .text._ZL26dummy_attlist_decl_handlerPvPKcS1_S1_S1_i
+                0x0000000000401280        0x2 runtestspp.o
+ *fill*         0x0000000000401282        0xe 
+ .text._ZL21dummy_comment_handlerPvPKc
+                0x0000000000401290        0x2 runtestspp.o
+ *fill*         0x0000000000401292        0xe 
+ .text._ZL16dummy_pi_handlerPvPKcS1_
+                0x00000000004012a0        0x2 runtestspp.o
+ *fill*         0x00000000004012a2        0xe 
+ .text._ZL19dummy_start_elementPvPKcPS1_
+                0x00000000004012b0        0x2 runtestspp.o
+ *fill*         0x00000000004012b2        0xe 
+ .text._ZL24is_whitespace_normalizedPKci
+                0x00000000004012c0       0x88 runtestspp.o
+ *fill*         0x0000000000401348        0x8 
+ .text._ZL18start_element_failPvPKcPS1_
+                0x0000000000401350       0x16 runtestspp.o
+ *fill*         0x0000000000401366        0xa 
+ .text._ZL21triplet_start_checkerPvPKcPS1_
+                0x0000000000401370       0xda runtestspp.o
+ *fill*         0x000000000040144a        0x6 
+ .text._ZL30test_column_number_after_errorv
+                0x0000000000401450       0xbd runtestspp.o
+ *fill*         0x000000000040150d        0x3 
+ .text._ZL28test_line_number_after_errorv
+                0x0000000000401510       0xbd runtestspp.o
+ *fill*         0x00000000004015cd        0x3 
+ .text._ZL31start_ns_clearing_start_elementPvPKcS1_
+                0x00000000004015d0        0x7 runtestspp.o
+ *fill*         0x00000000004015d7        0x9 
+ .text._ZL14basic_teardownv
+                0x00000000004015e0       0x1a runtestspp.o
+ *fill*         0x00000000004015fa        0x6 
+ .text._ZL18namespace_teardownv
+                0x0000000000401600       0x1a runtestspp.o
+ *fill*         0x000000000040161a        0x6 
+ .text._ZL26end_element_event_handler2PvPKc
+                0x0000000000401620       0x89 runtestspp.o
+ *fill*         0x00000000004016a9        0x7 
+ .text._ZL28start_element_event_handler2PvPKcPS1_
+                0x00000000004016b0       0x89 runtestspp.o
+ *fill*         0x0000000000401739        0x7 
+ .text._ZL21overwrite_end_checkerPvPKc
+                0x0000000000401740       0x39 runtestspp.o
+ *fill*         0x0000000000401779        0x7 
+ .text._ZL23overwrite_start_checkerPvPKcPS1_
+                0x0000000000401780       0x69 runtestspp.o
+ *fill*         0x00000000004017e9        0x7 
+ .text._ZL21accumulate_charactersPvPKci
+                0x00000000004017f0        0x5 runtestspp.o
+ *fill*         0x00000000004017f5        0xb 
+ .text._ZL25end_element_event_handlerPvPKc
+                0x0000000000401800       0x2c runtestspp.o
+ *fill*         0x000000000040182c        0x4 
+ .text._ZL35clearing_aborting_character_handlerPvPKci
+                0x0000000000401830       0x29 runtestspp.o
+ *fill*         0x0000000000401859        0x7 
+ .text._ZL22UnknownEncodingHandlerPvPKcP12XML_Encoding
+                0x0000000000401860      0x180 runtestspp.o
+ .text._ZL19triplet_end_checkerPvPKc.part.1
+                0x00000000004019e0       0x68 runtestspp.o
+ *fill*         0x0000000000401a48        0x8 
+ .text._ZL19triplet_end_checkerPvPKc
+                0x0000000000401a50       0x21 runtestspp.o
+ *fill*         0x0000000000401a71        0xf 
+ .text._ZL20accumulate_attributePvPKcPS1_
+                0x0000000000401a80       0x29 runtestspp.o
+ *fill*         0x0000000000401aa9        0x7 
+ .text._ZL15namespace_setupv
+                0x0000000000401ab0       0x42 runtestspp.o
+ *fill*         0x0000000000401af2        0xe 
+ .text._ZL11basic_setupv
+                0x0000000000401b00       0x3a runtestspp.o
+ *fill*         0x0000000000401b3a        0x6 
+ .text._ZL24is_whitespace_normalizedPKci.constprop.29
+                0x0000000000401b40       0x61 runtestspp.o
+ *fill*         0x0000000000401ba1        0xf 
+ .text._ZL12_xml_failureP16XML_ParserStructPKci.constprop.34
+                0x0000000000401bb0       0xbb runtestspp.o
+ *fill*         0x0000000000401c6b        0x5 
+ .text._ZL58test_wfc_undeclared_entity_with_external_subset_standalonev
+                0x0000000000401c70       0xb8 runtestspp.o
+ *fill*         0x0000000000401d28        0x8 
+ .text._ZL17test_illegal_utf8v
+                0x0000000000401d30      0x146 runtestspp.o
+ *fill*         0x0000000000401e76        0xa 
+ .text._ZL37test_unknown_encoding_internal_entityv
+                0x0000000000401e80       0x65 runtestspp.o
+ *fill*         0x0000000000401ee5        0xb 
+ .text._ZL35external_entity_loader_set_encodingP16XML_ParserStructPKcS2_S2_S2_
+                0x0000000000401ef0       0x98 runtestspp.o
+ *fill*         0x0000000000401f88        0x8 
+ .text._ZL40test_stop_parser_between_char_data_callsv
+                0x0000000000401f90       0x93 runtestspp.o
+ *fill*         0x0000000000402023        0xd 
+ .text._ZL43test_suspend_parser_between_char_data_callsv
+                0x0000000000402030       0x95 runtestspp.o
+ *fill*         0x00000000004020c5        0xb 
+ .text._ZL22test_return_ns_tripletv
+                0x00000000004020d0       0x94 runtestspp.o
+ *fill*         0x0000000000402164        0xc 
+ .text._ZL34test_start_ns_clears_start_elementv
+                0x0000000000402170       0x85 runtestspp.o
+ *fill*         0x00000000004021f5        0xb 
+ .text._ZL23external_entity_handlerP16XML_ParserStructPKcS2_S2_S2_
+                0x0000000000402200       0xb4 runtestspp.o
+ *fill*         0x00000000004022b4        0xc 
+ .text._ZL22external_entity_loaderP16XML_ParserStructPKcS2_S2_S2_
+                0x00000000004022c0       0x70 runtestspp.o
+ .text._ZL34test_attr_whitespace_normalizationv
+                0x0000000000402330       0x65 runtestspp.o
+ *fill*         0x0000000000402395        0xb 
+ .text._ZL42test_default_ns_from_ext_subset_and_ext_gev
+                0x00000000004023a0       0x95 runtestspp.o
+ *fill*         0x0000000000402435        0xb 
+ .text._ZL47test_wfc_undeclared_entity_with_external_subsetv
+                0x0000000000402440       0x85 runtestspp.o
+ *fill*         0x00000000004024c5        0xb 
+ .text._ZL31test_ns_prefix_with_empty_uri_4v
+                0x00000000004024d0       0x86 runtestspp.o
+ *fill*         0x0000000000402556        0xa 
+ .text._ZL13test_nul_bytev
+                0x0000000000402560       0xbd runtestspp.o
+ *fill*         0x000000000040261d        0x3 
+ .text._ZL13test_bom_utf8v
+                0x0000000000402620       0x55 runtestspp.o
+ *fill*         0x0000000000402675        0xb 
+ .text._ZL17test_bom_utf16_bev
+                0x0000000000402680       0x95 runtestspp.o
+ *fill*         0x0000000000402715        0xb 
+ .text._ZL17test_bom_utf16_lev
+                0x0000000000402720       0x95 runtestspp.o
+ *fill*         0x00000000004027b5        0xb 
+ .text._ZL28test_utf16_le_epilog_newlinev
+                0x00000000004027c0       0xd8 runtestspp.o
+ *fill*         0x0000000000402898        0x8 
+ .text._ZL28test_line_number_after_parsev
+                0x00000000004028a0       0xb8 runtestspp.o
+ *fill*         0x0000000000402958        0x8 
+ .text._ZL30test_column_number_after_parsev
+                0x0000000000402960       0xb8 runtestspp.o
+ *fill*         0x0000000000402a18        0x8 
+ .text._ZL22test_really_long_linesv
+                0x0000000000402a20       0x55 runtestspp.o
+ *fill*         0x0000000000402a75        0xb 
+ .text._ZL49test_wfc_undeclared_entity_unread_external_subsetv
+                0x0000000000402a80       0x55 runtestspp.o
+ *fill*         0x0000000000402ad5        0xb 
+ .text._ZL32test_empty_ns_without_namespacesv
+                0x0000000000402ae0       0x55 runtestspp.o
+ *fill*         0x0000000000402b35        0xb 
+ .text._ZL47test_ns_in_attribute_default_without_namespacesv
+                0x0000000000402b40       0x55 runtestspp.o
+ *fill*         0x0000000000402b95        0xb 
+ .text._ZL30test_ns_default_with_empty_uriv
+                0x0000000000402ba0       0x55 runtestspp.o
+ *fill*         0x0000000000402bf5        0xb 
+ .text._ZL31test_ns_prefix_with_empty_uri_3v
+                0x0000000000402c00       0x80 runtestspp.o
+ .text._ZL37test_ns_duplicate_attrs_diff_prefixesv
+                0x0000000000402c80       0x80 runtestspp.o
+ .text._ZL33test_ns_unbound_prefix_on_elementv
+                0x0000000000402d00       0x80 runtestspp.o
+ .text._ZL31test_ns_prefix_with_empty_uri_1v
+                0x0000000000402d80       0x80 runtestspp.o
+ .text._ZL35test_ns_unbound_prefix_on_attributev
+                0x0000000000402e00       0x80 runtestspp.o
+ .text._ZL45test_wfc_undeclared_entity_no_external_subsetv
+                0x0000000000402e80       0x80 runtestspp.o
+ .text._ZL22test_xmldecl_misplacedv
+                0x0000000000402f00       0x80 runtestspp.o
+ .text._ZL33test_wfc_no_recursive_entity_refsv
+                0x0000000000402f80       0x80 runtestspp.o
+ .text._ZL15test_u0000_charv
+                0x0000000000403000       0x80 runtestspp.o
+ .text._ZL37test_wfc_undeclared_entity_standalonev
+                0x0000000000403080       0x80 runtestspp.o
+ .text._ZL31test_ns_prefix_with_empty_uri_2v
+                0x0000000000403100       0x80 runtestspp.o
+ .text._ZL41check_attr_contains_normalized_whitespacePvPKcPS1_
+                0x0000000000403180      0x162 runtestspp.o
+ *fill*         0x00000000004032e2        0xe 
+ .text._ZL10test_utf16v
+                0x00000000004032f0      0x112 runtestspp.o
+ *fill*         0x0000000000403402        0xe 
+ .text._ZL20_run_character_checkPcS_PKci.constprop.31
+                0x0000000000403410      0x133 runtestspp.o
+ *fill*         0x0000000000403543        0xd 
+ .text._ZL18test_danish_latin1v
+                0x0000000000403550       0x30 runtestspp.o
+ .text._ZL31test_french_charref_hexidecimalv
+                0x0000000000403580       0x30 runtestspp.o
+ .text._ZL27test_french_charref_decimalv
+                0x00000000004035b0       0x30 runtestspp.o
+ .text._ZL18test_french_latin1v
+                0x00000000004035e0       0x30 runtestspp.o
+ .text._ZL16test_french_utf8v
+                0x0000000000403610       0x30 runtestspp.o
+ .text._ZL25test_utf8_false_rejectionv
+                0x0000000000403640       0x30 runtestspp.o
+ .text._ZL28test_ext_entity_set_encodingv
+                0x0000000000403670       0x41 runtestspp.o
+ *fill*         0x00000000004036b1        0xf 
+ .text._ZL25test_dtd_default_handlingv
+                0x00000000004036c0       0xbd runtestspp.o
+ *fill*         0x000000000040377d        0x3 
+ .text._ZL20_run_attribute_checkPKcS0_S0_i.constprop.30
+                0x0000000000403780      0x124 runtestspp.o
+ *fill*         0x00000000004038a4        0xc 
+ .text._ZL19test_latin1_umlautsv
+                0x00000000004038b0       0x43 runtestspp.o
+ *fill*         0x00000000004038f3        0xd 
+ .text._ZL29run_ns_tagname_overwrite_testPKcS0_.constprop.28
+                0x0000000000403900      0x134 runtestspp.o
+ *fill*         0x0000000000403a34        0xc 
+ .text._ZL25test_ns_tagname_overwritev
+                0x0000000000403a40       0x26 runtestspp.o
+ *fill*         0x0000000000403a66        0xa 
+ .text._ZL33test_ns_tagname_overwrite_tripletv
+                0x0000000000403a70       0x37 runtestspp.o
+ *fill*         0x0000000000403aa7        0x9 
+ .text._ZL23test_end_element_eventsv
+                0x0000000000403ab0      0x138 runtestspp.o
+ *fill*         0x0000000000403be8        0x8 
+ .text._ZL44test_line_and_column_numbers_inside_handlersv
+                0x0000000000403bf0      0x149 runtestspp.o
+ *fill*         0x0000000000403d39        0x7 
+ .text.CharData_Init
+                0x0000000000403d40       0x26 chardata.o
+                0x0000000000403d40                CharData_Init
+ *fill*         0x0000000000403d66        0xa 
+ .text.CharData_AppendString
+                0x0000000000403d70       0x73 chardata.o
+                0x0000000000403d70                CharData_AppendString
+ *fill*         0x0000000000403de3        0xd 
+ .text.CharData_AppendXMLChars
+                0x0000000000403df0       0xb0 chardata.o
+                0x0000000000403df0                CharData_AppendXMLChars
+ .text.CharData_CheckString
+                0x0000000000403ea0      0x125 chardata.o
+                0x0000000000403ea0                CharData_CheckString
+ *fill*         0x0000000000403fc5        0xb 
+ .text.CharData_CheckXMLChars
+                0x0000000000403fd0      0x116 chardata.o
+                0x0000000000403fd0                CharData_CheckXMLChars
+ *fill*         0x00000000004040e6        0xa 
+ .text.suite_create
+                0x00000000004040f0       0x1d minicheck.o
+                0x00000000004040f0                suite_create
+ *fill*         0x000000000040410d        0x3 
+ .text.tcase_create
+                0x0000000000404110       0x1d minicheck.o
+                0x0000000000404110                tcase_create
+ *fill*         0x000000000040412d        0x3 
+ .text.suite_add_tcase
+                0x0000000000404130       0x71 minicheck.o
+                0x0000000000404130                suite_add_tcase
+ *fill*         0x00000000004041a1        0xf 
+ .text.tcase_add_checked_fixture
+                0x00000000004041b0       0x28 minicheck.o
+                0x00000000004041b0                tcase_add_checked_fixture
+ *fill*         0x00000000004041d8        0x8 
+ .text.tcase_add_test
+                0x00000000004041e0       0xac minicheck.o
+                0x00000000004041e0                tcase_add_test
+ *fill*         0x000000000040428c        0x4 
+ .text.srunner_create
+                0x0000000000404290       0x1d minicheck.o
+                0x0000000000404290                srunner_create
+ *fill*         0x00000000004042ad        0x3 
+ .text._check_set_test_info
+                0x00000000004042b0       0x15 minicheck.o
+                0x00000000004042b0                _check_set_test_info
+ *fill*         0x00000000004042c5        0xb 
+ .text.srunner_run_all
+                0x00000000004042d0      0x182 minicheck.o
+                0x00000000004042d0                srunner_run_all
+ *fill*         0x0000000000404452        0xe 
+ .text._fail_unless
+                0x0000000000404460       0x2c minicheck.o
+                0x0000000000404460                _fail_unless
+ *fill*         0x000000000040448c        0x4 
+ .text.srunner_ntests_failed
+                0x0000000000404490       0x23 minicheck.o
+                0x0000000000404490                srunner_ntests_failed
+ *fill*         0x00000000004044b3        0xd 
+ .text.srunner_free
+                0x00000000004044c0       0x15 minicheck.o
+                0x00000000004044c0                srunner_free
+ *fill*         0x00000000004044d5        0xb 
+ .text.errorProcessor
+                0x00000000004044e0        0x7 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004044e7        0x9 
+ .text.reportDefault
+                0x00000000004044f0       0xd0 ../expat/libexpat.a(xmlparse.o)
+ .text.dtdCreate
+                0x00000000004045c0      0x1c3 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000404783        0xd 
+ .text.nextScaffoldPart
+                0x0000000000404790      0x126 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004048b6        0xa 
+ .text.handleUnknownEncoding
+                0x00000000004048c0      0x142 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000404a02        0xe 
+ .text.poolGrow
+                0x0000000000404a10      0x1ea ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000404bfa        0x6 
+ .text.lookup   0x0000000000404c00      0x4b1 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004050b1        0xf 
+ .text.storeRawNames.isra.2
+                0x00000000004050c0       0xcd ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040518d        0x3 
+ .text.addBinding.part.3
+                0x0000000000405190      0x2d5 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000405465        0xb 
+ .text.defineAttribute.isra.4
+                0x0000000000405470      0x150 ../expat/libexpat.a(xmlparse.o)
+ .text.setElementTypePrefix.isra.8
+                0x00000000004055c0      0x161 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000405721        0xf 
+ .text.build_node
+                0x0000000000405730      0xaae ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004061de        0x2 
+ .text.copyEntityTable
+                0x00000000004061e0      0x3bb ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040659b        0x5 
+ .text.setContext
+                0x00000000004065a0      0x43a ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004069da        0x6 
+ .text.poolStoreString
+                0x00000000004069e0      0x2af ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000406c8f        0x1 
+ .text.getElementType
+                0x0000000000406c90      0x3aa ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040703a        0x6 
+ .text.getAttributeId.isra.9
+                0x0000000000407040      0x58e ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004075ce        0x2 
+ .text.storeEntityValue
+                0x00000000004075d0      0x8a4 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000407e74        0xc 
+ .text.entityValueProcessor
+                0x0000000000407e80       0xbb ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000407f3b        0x5 
+ .text.reportComment
+                0x0000000000407f40      0x536 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000408476        0xa 
+ .text.appendAttributeValue
+                0x0000000000408480      0x8a9 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000408d29        0x7 
+ .text.reportProcessingInstruction
+                0x0000000000408d30      0x85d ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040958d        0x3 
+ .text.epilogProcessor
+                0x0000000000409590      0x2ec ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040987c        0x4 
+ .text.processXmlDecl
+                0x0000000000409880      0xa8e ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040a30e        0x2 
+ .text.entityValueInitProcessor
+                0x000000000040a310      0x1cf ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040a4df        0x1 
+ .text.storeAtts
+                0x000000000040a4e0     0x1166 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040b646        0xa 
+ .text.doContent
+                0x000000000040b650     0x1ff1 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040d641        0xf 
+ .text.contentProcessor
+                0x000000000040d650       0x5e ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040d6ae        0x2 
+ .text.externalEntityContentProcessor
+                0x000000000040d6b0       0x5e ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040d70e        0x2 
+ .text.externalEntityInitProcessor3
+                0x000000000040d710      0x152 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040d862        0xe 
+ .text.externalEntityInitProcessor
+                0x000000000040d870      0x14b ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040d9bb        0x5 
+ .text.cdataSectionProcessor
+                0x000000000040d9c0      0x554 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040df14        0xc 
+ .text.externalEntityInitProcessor2
+                0x000000000040df20      0x20a ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000040e12a        0x6 
+ .text.doProlog
+                0x000000000040e130     0x2e1d ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000410f4d        0x3 
+ .text.prologProcessor
+                0x0000000000410f50       0x68 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000410fb8        0x8 
+ .text.processInternalEntity
+                0x0000000000410fc0      0x19e ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000041115e        0x2 
+ .text.internalEntityProcessor
+                0x0000000000411160      0x1f5 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000411355        0xb 
+ .text.externalParEntProcessor
+                0x0000000000411360       0xf3 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000411453        0xd 
+ .text.externalParEntInitProcessor
+                0x0000000000411460       0xce ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000041152e        0x2 
+ .text.prologInitProcessor
+                0x0000000000411530       0xce ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004115fe        0x2 
+ .text.ignoreSectionProcessor
+                0x0000000000411600      0x23b ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000041183b        0x5 
+ .text.XML_ParserReset
+                0x0000000000411840      0x802 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000411840                XML_ParserReset
+ *fill*         0x0000000000412042        0xe 
+ .text.XML_SetEncoding
+                0x0000000000412050       0xce ../expat/libexpat.a(xmlparse.o)
+                0x0000000000412050                XML_SetEncoding
+ *fill*         0x000000000041211e        0x2 
+ .text.XML_ParserFree
+                0x0000000000412120      0x46c ../expat/libexpat.a(xmlparse.o)
+                0x0000000000412120                XML_ParserFree
+ *fill*         0x000000000041258c        0x4 
+ .text.parserCreate
+                0x0000000000412590      0x5a1 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000412b31        0xf 
+ .text.XML_ExternalEntityParserCreate
+                0x0000000000412b40      0xcb7 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000412b40                XML_ExternalEntityParserCreate
+ *fill*         0x00000000004137f7        0x9 
+ .text.XML_ParserCreate
+                0x0000000000413800      0x54c ../expat/libexpat.a(xmlparse.o)
+                0x0000000000413800                XML_ParserCreate
+ *fill*         0x0000000000413d4c        0x4 
+ .text.XML_ParserCreateNS
+                0x0000000000413d50      0x549 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000413d50                XML_ParserCreateNS
+ *fill*         0x0000000000414299        0x7 
+ .text.XML_UseParserAsHandlerArg
+                0x00000000004142a0        0x5 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004142a0                XML_UseParserAsHandlerArg
+ *fill*         0x00000000004142a5        0xb 
+ .text.XML_SetReturnNSTriplet
+                0x00000000004142b0       0x19 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004142b0                XML_SetReturnNSTriplet
+ *fill*         0x00000000004142c9        0x7 
+ .text.XML_SetUserData
+                0x00000000004142d0       0x18 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004142d0                XML_SetUserData
+ *fill*         0x00000000004142e8        0x8 
+ .text.XML_SetElementHandler
+                0x00000000004142f0        0x9 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004142f0                XML_SetElementHandler
+ *fill*         0x00000000004142f9        0x7 
+ .text.XML_SetStartElementHandler
+                0x0000000000414300        0x5 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414300                XML_SetStartElementHandler
+ *fill*         0x0000000000414305        0xb 
+ .text.XML_SetEndElementHandler
+                0x0000000000414310        0x5 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414310                XML_SetEndElementHandler
+ *fill*         0x0000000000414315        0xb 
+ .text.XML_SetCharacterDataHandler
+                0x0000000000414320        0x5 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414320                XML_SetCharacterDataHandler
+ *fill*         0x0000000000414325        0xb 
+ .text.XML_SetProcessingInstructionHandler
+                0x0000000000414330        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414330                XML_SetProcessingInstructionHandler
+ *fill*         0x0000000000414338        0x8 
+ .text.XML_SetCommentHandler
+                0x0000000000414340        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414340                XML_SetCommentHandler
+ *fill*         0x0000000000414348        0x8 
+ .text.XML_SetDefaultHandler
+                0x0000000000414350        0xf ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414350                XML_SetDefaultHandler
+ *fill*         0x000000000041435f        0x1 
+ .text.XML_SetDoctypeDeclHandler
+                0x0000000000414360        0xf ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414360                XML_SetDoctypeDeclHandler
+ *fill*         0x000000000041436f        0x1 
+ .text.XML_SetNotationDeclHandler
+                0x0000000000414370        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414370                XML_SetNotationDeclHandler
+ *fill*         0x0000000000414378        0x8 
+ .text.XML_SetStartNamespaceDeclHandler
+                0x0000000000414380        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414380                XML_SetStartNamespaceDeclHandler
+ *fill*         0x0000000000414388        0x8 
+ .text.XML_SetExternalEntityRefHandler
+                0x0000000000414390        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414390                XML_SetExternalEntityRefHandler
+ *fill*         0x0000000000414398        0x8 
+ .text.XML_SetUnknownEncodingHandler
+                0x00000000004143a0        0xf ../expat/libexpat.a(xmlparse.o)
+                0x00000000004143a0                XML_SetUnknownEncodingHandler
+ *fill*         0x00000000004143af        0x1 
+ .text.XML_SetElementDeclHandler
+                0x00000000004143b0        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004143b0                XML_SetElementDeclHandler
+ *fill*         0x00000000004143b8        0x8 
+ .text.XML_SetAttlistDeclHandler
+                0x00000000004143c0        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004143c0                XML_SetAttlistDeclHandler
+ *fill*         0x00000000004143c8        0x8 
+ .text.XML_SetEntityDeclHandler
+                0x00000000004143d0        0x8 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004143d0                XML_SetEntityDeclHandler
+ *fill*         0x00000000004143d8        0x8 
+ .text.XML_SetParamEntityParsing
+                0x00000000004143e0       0x1a ../expat/libexpat.a(xmlparse.o)
+                0x00000000004143e0                XML_SetParamEntityParsing
+ *fill*         0x00000000004143fa        0x6 
+ .text.XML_ParseBuffer
+                0x0000000000414400      0x130 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414400                XML_ParseBuffer
+ .text.XML_GetBuffer
+                0x0000000000414530      0x1b1 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414530                XML_GetBuffer
+ *fill*         0x00000000004146e1        0xf 
+ .text.XML_Parse
+                0x00000000004146f0      0x167 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004146f0                XML_Parse
+ *fill*         0x0000000000414857        0x9 
+ .text.XML_StopParser
+                0x0000000000414860       0x80 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414860                XML_StopParser
+ .text.XML_GetErrorCode
+                0x00000000004148e0        0x7 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004148e0                XML_GetErrorCode
+ *fill*         0x00000000004148e7        0x9 
+ .text.XML_GetCurrentLineNumber
+                0x00000000004148f0       0x4b ../expat/libexpat.a(xmlparse.o)
+                0x00000000004148f0                XML_GetCurrentLineNumber
+ *fill*         0x000000000041493b        0x5 
+ .text.XML_GetCurrentColumnNumber
+                0x0000000000414940       0x47 ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414940                XML_GetCurrentColumnNumber
+ *fill*         0x0000000000414987        0x9 
+ .text.XML_ErrorString
+                0x0000000000414990       0x1b ../expat/libexpat.a(xmlparse.o)
+                0x0000000000414990                XML_ErrorString
+ *fill*         0x00000000004149ab        0x5 
+ .text.XML_ExpatVersion
+                0x00000000004149b0        0x6 ../expat/libexpat.a(xmlparse.o)
+                0x00000000004149b0                XML_ExpatVersion
+ *fill*         0x00000000004149b6        0xa 
+ .text.isNever  0x00000000004149c0        0x3 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004149c3        0xd 
+ .text.utf8_isName2
+                0x00000000004149d0       0x3d ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000414a0d        0x3 
+ .text.utf8_isName3
+                0x0000000000414a10       0x4c ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000414a5c        0x4 
+ .text.utf8_isNmstrt2
+                0x0000000000414a60       0x3d ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000414a9d        0x3 
+ .text.utf8_isNmstrt3
+                0x0000000000414aa0       0x4c ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000414aec        0x4 
+ .text.utf8_isInvalid3
+                0x0000000000414af0       0x97 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000414b87        0x9 
+ .text.normal_cdataSectionTok
+                0x0000000000414b90      0x272 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000414e02        0xe 
+ .text.normal_scanRef
+                0x0000000000414e10      0x2ca ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004150da        0x6 
+ .text.normal_scanPercent
+                0x00000000004150e0      0x1e4 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004152c4        0xc 
+ .text.normal_scanLit
+                0x00000000004152d0      0x15c ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041542c        0x4 
+ .text.normal_attributeValueTok
+                0x0000000000415430      0x109 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415539        0x7 
+ .text.normal_entityValueTok
+                0x0000000000415540      0x116 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415656        0xa 
+ .text.normal_ignoreSectionTok
+                0x0000000000415660      0x18e ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004157ee        0x2 
+ .text.normal_isPublicId
+                0x00000000004157f0       0x96 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415886        0xa 
+ .text.normal_getAtts
+                0x0000000000415890      0x3ae ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415c3e        0x2 
+ .text.normal_predefinedEntityName
+                0x0000000000415c40       0xbc ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415cfc        0x4 
+ .text.normal_sameName
+                0x0000000000415d00       0xc7 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415dc7        0x9 
+ .text.normal_nameMatchesAscii
+                0x0000000000415dd0       0x39 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415e09        0x7 
+ .text.normal_nameLength
+                0x0000000000415e10       0x64 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415e74        0xc 
+ .text.normal_skipS
+                0x0000000000415e80       0x57 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415ed7        0x9 
+ .text.normal_updatePosition
+                0x0000000000415ee0       0xbe ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000415f9e        0x2 
+ .text.utf8_toUtf8
+                0x0000000000415fa0      0x227 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004161c7        0x9 
+ .text.utf8_toUtf16
+                0x00000000004161d0      0x132 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416302        0xe 
+ .text.latin1_toUtf8
+                0x0000000000416310       0x82 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416392        0xe 
+ .text.latin1_toUtf16
+                0x00000000004163a0       0x38 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004163d8        0x8 
+ .text.ascii_toUtf8
+                0x00000000004163e0       0x36 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416416        0xa 
+ .text.little2_toUtf8
+                0x0000000000416420      0x1c7 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004165e7        0x9 
+ .text.little2_toUtf16
+                0x00000000004165f0       0x74 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416664        0xc 
+ .text.big2_toUtf8
+                0x0000000000416670      0x1c7 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416837        0x9 
+ .text.big2_toUtf16
+                0x0000000000416840       0x74 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004168b4        0xc 
+ .text.little2_cdataSectionTok
+                0x00000000004168c0      0x219 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416ad9        0x7 
+ .text.little2_scanRef
+                0x0000000000416ae0      0x2a5 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416d85        0xb 
+ .text.little2_scanPercent
+                0x0000000000416d90      0x1ae ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000416f3e        0x2 
+ .text.little2_scanLit
+                0x0000000000416f40      0x111 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417051        0xf 
+ .text.little2_attributeValueTok
+                0x0000000000417060      0x131 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417191        0xf 
+ .text.little2_entityValueTok
+                0x00000000004171a0      0x121 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004172c1        0xf 
+ .text.little2_ignoreSectionTok
+                0x00000000004172d0      0x1cf ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041749f        0x1 
+ .text.little2_isPublicId
+                0x00000000004174a0       0xc9 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417569        0x7 
+ .text.little2_getAtts
+                0x0000000000417570      0x3c1 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417931        0xf 
+ .text.little2_predefinedEntityName
+                0x0000000000417940      0x11f ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417a5f        0x1 
+ .text.little2_sameName
+                0x0000000000417a60      0x144 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417ba4        0xc 
+ .text.little2_nameMatchesAscii
+                0x0000000000417bb0       0x41 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417bf1        0xf 
+ .text.little2_nameLength
+                0x0000000000417c00       0x84 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417c84        0xc 
+ .text.little2_skipS
+                0x0000000000417c90       0x6a ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417cfa        0x6 
+ .text.little2_updatePosition
+                0x0000000000417d00       0xae ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417dae        0x2 
+ .text.big2_cdataSectionTok
+                0x0000000000417db0      0x219 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000417fc9        0x7 
+ .text.big2_scanRef
+                0x0000000000417fd0      0x2a5 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000418275        0xb 
+ .text.big2_scanPercent
+                0x0000000000418280      0x1ae ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041842e        0x2 
+ .text.big2_scanLit
+                0x0000000000418430      0x111 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000418541        0xf 
+ .text.big2_attributeValueTok
+                0x0000000000418550      0x131 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000418681        0xf 
+ .text.big2_entityValueTok
+                0x0000000000418690      0x121 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004187b1        0xf 
+ .text.big2_ignoreSectionTok
+                0x00000000004187c0      0x1cf ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041898f        0x1 
+ .text.big2_isPublicId
+                0x0000000000418990       0xc9 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000418a59        0x7 
+ .text.big2_getAtts
+                0x0000000000418a60      0x3c1 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000418e21        0xf 
+ .text.big2_predefinedEntityName
+                0x0000000000418e30      0x11f ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000418f4f        0x1 
+ .text.big2_sameName
+                0x0000000000418f50      0x144 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419094        0xc 
+ .text.big2_nameMatchesAscii
+                0x00000000004190a0       0x41 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004190e1        0xf 
+ .text.big2_nameLength
+                0x00000000004190f0       0x84 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419174        0xc 
+ .text.big2_skipS
+                0x0000000000419180       0x6a ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004191ea        0x6 
+ .text.big2_updatePosition
+                0x00000000004191f0       0xae ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041929e        0x2 
+ .text.big2_charRefNumber
+                0x00000000004192a0      0x136 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004193d6        0xa 
+ .text.unknown_isName
+                0x00000000004193e0       0x4d ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041942d        0x3 
+ .text.unknown_isNmstrt
+                0x0000000000419430       0x4d ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041947d        0x3 
+ .text.unknown_toUtf16
+                0x0000000000419480       0x99 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419519        0x7 
+ .text.utf8_isInvalid2
+                0x0000000000419520       0x24 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419544        0xc 
+ .text.utf8_isInvalid4
+                0x0000000000419550       0x6e ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004195be        0x2 
+ .text.normal_scanComment.part.2
+                0x00000000004195c0      0x166 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419726        0xa 
+ .text.parsePseudoAttribute
+                0x0000000000419730      0x468 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419b98        0x8 
+ .text.initScanContent
+                0x0000000000419ba0      0x1b8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419d58        0x8 
+ .text.unknown_isInvalid
+                0x0000000000419d60       0x77 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419dd7        0x9 
+ .text.findEncoding
+                0x0000000000419de0      0x136 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419f16        0xa 
+ .text.initUpdatePosition
+                0x0000000000419f20       0xbe ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000419fde        0x2 
+ .text.normal_charRefNumber
+                0x0000000000419fe0      0x123 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a103        0xd 
+ .text.findEncodingNS
+                0x000000000041a110      0x136 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a246        0xa 
+ .text.little2_charRefNumber
+                0x000000000041a250      0x136 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a386        0xa 
+ .text.unknown_toUtf8
+                0x000000000041a390      0x1d9 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a569        0x7 
+ .text.initScanProlog
+                0x000000000041a570      0x14a ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a6ba        0x6 
+ .text.initScanPrologNS
+                0x000000000041a6c0      0x14a ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a80a        0x6 
+ .text.initScanContentNS
+                0x000000000041a810      0x1b8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041a9c8        0x8 
+ .text.big2_scanPi
+                0x000000000041a9d0      0x478 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041ae48        0x8 
+ .text.big2_contentTok
+                0x000000000041ae50     0x140a ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041c25a        0x6 
+ .text.big2_prologTok
+                0x000000000041c260      0xa0b ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041cc6b        0x5 
+ .text.little2_scanPi
+                0x000000000041cc70      0x478 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041d0e8        0x8 
+ .text.little2_contentTok
+                0x000000000041d0f0     0x1403 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041e4f3        0xd 
+ .text.little2_prologTok
+                0x000000000041e500      0x9fb ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041eefb        0x5 
+ .text.normal_scanPi
+                0x000000000041ef00      0x3f7 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000041f2f7        0x9 
+ .text.normal_contentTok
+                0x000000000041f300      0xd5f ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000042005f        0x1 
+ .text.normal_prologTok
+                0x0000000000420060      0xabf ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000420b1f        0x1 
+ .text.XmlUtf8Encode
+                0x0000000000420b20       0xc0 ../expat/libexpat.a(xmltok.o)
+                0x0000000000420b20                XmlUtf8Encode
+ .text.XmlSizeOfUnknownEncoding
+                0x0000000000420be0        0x6 ../expat/libexpat.a(xmltok.o)
+                0x0000000000420be0                XmlSizeOfUnknownEncoding
+ *fill*         0x0000000000420be6        0xa 
+ .text.XmlInitUnknownEncoding
+                0x0000000000420bf0      0x3fe ../expat/libexpat.a(xmltok.o)
+                0x0000000000420bf0                XmlInitUnknownEncoding
+ *fill*         0x0000000000420fee        0x2 
+ .text.XmlGetUtf8InternalEncoding
+                0x0000000000420ff0        0x6 ../expat/libexpat.a(xmltok.o)
+                0x0000000000420ff0                XmlGetUtf8InternalEncoding
+ *fill*         0x0000000000420ff6        0xa 
+ .text.XmlInitEncoding
+                0x0000000000421000       0xa0 ../expat/libexpat.a(xmltok.o)
+                0x0000000000421000                XmlInitEncoding
+ .text.XmlParseXmlDecl
+                0x00000000004210a0      0x3e2 ../expat/libexpat.a(xmltok.o)
+                0x00000000004210a0                XmlParseXmlDecl
+ *fill*         0x0000000000421482        0xe 
+ .text.XmlGetUtf8InternalEncodingNS
+                0x0000000000421490        0x6 ../expat/libexpat.a(xmltok.o)
+                0x0000000000421490                XmlGetUtf8InternalEncodingNS
+ *fill*         0x0000000000421496        0xa 
+ .text.XmlInitEncodingNS
+                0x00000000004214a0       0xa0 ../expat/libexpat.a(xmltok.o)
+                0x00000000004214a0                XmlInitEncodingNS
+ .text.XmlParseXmlDeclNS
+                0x0000000000421540      0x3e2 ../expat/libexpat.a(xmltok.o)
+                0x0000000000421540                XmlParseXmlDeclNS
+ *fill*         0x0000000000421922        0xe 
+ .text.XmlInitUnknownEncodingNS
+                0x0000000000421930       0x13 ../expat/libexpat.a(xmltok.o)
+                0x0000000000421930                XmlInitUnknownEncodingNS
+ *fill*         0x0000000000421943        0xd 
+ .text.prolog0  0x0000000000421950       0xd3 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000421a23        0xd 
+ .text.doctype1
+                0x0000000000421a30       0xfa ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000421b2a        0x6 
+ .text.internalSubset
+                0x0000000000421b30      0x1b4 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000421ce4        0xc 
+ .text.attlist2
+                0x0000000000421cf0       0xfa ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000421dea        0x6 
+ .text.attlist8
+                0x0000000000421df0      0x11a ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000421f0a        0x6 
+ .text.element1
+                0x0000000000421f10       0xe2 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000421ff2        0xe 
+ .text.element2
+                0x0000000000422000       0xe3 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004220e3        0xd 
+ .text.element7
+                0x00000000004220f0       0xd2 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004221c2        0xe 
+ .text.error    0x00000000004221d0        0x3 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004221d3        0xd 
+ .text.doctype0
+                0x00000000004221e0       0x4d ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042222d        0x3 
+ .text.doctype2
+                0x0000000000422230       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042226f        0x1 
+ .text.doctype3
+                0x0000000000422270       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004222af        0x1 
+ .text.doctype4
+                0x00000000004222b0       0x5a ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042230a        0x6 
+ .text.prolog2  0x0000000000422310       0x56 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422366        0xa 
+ .text.doctype5
+                0x0000000000422370       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004223af        0x1 
+ .text.notation0
+                0x00000000004223b0       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004223ef        0x1 
+ .text.notation1
+                0x00000000004223f0       0xb7 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004224a7        0x9 
+ .text.notation2
+                0x00000000004224b0       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004224ef        0x1 
+ .text.notation4
+                0x00000000004224f0       0x72 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422562        0xe 
+ .text.condSect0
+                0x0000000000422570       0xc0 ../expat/libexpat.a(xmlrole.o)
+ .text.condSect2
+                0x0000000000422630       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042266f        0x1 
+ .text.condSect1
+                0x0000000000422670       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004226af        0x1 
+ .text.declClose
+                0x00000000004226b0       0x47 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004226f7        0x9 
+ .text.notation3
+                0x0000000000422700       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042273f        0x1 
+ .text.element0
+                0x0000000000422740       0x4d ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042278d        0x3 
+ .text.element6
+                0x0000000000422790       0x8e ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042281e        0x2 
+ .text.element3
+                0x0000000000422820       0x8d ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004228ad        0x3 
+ .text.element4
+                0x00000000004228b0       0x4d ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004228fd        0x3 
+ .text.element5
+                0x0000000000422900       0x62 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422962        0xe 
+ .text.attlist0
+                0x0000000000422970       0x4d ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004229bd        0x3 
+ .text.attlist1
+                0x00000000004229c0       0x6c ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422a2c        0x4 
+ .text.attlist3
+                0x0000000000422a30       0x55 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422a85        0xb 
+ .text.attlist4
+                0x0000000000422a90       0x5a ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422aea        0x6 
+ .text.attlist5
+                0x0000000000422af0       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422b2f        0x1 
+ .text.attlist6
+                0x0000000000422b30       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422b6f        0x1 
+ .text.attlist7
+                0x0000000000422b70       0x5a ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422bca        0x6 
+ .text.attlist9
+                0x0000000000422bd0       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422c0f        0x1 
+ .text.entity0  0x0000000000422c10       0x5a ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422c6a        0x6 
+ .text.entity2  0x0000000000422c70       0xdb ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422d4b        0x5 
+ .text.entity3  0x0000000000422d50       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422d8f        0x1 
+ .text.entity4  0x0000000000422d90       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422dcf        0x1 
+ .text.entity5  0x0000000000422dd0       0x87 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422e57        0x9 
+ .text.entity6  0x0000000000422e60       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422e9f        0x1 
+ .text.entity1  0x0000000000422ea0       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422edf        0x1 
+ .text.entity7  0x0000000000422ee0       0xdb ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422fbb        0x5 
+ .text.entity8  0x0000000000422fc0       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x0000000000422fff        0x1 
+ .text.entity9  0x0000000000423000       0x3f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042303f        0x1 
+ .text.entity10
+                0x0000000000423040       0x4f ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042308f        0x1 
+ .text.prolog1  0x0000000000423090       0xac ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x000000000042313c        0x4 
+ .text.externalSubset0
+                0x0000000000423140       0x75 ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004231b5        0xb 
+ .text.externalSubset1
+                0x00000000004231c0      0x1ee ../expat/libexpat.a(xmlrole.o)
+ *fill*         0x00000000004233ae        0x2 
+ .text.XmlPrologStateInit
+                0x00000000004233b0       0x1d ../expat/libexpat.a(xmlrole.o)
+                0x00000000004233b0                XmlPrologStateInit
+ *fill*         0x00000000004233cd        0x3 
+ .text.XmlPrologStateInitExternalEntity
+                0x00000000004233d0       0x16 ../expat/libexpat.a(xmlrole.o)
+                0x00000000004233d0                XmlPrologStateInitExternalEntity
+ *fill*         0x00000000004233e6        0xa 
+ .text          0x00000000004233f0       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x00000000004233f0                __libc_csu_init
+                0x0000000000423460                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x0000000000423464        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000423464        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000423464                _fini
+ .fini          0x0000000000423468        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x000000000042346d                PROVIDE (__etext, .)
+                0x000000000042346d                PROVIDE (_etext, .)
+                0x000000000042346d                PROVIDE (etext, .)
+
+.rodata         0x0000000000423480    0x10363
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.8
+                0x0000000000423480     0x1f67 runtestspp.o
+ .rodata.str1.1
+                0x00000000004253e7      0x350 runtestspp.o
+                                        0x360 (size before relaxing)
+ *fill*         0x0000000000425737        0x1 
+ .rodata        0x0000000000425738       0xc1 runtestspp.o
+ *fill*         0x00000000004257f9        0x7 
+ .rodata._ZZL35testhelper_is_whitespace_normalizedvE19__PRETTY_FUNCTION__
+                0x0000000000425800       0x2b runtestspp.o
+ .rodata._ZZL13test_nul_bytevE8__func__
+                0x000000000042582b        0xe runtestspp.o
+ *fill*         0x0000000000425839        0x7 
+ .rodata._ZZL15test_u0000_charvE8__func__
+                0x0000000000425840       0x10 runtestspp.o
+ .rodata._ZZL13test_bom_utf8vE8__func__
+                0x0000000000425850        0xe runtestspp.o
+ *fill*         0x000000000042585e        0x2 
+ .rodata._ZZL17test_bom_utf16_bevE8__func__
+                0x0000000000425860       0x12 runtestspp.o
+ *fill*         0x0000000000425872        0xe 
+ .rodata._ZZL17test_bom_utf16_levE8__func__
+                0x0000000000425880       0x12 runtestspp.o
+ *fill*         0x0000000000425892        0xe 
+ .rodata._ZZL17test_illegal_utf8vE8__func__
+                0x00000000004258a0       0x12 runtestspp.o
+ .rodata._ZZL10test_utf16vE8__func__
+                0x00000000004258b2        0xb runtestspp.o
+ *fill*         0x00000000004258bd        0x3 
+ .rodata._ZZL28test_utf16_le_epilog_newlinevE8__func__
+                0x00000000004258c0       0x1d runtestspp.o
+ *fill*         0x00000000004258dd        0x3 
+ .rodata._ZZL19test_latin1_umlautsvE8__func__
+                0x00000000004258e0       0x14 runtestspp.o
+ *fill*         0x00000000004258f4        0xc 
+ .rodata._ZZL18test_danish_latin1vE8__func__
+                0x0000000000425900       0x13 runtestspp.o
+ *fill*         0x0000000000425913        0xd 
+ .rodata._ZZL31test_french_charref_hexidecimalvE8__func__
+                0x0000000000425920       0x20 runtestspp.o
+ .rodata._ZZL27test_french_charref_decimalvE8__func__
+                0x0000000000425940       0x1c runtestspp.o
+ *fill*         0x000000000042595c        0x4 
+ .rodata._ZZL18test_french_latin1vE8__func__
+                0x0000000000425960       0x13 runtestspp.o
+ *fill*         0x0000000000425973        0xd 
+ .rodata._ZZL16test_french_utf8vE8__func__
+                0x0000000000425980       0x11 runtestspp.o
+ *fill*         0x0000000000425991        0xf 
+ .rodata._ZZL25test_utf8_false_rejectionvE8__func__
+                0x00000000004259a0       0x1a runtestspp.o
+ *fill*         0x00000000004259ba        0x6 
+ .rodata._ZZL28test_line_number_after_parsevE8__func__
+                0x00000000004259c0       0x1d runtestspp.o
+ *fill*         0x00000000004259dd        0x3 
+ .rodata._ZZL30test_column_number_after_parsevE8__func__
+                0x00000000004259e0       0x1f runtestspp.o
+ *fill*         0x00000000004259ff        0x1 
+ .rodata._ZZL44test_line_and_column_numbers_inside_handlersvE8__func__
+                0x0000000000425a00       0x2d runtestspp.o
+ *fill*         0x0000000000425a2d        0x3 
+ .rodata._ZZL28test_line_number_after_errorvE8__func__
+                0x0000000000425a30       0x1d runtestspp.o
+ *fill*         0x0000000000425a4d        0x3 
+ .rodata._ZZL30test_column_number_after_errorvE8__func__
+                0x0000000000425a50       0x1f runtestspp.o
+ *fill*         0x0000000000425a6f        0x1 
+ .rodata._ZZL22test_really_long_linesvE8__func__
+                0x0000000000425a70       0x17 runtestspp.o
+ *fill*         0x0000000000425a87        0x9 
+ .rodata._ZZL23test_end_element_eventsvE8__func__
+                0x0000000000425a90       0x18 runtestspp.o
+ *fill*         0x0000000000425aa8       0x18 
+ .rodata._ZZL34test_attr_whitespace_normalizationvE8__func__
+                0x0000000000425ac0       0x23 runtestspp.o
+ *fill*         0x0000000000425ae3        0xd 
+ .rodata._ZZL22test_xmldecl_misplacedvE8__func__
+                0x0000000000425af0       0x17 runtestspp.o
+ *fill*         0x0000000000425b07       0x19 
+ .rodata._ZZL37test_unknown_encoding_internal_entityvE8__func__
+                0x0000000000425b20       0x26 runtestspp.o
+ *fill*         0x0000000000425b46       0x1a 
+ .rodata._ZZL49test_wfc_undeclared_entity_unread_external_subsetvE8__func__
+                0x0000000000425b60       0x32 runtestspp.o
+ *fill*         0x0000000000425b92        0xe 
+ .rodata._ZZL45test_wfc_undeclared_entity_no_external_subsetvE8__func__
+                0x0000000000425ba0       0x2e runtestspp.o
+ *fill*         0x0000000000425bce       0x12 
+ .rodata._ZZL37test_wfc_undeclared_entity_standalonevE8__func__
+                0x0000000000425be0       0x26 runtestspp.o
+ *fill*         0x0000000000425c06       0x1a 
+ .rodata._ZZL47test_wfc_undeclared_entity_with_external_subsetvE8__func__
+                0x0000000000425c20       0x30 runtestspp.o
+ *fill*         0x0000000000425c50       0x10 
+ .rodata._ZZL58test_wfc_undeclared_entity_with_external_subset_standalonevE8__func__
+                0x0000000000425c60       0x3b runtestspp.o
+ *fill*         0x0000000000425c9b        0x5 
+ .rodata._ZZL33test_wfc_no_recursive_entity_refsvE8__func__
+                0x0000000000425ca0       0x22 runtestspp.o
+ *fill*         0x0000000000425cc2        0xe 
+ .rodata._ZZL28test_ext_entity_set_encodingvE8__func__
+                0x0000000000425cd0       0x1d runtestspp.o
+ *fill*         0x0000000000425ced        0x3 
+ .rodata._ZZL25test_dtd_default_handlingvE8__func__
+                0x0000000000425cf0       0x1a runtestspp.o
+ *fill*         0x0000000000425d0a       0x16 
+ .rodata._ZZL32test_empty_ns_without_namespacesvE8__func__
+                0x0000000000425d20       0x21 runtestspp.o
+ *fill*         0x0000000000425d41       0x1f 
+ .rodata._ZZL47test_ns_in_attribute_default_without_namespacesvE8__func__
+                0x0000000000425d60       0x30 runtestspp.o
+ *fill*         0x0000000000425d90       0x10 
+ .rodata._ZZL40test_stop_parser_between_char_data_callsvE8__func__
+                0x0000000000425da0       0x29 runtestspp.o
+ *fill*         0x0000000000425dc9       0x17 
+ .rodata._ZZL43test_suspend_parser_between_char_data_callsvE8__func__
+                0x0000000000425de0       0x2c runtestspp.o
+ *fill*         0x0000000000425e0c        0x4 
+ .rodata._ZZL22test_return_ns_tripletvE8__func__
+                0x0000000000425e10       0x17 runtestspp.o
+ *fill*         0x0000000000425e27        0x9 
+ .rodata._ZZL25test_ns_tagname_overwritevE8__func__
+                0x0000000000425e30       0x1a runtestspp.o
+ *fill*         0x0000000000425e4a       0x16 
+ .rodata._ZZL33test_ns_tagname_overwrite_tripletvE8__func__
+                0x0000000000425e60       0x22 runtestspp.o
+ *fill*         0x0000000000425e82       0x1e 
+ .rodata._ZZL34test_start_ns_clears_start_elementvE8__func__
+                0x0000000000425ea0       0x23 runtestspp.o
+ *fill*         0x0000000000425ec3       0x1d 
+ .rodata._ZZL42test_default_ns_from_ext_subset_and_ext_gevE8__func__
+                0x0000000000425ee0       0x2b runtestspp.o
+ *fill*         0x0000000000425f0b       0x15 
+ .rodata._ZZL31test_ns_prefix_with_empty_uri_1vE8__func__
+                0x0000000000425f20       0x20 runtestspp.o
+ .rodata._ZZL31test_ns_prefix_with_empty_uri_2vE8__func__
+                0x0000000000425f40       0x20 runtestspp.o
+ .rodata._ZZL31test_ns_prefix_with_empty_uri_3vE8__func__
+                0x0000000000425f60       0x20 runtestspp.o
+ .rodata._ZZL31test_ns_prefix_with_empty_uri_4vE8__func__
+                0x0000000000425f80       0x20 runtestspp.o
+ .rodata._ZZL30test_ns_default_with_empty_urivE8__func__
+                0x0000000000425fa0       0x1f runtestspp.o
+ *fill*         0x0000000000425fbf        0x1 
+ .rodata._ZZL37test_ns_duplicate_attrs_diff_prefixesvE8__func__
+                0x0000000000425fc0       0x26 runtestspp.o
+ *fill*         0x0000000000425fe6       0x1a 
+ .rodata._ZZL35test_ns_unbound_prefix_on_attributevE8__func__
+                0x0000000000426000       0x24 runtestspp.o
+ *fill*         0x0000000000426024       0x1c 
+ .rodata._ZZL33test_ns_unbound_prefix_on_elementvE8__func__
+                0x0000000000426040       0x22 runtestspp.o
+ *fill*         0x0000000000426062        0xe 
+ .rodata.cst16  0x0000000000426070       0x10 runtestspp.o
+ .rodata.str1.1
+                0x0000000000426080       0x4d chardata.o
+                                         0x5e (size before relaxing)
+ *fill*         0x00000000004260cd        0x3 
+ .rodata.str1.8
+                0x00000000004260d0       0x75 chardata.o
+ *fill*         0x0000000000426145        0xb 
+ .rodata.__PRETTY_FUNCTION__.3947
+                0x0000000000426150       0x17 chardata.o
+ *fill*         0x0000000000426167        0x9 
+ .rodata.__PRETTY_FUNCTION__.3939
+                0x0000000000426170       0x15 chardata.o
+ .rodata.__PRETTY_FUNCTION__.3910
+                0x0000000000426185        0xa chardata.o
+ *fill*         0x000000000042618f        0x1 
+ .rodata.__PRETTY_FUNCTION__.3931
+                0x0000000000426190       0x18 chardata.o
+ *fill*         0x00000000004261a8        0x8 
+ .rodata.__PRETTY_FUNCTION__.3924
+                0x00000000004261b0       0x16 chardata.o
+ .rodata.__PRETTY_FUNCTION__.3917
+                0x00000000004261c6        0xe chardata.o
+ .rodata.str1.1
+                0x00000000004261d4       0xac minicheck.o
+ .rodata.__PRETTY_FUNCTION__.3188
+                0x0000000000426280       0x16 minicheck.o
+ *fill*         0x0000000000426296        0xa 
+ .rodata.__PRETTY_FUNCTION__.3167
+                0x00000000004262a0       0x10 minicheck.o
+ .rodata.__PRETTY_FUNCTION__.3140
+                0x00000000004262b0        0xf minicheck.o
+ *fill*         0x00000000004262bf        0x1 
+ .rodata.__PRETTY_FUNCTION__.3135
+                0x00000000004262c0       0x1a minicheck.o
+ *fill*         0x00000000004262da        0x6 
+ .rodata.__PRETTY_FUNCTION__.3129
+                0x00000000004262e0       0x10 minicheck.o
+ .rodata.cst8   0x00000000004262f0        0x8 minicheck.o
+ .rodata.storeEntityValue
+                0x00000000004262f8      0x108 ../expat/libexpat.a(xmlparse.o)
+ .rodata.appendAttributeValue
+                0x0000000000426400      0x160 ../expat/libexpat.a(xmlparse.o)
+ .rodata.epilogProcessor
+                0x0000000000426560       0xf8 ../expat/libexpat.a(xmlparse.o)
+ .rodata.doContent
+                0x0000000000426658      0x200 ../expat/libexpat.a(xmlparse.o)
+ .rodata.cdataSectionProcessor
+                0x0000000000426858      0x168 ../expat/libexpat.a(xmlparse.o)
+ .rodata.doProlog
+                0x00000000004269c0      0x4c8 ../expat/libexpat.a(xmlparse.o)
+ .rodata.ignoreSectionProcessor
+                0x0000000000426e88      0x178 ../expat/libexpat.a(xmlparse.o)
+ .rodata.str1.1
+                0x0000000000427000      0x20b ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000042720b        0x5 
+ .rodata.str1.8
+                0x0000000000427210      0x398 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004275a8       0x18 
+ .rodata.message.4247
+                0x00000000004275c0      0x148 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x0000000000427708        0x8 
+ .rodata.xmlnsNamespace.4516
+                0x0000000000427710       0x1e ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x000000000042772e       0x12 
+ .rodata.xmlNamespace.4514
+                0x0000000000427740       0x25 ../expat/libexpat.a(xmlparse.o)
+ .rodata.enumValueStart.4713
+                0x0000000000427765        0x2 ../expat/libexpat.a(xmlparse.o)
+ .rodata.notationPrefix.4711
+                0x0000000000427767        0xa ../expat/libexpat.a(xmlparse.o)
+ .rodata.enumValueSep.4712
+                0x0000000000427771        0x2 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeNMTOKENS.4710
+                0x0000000000427773        0x9 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeNMTOKEN.4709
+                0x000000000042777c        0x8 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeENTITIES.4708
+                0x0000000000427784        0x9 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeENTITY.4707
+                0x000000000042778d        0x7 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeIDREFS.4706
+                0x0000000000427794        0x7 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeIDREF.4705
+                0x000000000042779b        0x6 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeID.4704
+                0x00000000004277a1        0x3 ../expat/libexpat.a(xmlparse.o)
+ .rodata.atypeCDATA.4703
+                0x00000000004277a4        0x6 ../expat/libexpat.a(xmlparse.o)
+ .rodata.externalSubsetName.4702
+                0x00000000004277aa        0x2 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004277ac       0x14 
+ .rodata.implicitContext
+                0x00000000004277c0       0x29 ../expat/libexpat.a(xmlparse.o)
+ *fill*         0x00000000004277e9        0x7 
+ .rodata.normal_cdataSectionTok
+                0x00000000004277f0       0xb0 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_scanRef
+                0x00000000004278a0      0x190 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_scanPercent
+                0x0000000000427a30      0x198 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_scanLit
+                0x0000000000427bc8       0x70 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_attributeValueTok
+                0x0000000000427c38       0xb0 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_entityValueTok
+                0x0000000000427ce8       0xe0 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_ignoreSectionTok
+                0x0000000000427dc8       0x48 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_getAtts
+                0x0000000000427e10       0xd8 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_sameName
+                0x0000000000427ee8       0xc8 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_nameLength
+                0x0000000000427fb0       0xc8 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_updatePosition
+                0x0000000000428078       0x30 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_cdataSectionTok
+                0x00000000004280a8      0x330 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_scanRef
+                0x00000000004283d8      0x410 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_scanPercent
+                0x00000000004287e8      0x418 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_scanLit
+                0x0000000000428c00      0x1b0 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_attributeValueTok
+                0x0000000000428db0       0xb0 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_entityValueTok
+                0x0000000000428e60       0xe0 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_ignoreSectionTok
+                0x0000000000428f40      0x188 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_getAtts
+                0x00000000004290c8      0x358 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_sameName
+                0x0000000000429420      0x348 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_nameLength
+                0x0000000000429768      0x208 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_updatePosition
+                0x0000000000429970       0x30 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_cdataSectionTok
+                0x00000000004299a0      0x330 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_scanRef
+                0x0000000000429cd0      0x410 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_scanPercent
+                0x000000000042a0e0      0x418 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_scanLit
+                0x000000000042a4f8      0x1b0 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_attributeValueTok
+                0x000000000042a6a8       0xb0 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_entityValueTok
+                0x000000000042a758       0xe0 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_ignoreSectionTok
+                0x000000000042a838      0x188 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_getAtts
+                0x000000000042a9c0      0x358 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_sameName
+                0x000000000042ad18      0x348 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_nameLength
+                0x000000000042b060      0x208 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_updatePosition
+                0x000000000042b268       0x30 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_scanComment.part.2
+                0x000000000042b298       0xe0 ../expat/libexpat.a(xmltok.o)
+ .rodata.initUpdatePosition
+                0x000000000042b378       0x30 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_scanPi
+                0x000000000042b3a8      0x5d0 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_contentTok
+                0x000000000042b978     0x13c0 ../expat/libexpat.a(xmltok.o)
+ .rodata.big2_prologTok
+                0x000000000042cd38      0xd18 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_scanPi
+                0x000000000042da50      0x5d0 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_contentTok
+                0x000000000042e020     0x13c0 ../expat/libexpat.a(xmltok.o)
+ .rodata.little2_prologTok
+                0x000000000042f3e0      0xd18 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_scanPi
+                0x00000000004300f8      0x210 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_contentTok
+                0x0000000000430308      0x7a0 ../expat/libexpat.a(xmltok.o)
+ .rodata.normal_prologTok
+                0x0000000000430aa8      0x598 ../expat/libexpat.a(xmltok.o)
+ .rodata.encodingNames.5060
+                0x0000000000431040       0x30 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000431070       0x10 
+ .rodata.encodingsNS
+                0x0000000000431080       0x38 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004310b8        0x8 
+ .rodata.encodings
+                0x00000000004310c0       0x38 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_UTF_16LE
+                0x00000000004310f8        0x9 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_UTF_16BE
+                0x0000000000431101        0x9 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_UTF_16
+                0x000000000043110a        0x7 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_UTF_8
+                0x0000000000431111        0x6 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_US_ASCII
+                0x0000000000431117        0x9 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_ISO_8859_1
+                0x0000000000431120        0xb ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_no  0x000000000043112b        0x3 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_yes
+                0x000000000043112e        0x4 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_standalone
+                0x0000000000431132        0xb ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_encoding
+                0x000000000043113d        0x9 ../expat/libexpat.a(xmltok.o)
+ .rodata.KW_version
+                0x0000000000431146        0x8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x000000000043114e       0x12 
+ .rodata.big2_encoding
+                0x0000000000431160      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000431338        0x8 
+ .rodata.big2_encoding_ns
+                0x0000000000431340      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000431518        0x8 
+ .rodata.little2_encoding
+                0x0000000000431520      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004316f8        0x8 
+ .rodata.little2_encoding_ns
+                0x0000000000431700      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004318d8        0x8 
+ .rodata.ascii_encoding
+                0x00000000004318e0      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000431ab8        0x8 
+ .rodata.ascii_encoding_ns
+                0x0000000000431ac0      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000431c98        0x8 
+ .rodata.latin1_encoding
+                0x0000000000431ca0      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000431e78        0x8 
+ .rodata.latin1_encoding_ns
+                0x0000000000431e80      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000432058        0x8 
+ .rodata.internal_utf8_encoding
+                0x0000000000432060      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000432238        0x8 
+ .rodata.internal_utf8_encoding_ns
+                0x0000000000432240      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x0000000000432418        0x8 
+ .rodata.utf8_encoding
+                0x0000000000432420      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004325f8        0x8 
+ .rodata.utf8_encoding_ns
+                0x0000000000432600      0x1d8 ../expat/libexpat.a(xmltok.o)
+ *fill*         0x00000000004327d8        0x8 
+ .rodata.namePages
+                0x00000000004327e0      0x100 ../expat/libexpat.a(xmltok.o)
+ .rodata.nmstrtPages
+                0x00000000004328e0      0x100 ../expat/libexpat.a(xmltok.o)
+ .rodata.namingBitmap
+                0x00000000004329e0      0x500 ../expat/libexpat.a(xmltok.o)
+ .rodata.prolog0
+                0x0000000000432ee0       0x98 ../expat/libexpat.a(xmlrole.o)
+ .rodata.internalSubset
+                0x0000000000432f78      0x108 ../expat/libexpat.a(xmlrole.o)
+ .rodata.element2
+                0x0000000000433080       0xd8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.element7
+                0x0000000000433158       0xc0 ../expat/libexpat.a(xmlrole.o)
+ .rodata.element6
+                0x0000000000433218       0xd8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.prolog1
+                0x00000000004332f0       0x98 ../expat/libexpat.a(xmlrole.o)
+ .rodata.externalSubset0
+                0x0000000000433388      0x138 ../expat/libexpat.a(xmlrole.o)
+ .rodata.externalSubset1
+                0x00000000004334c0      0x240 ../expat/libexpat.a(xmlrole.o)
+ .rodata.types.2343
+                0x0000000000433700       0x40 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_SYSTEM
+                0x0000000000433740        0x7 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_REQUIRED
+                0x0000000000433747        0x9 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_PUBLIC
+                0x0000000000433750        0x7 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_PCDATA
+                0x0000000000433757        0x7 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_NOTATION
+                0x000000000043375e        0x9 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_NMTOKENS
+                0x0000000000433767        0x9 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_NMTOKEN
+                0x0000000000433770        0x8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_NDATA
+                0x0000000000433778        0x6 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_INCLUDE
+                0x000000000043377e        0x8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_IMPLIED
+                0x0000000000433786        0x8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_IGNORE
+                0x000000000043378e        0x7 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_IDREFS
+                0x0000000000433795        0x7 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_IDREF
+                0x000000000043379c        0x6 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_ID  0x00000000004337a2        0x3 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_FIXED
+                0x00000000004337a5        0x6 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_ENTITY
+                0x00000000004337ab        0x7 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_ENTITIES
+                0x00000000004337b2        0x9 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_EMPTY
+                0x00000000004337bb        0x6 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_ELEMENT
+                0x00000000004337c1        0x8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_DOCTYPE
+                0x00000000004337c9        0x8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_CDATA
+                0x00000000004337d1        0x6 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_ATTLIST
+                0x00000000004337d7        0x8 ../expat/libexpat.a(xmlrole.o)
+ .rodata.KW_ANY
+                0x00000000004337df        0x4 ../expat/libexpat.a(xmlrole.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x00000000004337e4      0xa84
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x00000000004337e4      0xa84 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.eh_frame       0x0000000000434268     0x3a24
+ *(.eh_frame)
+ .eh_frame      0x0000000000434268       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000434298       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x00000000004342d8      0xc38 runtestspp.o
+                                        0xb80 (size before relaxing)
+ .eh_frame      0x0000000000434f10       0xe8 chardata.o
+ .eh_frame      0x0000000000434ff8      0x168 minicheck.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x0000000000435160     0x1390 ../expat/libexpat.a(xmlparse.o)
+                                       0x1630 (size before relaxing)
+ .eh_frame      0x00000000004364f0      0xef0 ../expat/libexpat.a(xmltok.o)
+                                        0xe00 (size before relaxing)
+ .eh_frame      0x00000000004373e0      0x848 ../expat/libexpat.a(xmlrole.o)
+                                        0x7a8 (size before relaxing)
+ .eh_frame      0x0000000000437c28       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000437c88        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000437c8c                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x0000000000637e0c                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000637e0c        0x0
+                0x0000000000637e0c                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000000637e0c                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000637e10        0x8
+                0x0000000000637e10                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000637e10        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x0000000000637e18                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000637e18        0x8
+                0x0000000000637e18                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000637e18        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x0000000000637e20                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000637e20        0x8
+ *(.jcr)
+ .jcr           0x0000000000637e20        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .jcr           0x0000000000637e20        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000637e28      0x1d0
+ *(.dynamic)
+ .dynamic       0x0000000000637e28      0x1d0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000637e28                _DYNAMIC
+
+.got            0x0000000000637ff8        0x8
+ *(.got)
+ .got           0x0000000000637ff8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.igot)
+                0x0000000000638fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000638000       0xb0
+ *(.got.plt)
+ .got.plt       0x0000000000638000       0xb0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000638000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.data           0x00000000006380b0        0x4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data._check_current_lineno
+                0x00000000006380b0        0x4 minicheck.o
+
+.tm_clone_table
+                0x00000000006380b8        0x0
+ .tm_clone_table
+                0x00000000006380b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .tm_clone_table
+                0x00000000006380b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000006380b8                _edata = .
+                0x00000000006380b8                PROVIDE (edata, .)
+                0x00000000006380b8                . = .
+                0x00000000006380b8                __bss_start = .
+
+.bss            0x00000000006380c0      0x128
+ *(.dynbss)
+ .dynbss        0x00000000006380c0        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x00000000006380c0                stderr@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000006380c8        0x1 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ *fill*         0x00000000006380c9        0x7 
+ .bss._ZL9resumable
+                0x00000000006380d0        0x1 runtestspp.o
+ *fill*         0x00000000006380d1        0xf 
+ .bss._ZL6parser
+                0x00000000006380e0        0x8 runtestspp.o
+ *fill*         0x00000000006380e8        0x8 
+ .bss._check_current_filename
+                0x00000000006380f0        0x8 minicheck.o
+ *fill*         0x00000000006380f8        0x8 
+ .bss._check_current_function
+                0x0000000000638100        0x8 minicheck.o
+ *fill*         0x0000000000638108       0x18 
+ .bss.env       0x0000000000638120       0xc8 minicheck.o
+ *(COMMON)
+                0x00000000006381e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x00000000006381e8                . = ALIGN (0x8)
+                0x00000000006381e8                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a381e8        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a381e8                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a381e8                . = ALIGN (0x8)
+                0x0000000000a381e8                _end = .
+                0x0000000000a381e8                PROVIDE (end, .)
+                0x0000000000a381e8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x56
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c runtestspp.o
+ .comment       0x0000000000000000       0x2c chardata.o
+ .comment       0x0000000000000000       0x2c minicheck.o
+ .comment       0x0000000000000000       0x2c ../expat/libexpat.a(xmlparse.o)
+ .comment       0x0000000000000000       0x2c ../expat/libexpat.a(xmltok.o)
+ .comment       0x0000000000000000       0x2c ../expat/libexpat.a(xmlrole.o)
+ .comment       0x000000000000002b       0x2b /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000     0x17a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000      0x5a0 runtestspp.o
+ .debug_aranges
+                0x00000000000005a0       0x80 chardata.o
+ .debug_aranges
+                0x0000000000000620       0xd0 minicheck.o
+ .debug_aranges
+                0x00000000000006f0      0x6d0 ../expat/libexpat.a(xmlparse.o)
+ .debug_aranges
+                0x0000000000000dc0      0x670 ../expat/libexpat.a(xmltok.o)
+ .debug_aranges
+                0x0000000000001430      0x370 ../expat/libexpat.a(xmlrole.o)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x245ce
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x8b74 runtestspp.o
+ .debug_info    0x0000000000008b74      0xc7a chardata.o
+ .debug_info    0x00000000000097ee      0xdd1 minicheck.o
+ .debug_info    0x000000000000a5bf     0xeb43 ../expat/libexpat.a(xmlparse.o)
+ .debug_info    0x0000000000019102     0x772b ../expat/libexpat.a(xmltok.o)
+ .debug_info    0x000000000002082d     0x3da1 ../expat/libexpat.a(xmlrole.o)
+
+.debug_abbrev   0x0000000000000000     0x1856
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x4da runtestspp.o
+ .debug_abbrev  0x00000000000004da      0x2e9 chardata.o
+ .debug_abbrev  0x00000000000007c3      0x2c0 minicheck.o
+ .debug_abbrev  0x0000000000000a83      0x582 ../expat/libexpat.a(xmlparse.o)
+ .debug_abbrev  0x0000000000001005      0x597 ../expat/libexpat.a(xmltok.o)
+ .debug_abbrev  0x000000000000159c      0x2ba ../expat/libexpat.a(xmlrole.o)
+
+.debug_line     0x0000000000000000     0x9690
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0xf37 runtestspp.o
+ .debug_line    0x0000000000000f37      0x272 chardata.o
+ .debug_line    0x00000000000011a9      0x2ce minicheck.o
+ .debug_line    0x0000000000001477     0x3d2a ../expat/libexpat.a(xmlparse.o)
+ .debug_line    0x00000000000051a1     0x3ab0 ../expat/libexpat.a(xmltok.o)
+ .debug_line    0x0000000000008c51      0xa3f ../expat/libexpat.a(xmlrole.o)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0x4fa7
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x1a7f runtestspp.o
+                                       0x1bc1 (size before relaxing)
+ .debug_str     0x0000000000001a7f       0xd4 chardata.o
+                                        0x41a (size before relaxing)
+ .debug_str     0x0000000000001b53      0x127 minicheck.o
+                                        0x5bf (size before relaxing)
+ .debug_str     0x0000000000001c7a     0x2292 ../expat/libexpat.a(xmlparse.o)
+                                       0x3054 (size before relaxing)
+ .debug_str     0x0000000000003f0c      0xdca ../expat/libexpat.a(xmltok.o)
+                                       0x11b7 (size before relaxing)
+ .debug_str     0x0000000000004cd6      0x2d1 ../expat/libexpat.a(xmlrole.o)
+                                        0xbd9 (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x448dc
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x3344 runtestspp.o
+ .debug_loc     0x0000000000003344      0xbec chardata.o
+ .debug_loc     0x0000000000003f30      0xa19 minicheck.o
+ .debug_loc     0x0000000000004949    0x20fd7 ../expat/libexpat.a(xmlparse.o)
+ .debug_loc     0x0000000000025920    0x19eda ../expat/libexpat.a(xmltok.o)
+ .debug_loc     0x000000000003f7fa     0x50e2 ../expat/libexpat.a(xmlrole.o)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0xba50
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000     0x2070 runtestspp.o
+ .debug_ranges  0x0000000000002070      0x140 chardata.o
+ .debug_ranges  0x00000000000021b0      0x160 minicheck.o
+ .debug_ranges  0x0000000000002310     0x6170 ../expat/libexpat.a(xmlparse.o)
+ .debug_ranges  0x0000000000008480     0x2fe0 ../expat/libexpat.a(xmltok.o)
+ .debug_ranges  0x000000000000b460      0x5f0 ../expat/libexpat.a(xmlrole.o)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(runtestspp elf64-x86-64)

@@ -1,0 +1,744 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libpthread.so.0               rec.o (system@@GLIBC_2.2.5)
+libc.so.6                     rec.o (__stpcpy_chk@@GLIBC_2.3.4)
+
+Discarded input sections
+
+ .rodata.cst4   0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000000000        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .text          0x0000000000000000        0x0 ifh2hdr.o
+ .data          0x0000000000000000        0x0 ifh2hdr.o
+ .bss           0x0000000000000000        0x0 ifh2hdr.o
+ .text.getrange
+                0x0000000000000000       0x93 ifh2hdr.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ifh2hdr.o
+ .text          0x0000000000000000        0x0 Inithdr.o
+ .data          0x0000000000000000        0x0 Inithdr.o
+ .bss           0x0000000000000000        0x0 Inithdr.o
+ .text.Inithdr_rcs
+                0x0000000000000000        0xa Inithdr.o
+ .data.rcsid    0x0000000000000000       0x35 Inithdr.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Inithdr.o
+ .text          0x0000000000000000        0x0 rec.o
+ .data          0x0000000000000000        0x0 rec.o
+ .bss           0x0000000000000000        0x0 rec.o
+ .text.rec_rcsid
+                0x0000000000000000        0xa rec.o
+ .rodata.str1.1
+                0x0000000000000000      0x158 rec.o
+ .text.get_machine_info
+                0x0000000000000000       0x94 rec.o
+ .text.printrec
+                0x0000000000000000       0x60 rec.o
+ .text.catrec   0x0000000000000000      0x1c9 rec.o
+ .text.startrec
+                0x0000000000000000      0x20b rec.o
+ .text.startrecl
+                0x0000000000000000      0x248 rec.o
+ .text.startrece
+                0x0000000000000000      0x30e rec.o
+ .text.startrecle
+                0x0000000000000000      0x346 rec.o
+ .text.endrec   0x0000000000000000      0x126 rec.o
+ .text.get_time_usr
+                0x0000000000000000       0x9a rec.o
+ .data.rcsid    0x0000000000000000       0x31 rec.o
+ .bss.recfile   0x0000000000000000      0x400 rec.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 rec.o
+ .text          0x0000000000000000        0x0 Getifh.o
+ .data          0x0000000000000000        0x0 Getifh.o
+ .bss           0x0000000000000000        0x0 Getifh.o
+ .text.Getifh_rcs
+                0x0000000000000000        0xa Getifh.o
+ .text.Writeifh
+                0x0000000000000000      0x2bb Getifh.o
+ .text.writeifhe
+                0x0000000000000000      0x29b Getifh.o
+ .text.writeifhmc
+                0x0000000000000000      0x2f8 Getifh.o
+ .text.writeifhmce
+                0x0000000000000000      0x315 Getifh.o
+ .data.rcsid    0x0000000000000000       0x34 Getifh.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Getifh.o
+ .text          0x0000000000000000        0x0 endianio.o
+ .data          0x0000000000000000        0x0 endianio.o
+ .bss           0x0000000000000000        0x0 endianio.o
+ .text.endianio_rcs
+                0x0000000000000000        0xa endianio.o
+ .text.swab2    0x0000000000000000        0xd endianio.o
+ .text.swab4    0x0000000000000000       0x1b endianio.o
+ .text.errf     0x0000000000000000       0x29 endianio.o
+ .text.errm     0x0000000000000000       0x29 endianio.o
+ .text.eread    0x0000000000000000      0x204 endianio.o
+ .text.ewrite   0x0000000000000000       0xbb endianio.o
+ .text.gread    0x0000000000000000       0xc7 endianio.o
+ .text.gwrite   0x0000000000000000      0x154 endianio.o
+ .text.load_4dfp_frame
+                0x0000000000000000      0x2d6 endianio.o
+ .rodata.str1.8
+                0x0000000000000000       0x29 endianio.o
+ .text.get_4dfp_dimoe
+                0x0000000000000000      0x27c endianio.o
+ .text.get_4dfp_dimoe_quiet
+                0x0000000000000000      0x1b9 endianio.o
+ .text.eread_ewrite_test
+                0x0000000000000000      0x54c endianio.o
+ .text.gread_gwrite_test
+                0x0000000000000000      0x6c2 endianio.o
+ .rodata.__PRETTY_FUNCTION__.4851
+                0x0000000000000000       0x12 endianio.o
+ .rodata.__PRETTY_FUNCTION__.4829
+                0x0000000000000000       0x12 endianio.o
+ .data.subr.4797
+                0x0000000000000000       0x15 endianio.o
+ .data.subr.4768
+                0x0000000000000000        0xf endianio.o
+ .data.subr.4752
+                0x0000000000000000       0x10 endianio.o
+ .data.rcsid    0x0000000000000000       0x36 endianio.o
+ .rodata.cst8   0x0000000000000000       0x10 endianio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 endianio.o
+ .data          0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+ .gnu_debuglink
+                0x0000000000000000        0xc /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+LOAD ifh2hdr.o
+LOAD Inithdr.o
+LOAD rec.o
+LOAD Getifh.o
+LOAD endianio.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libm.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgomp.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libpthread.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libpthread.so.0
+LOAD /usr/lib/x86_64-linux-gnu/libpthread_nonshared.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x0000000000400000                PROVIDE (__executable_start, 0x400000)
+                0x0000000000400238                . = (0x400000 + SIZEOF_HEADERS)
+
+.interp         0x0000000000400238       0x1c
+ *(.interp)
+ .interp        0x0000000000400238       0x1c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.ABI-tag   0x0000000000400254       0x20
+ .note.ABI-tag  0x0000000000400254       0x20 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.note.gnu.build-id
+                0x0000000000400274       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000400274       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x0000000000400298       0x24
+ *(.gnu.hash)
+ .gnu.hash      0x0000000000400298       0x24 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynsym         0x00000000004002c0      0x348
+ *(.dynsym)
+ .dynsym        0x00000000004002c0      0x348 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.dynstr         0x0000000000400608      0x1c4
+ *(.dynstr)
+ .dynstr        0x0000000000400608      0x1c4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version    0x00000000004007cc       0x46
+ *(.gnu.version)
+ .gnu.version   0x00000000004007cc       0x46 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_d  0x0000000000400818        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.gnu.version_r  0x0000000000400818       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000000400818       0x60 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.rela.dyn       0x0000000000400878       0x30
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.getrange
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startup.main
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.Inithdr_rcs
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.Inithdr
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.rec_rcsid
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.current_date_time
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.get_machine_info
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.printrec
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.catrec
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startrec
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startrecl
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startrece
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.startrecle
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.endrec
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.get_time_usr
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.Getifh_rcs
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.Getifh
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.Writeifh
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.writeifhe
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.writeifhmc
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.writeifhmce
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.endianio_rcs
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.errf
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.errm
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.errr
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.errw
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.getroot
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.eread
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.ewrite
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.gread
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.gwrite
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.load_4dfp_frame
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.get_4dfp_dimoe
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.get_4dfp_dimoe_quiet
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.eread_ewrite_test
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .rela.text.gread_gwrite_test
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x0000000000400878       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000400890       0x18 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+
+.rela.plt       0x00000000004008a8      0x2d0
+ *(.rela.plt)
+ .rela.plt      0x00000000004008a8      0x2d0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400b78                PROVIDE (__rela_iplt_start, .)
+ *(.rela.iplt)
+ .rela.iplt     0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400b78                PROVIDE (__rela_iplt_end, .)
+
+.init           0x0000000000400b78       0x1a
+ *(SORT(.init))
+ .init          0x0000000000400b78       0x15 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000400b78                _init
+ .init          0x0000000000400b8d        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000400ba0      0x1f0
+ *(.plt)
+ .plt           0x0000000000400ba0      0x1f0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000400bb0                __strcat_chk@@GLIBC_2.3.4
+                0x0000000000400bc0                getenv@@GLIBC_2.2.5
+                0x0000000000400bd0                strncpy@@GLIBC_2.2.5
+                0x0000000000400be0                strcpy@@GLIBC_2.2.5
+                0x0000000000400bf0                puts@@GLIBC_2.2.5
+                0x0000000000400c00                fread@@GLIBC_2.2.5
+                0x0000000000400c10                strtod@@GLIBC_2.2.5
+                0x0000000000400c20                fclose@@GLIBC_2.2.5
+                0x0000000000400c30                getpwuid@@GLIBC_2.2.5
+                0x0000000000400c40                ctime@@GLIBC_2.2.5
+                0x0000000000400c50                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000400c60                strchr@@GLIBC_2.2.5
+                0x0000000000400c70                strrchr@@GLIBC_2.2.5
+                0x0000000000400c80                geteuid@@GLIBC_2.2.5
+                0x0000000000400c90                __libc_start_main@@GLIBC_2.2.5
+                0x0000000000400ca0                fgets@@GLIBC_2.2.5
+                0x0000000000400cc0                strtol@@GLIBC_2.2.5
+                0x0000000000400cd0                time@@GLIBC_2.2.5
+                0x0000000000400ce0                __isoc99_sscanf@@GLIBC_2.7
+                0x0000000000400cf0                __strcpy_chk@@GLIBC_2.3.4
+                0x0000000000400d00                __printf_chk@@GLIBC_2.3.4
+                0x0000000000400d10                fopen@@GLIBC_2.2.5
+                0x0000000000400d20                exit@@GLIBC_2.2.5
+                0x0000000000400d30                fwrite@@GLIBC_2.2.5
+                0x0000000000400d40                __fprintf_chk@@GLIBC_2.3.4
+                0x0000000000400d50                strstr@@GLIBC_2.2.5
+                0x0000000000400d60                __ctype_tolower_loc@@GLIBC_2.3
+                0x0000000000400d70                __ctype_b_loc@@GLIBC_2.3
+                0x0000000000400d80                __sprintf_chk@@GLIBC_2.3.4
+ *(.iplt)
+ .iplt          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.text           0x0000000000400d90     0x15b2
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000000400d90      0x3d3 ifh2hdr.o
+                0x0000000000400d90                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000401163       0x2a /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000401163                _start
+ *fill*         0x000000000040118d        0x3 
+ .text          0x0000000000401190       0xbd /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ *fill*         0x000000000040124d        0x3 
+ .text.Inithdr  0x0000000000401250      0x425 Inithdr.o
+                0x0000000000401250                Inithdr
+ *fill*         0x0000000000401675        0xb 
+ .text.current_date_time
+                0x0000000000401680       0x33 rec.o
+                0x0000000000401680                current_date_time
+ *fill*         0x00000000004016b3        0xd 
+ .text.Getifh   0x00000000004016c0      0x668 Getifh.o
+                0x00000000004016c0                Getifh
+ *fill*         0x0000000000401d28        0x8 
+ .text.swab_hdr
+                0x0000000000401d30      0x487 endianio.o
+                0x0000000000401d30                swab_hdr
+ *fill*         0x00000000004021b7        0x9 
+ .text.CPU_is_bigendian
+                0x00000000004021c0        0x3 endianio.o
+                0x00000000004021c0                CPU_is_bigendian
+ *fill*         0x00000000004021c3        0xd 
+ .text.errr     0x00000000004021d0       0x2c endianio.o
+                0x00000000004021d0                errr
+ *fill*         0x00000000004021fc        0x4 
+ .text.errw     0x0000000000402200       0x2c endianio.o
+                0x0000000000402200                errw
+ *fill*         0x000000000040222c        0x4 
+ .text.getroot  0x0000000000402230       0x9a endianio.o
+                0x0000000000402230                getroot
+ *fill*         0x00000000004022ca        0x6 
+ .text          0x00000000004022d0       0x72 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x00000000004022d0                __libc_csu_init
+                0x0000000000402340                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x0000000000402344        0x9
+ *(SORT(.fini))
+ .fini          0x0000000000402344        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o
+                0x0000000000402344                _fini
+ .fini          0x0000000000402348        0x5 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+                0x000000000040234d                PROVIDE (__etext, .)
+                0x000000000040234d                PROVIDE (_etext, .)
+                0x000000000040234d                PROVIDE (etext, .)
+
+.rodata         0x0000000000402350      0x640
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x0000000000402350       0x72 ifh2hdr.o
+                                         0x73 (size before relaxing)
+ *fill*         0x00000000004023c2        0x6 
+ .rodata.str1.8
+                0x00000000004023c8       0x5e ifh2hdr.o
+ .rodata.str1.1
+                0x0000000000402426       0x21 Inithdr.o
+                                         0x2b (size before relaxing)
+ *fill*         0x0000000000402447        0x1 
+ .rodata.str1.8
+                0x0000000000402448       0x51 rec.o
+ .rodata.str1.1
+                0x0000000000402499      0x2b2 Getifh.o
+                                        0x2d5 (size before relaxing)
+ *fill*         0x000000000040274b        0x5 
+ .rodata.str1.8
+                0x0000000000402750       0xf0 Getifh.o
+                                         0xed (size before relaxing)
+ .rodata.cst16  0x0000000000402840       0x10 Getifh.o
+ .rodata.str1.1
+                0x0000000000402850      0x140 endianio.o
+                                        0x175 (size before relaxing)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000000402990       0x6c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000000402990       0x6c /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.eh_frame       0x0000000000402a00      0x26c
+ *(.eh_frame)
+ .eh_frame      0x0000000000402a00       0x30 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000402a30       0x40 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ .eh_frame      0x0000000000402a70       0x50 ifh2hdr.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000402ac0       0x48 Inithdr.o
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000402b08       0x20 rec.o
+                                        0x260 (size before relaxing)
+ .eh_frame      0x0000000000402b28       0x50 Getifh.o
+                                        0x1b8 (size before relaxing)
+ .eh_frame      0x0000000000402b78       0x90 endianio.o
+                                        0x378 (size before relaxing)
+ .eh_frame      0x0000000000402c08       0x60 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000402c68        0x4 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000402c6c                . = (ALIGN (0x200000) - ((0x200000 - .) & 0x1fffff))
+                0x0000000000602dfc                . = DATA_SEGMENT_ALIGN (0x200000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000602dfc        0x0
+                0x0000000000602dfc                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x0000000000602dfc                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000000602e00        0x8
+                0x0000000000602e00                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000602e00        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x0000000000602e08                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000000602e08        0x8
+                0x0000000000602e08                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000000602e08        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                0x0000000000602e10                PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000000602e10        0x8
+ *(.jcr)
+ .jcr           0x0000000000602e10        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .jcr           0x0000000000602e10        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000000602e18      0x1e0
+ *(.dynamic)
+ .dynamic       0x0000000000602e18      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000602e18                _DYNAMIC
+
+.got            0x0000000000602ff8        0x8
+ *(.got)
+ .got           0x0000000000602ff8        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+ *(.igot)
+                0x0000000000603fe8                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0x18)?0x18:0x0)
+
+.got.plt        0x0000000000603000      0x108
+ *(.got.plt)
+ .got.plt       0x0000000000603000      0x108 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000603000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+
+.data           0x0000000000603120       0x35
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.rcsid    0x0000000000603120       0x35 ifh2hdr.o
+
+.tm_clone_table
+                0x0000000000603158        0x0
+ .tm_clone_table
+                0x0000000000603158        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ .tm_clone_table
+                0x0000000000603158        0x0 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.data1
+ *(.data1)
+                0x0000000000603158                _edata = .
+                0x0000000000603158                PROVIDE (edata, .)
+                0x0000000000603158                . = .
+                0x0000000000603158                __bss_start = .
+
+.bss            0x0000000000603158       0x10
+ *(.dynbss)
+ .dynbss        0x0000000000603158        0x8 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o
+                0x0000000000603158                stderr@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000603160        0x1 /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+ *(COMMON)
+                0x0000000000603168                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x0000000000603161        0x7 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000603168                . = ALIGN (0x8)
+                0x0000000000603168                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000a03168        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000a03168                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000a03168                . = ALIGN (0x8)
+                0x0000000000a03168                _end = .
+                0x0000000000a03168                PROVIDE (end, .)
+                0x0000000000a03168                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x56
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c ifh2hdr.o
+ .comment       0x0000000000000000       0x2c Inithdr.o
+ .comment       0x0000000000000000       0x2c rec.o
+ .comment       0x0000000000000000       0x2c Getifh.o
+ .comment       0x0000000000000000       0x2c endianio.o
+ .comment       0x000000000000002b       0x2b /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x2c (size before relaxing)
+ .comment       0x0000000000000000       0x2c /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x320
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x40 ifh2hdr.o
+ .debug_aranges
+                0x0000000000000040       0x40 Inithdr.o
+ .debug_aranges
+                0x0000000000000080       0xd0 rec.o
+ .debug_aranges
+                0x0000000000000150       0x80 Getifh.o
+ .debug_aranges
+                0x00000000000001d0      0x150 endianio.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xb539
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x121f ifh2hdr.o
+ .debug_info    0x000000000000121f      0xf3b Inithdr.o
+ .debug_info    0x000000000000215a     0x2fe3 rec.o
+ .debug_info    0x000000000000513d     0x2f81 Getifh.o
+ .debug_info    0x00000000000080be     0x347b endianio.o
+
+.debug_abbrev   0x0000000000000000     0x1183
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0x2f4 ifh2hdr.o
+ .debug_abbrev  0x00000000000002f4      0x2e7 Inithdr.o
+ .debug_abbrev  0x00000000000005db      0x3b6 rec.o
+ .debug_abbrev  0x0000000000000991      0x35d Getifh.o
+ .debug_abbrev  0x0000000000000cee      0x495 endianio.o
+
+.debug_line     0x0000000000000000     0x1c18
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000      0x2d1 ifh2hdr.o
+ .debug_line    0x00000000000002d1      0x241 Inithdr.o
+ .debug_line    0x0000000000000512      0x7ac rec.o
+ .debug_line    0x0000000000000cbe      0x659 Getifh.o
+ .debug_line    0x0000000000001317      0x901 endianio.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000      0xba8
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x650 ifh2hdr.o
+                                        0x70d (size before relaxing)
+ .debug_str     0x0000000000000650      0x146 Inithdr.o
+                                        0x673 (size before relaxing)
+ .debug_str     0x0000000000000796      0x19b rec.o
+                                        0x66b (size before relaxing)
+ .debug_str     0x0000000000000931      0x165 Getifh.o
+                                        0x6b8 (size before relaxing)
+ .debug_str     0x0000000000000a96      0x112 endianio.o
+                                        0x807 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0xd103
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000      0xd97 ifh2hdr.o
+ .debug_loc     0x0000000000000d97      0xeee Inithdr.o
+ .debug_loc     0x0000000000001c85     0x420b rec.o
+ .debug_loc     0x0000000000005e90     0x342c Getifh.o
+ .debug_loc     0x00000000000092bc     0x3e47 endianio.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x1b60
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0x180 ifh2hdr.o
+ .debug_ranges  0x0000000000000180      0x160 Inithdr.o
+ .debug_ranges  0x00000000000002e0      0x890 rec.o
+ .debug_ranges  0x0000000000000b70      0x5f0 Getifh.o
+ .debug_ranges  0x0000000000001160      0xa00 endianio.o
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(ifh2hdr elf64-x86-64)

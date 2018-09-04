@@ -1,0 +1,183 @@
+mri_ca_register.c:272:  printf("\n== Number of threads available to %s for OpenMP = %d == \n",
+mri_ca_register.c:279:  printf("reading %d input volumes...\n", ninputs) ;
+mri_ca_register.c:287:  printf("logging results to %s.log\n", parms.base_name) ;
+mri_ca_register.c:295:    printf("reading input volume '%s'...\n", in_fname) ;
+mri_ca_register.c:380:  printf("reading GCA '%s'...\n", gca_fname) ;
+mri_ca_register.c:418:    printf("mapping GCA into %d-dimensional FLASH space...\n",
+mri_ca_register.c:468:      printf("mapping %d-dimensional flash atlas into %d-dimensional "
+mri_ca_register.c:500:  printf("freeing gibbs priors...") ;
+mri_ca_register.c:502:  printf("done.\n") ;
+mri_ca_register.c:526:    printf("reading %d labels from %s...\n", nlines,renormalization_fname) ;
+mri_ca_register.c:560:    printf("scaling atlas intensities using specified examples...\n") ;
+mri_ca_register.c:638:    printf("%d temporal lobe white matter control points read from file %s\n",
+mri_ca_register.c:782:      sprintf(fname, "%s.invalid.mgz", parms.base_name) ;
+mri_ca_register.c:784:      printf("writing %s\n", fname) ;
+mri_ca_register.c:787:      sprintf(fname, "%s.status.mgz", parms.base_name) ;
+mri_ca_register.c:789:      printf("writing %s\n", fname) ;
+mri_ca_register.c:822:    printf("mapping by transform (%d, %d, %d) --> "
+mri_ca_register.c:858:        printf("careg: extracting %dth frame\n", mri_gca->nframes-1) ;
+mri_ca_register.c:863:      sprintf(fname, "%s_target", parms.base_name) ;
+mri_ca_register.c:865:      sprintf(fname, "%s_target.mgz", parms.base_name) ;
+mri_ca_register.c:866:      printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:871:    printf("temporal lobe registration complete - "
+mri_ca_register.c:919:              printf("invalid label %d at (%d, %d, %d) in prior volume\n",
+mri_ca_register.c:954:    printf("disabling zero nodes\n") ;
+mri_ca_register.c:969:        sprintf(fname, "%s_target", parms.base_name) ;
+mri_ca_register.c:971:        sprintf(fname, "%s_target.mgz", parms.base_name) ;
+mri_ca_register.c:972:        printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:981:          printf("careg: extracting %dth frame\n", mri_gca->nframes-1) ;
+mri_ca_register.c:986:        sprintf(fname, "%s_target_after_histo", parms.base_name) ;
+mri_ca_register.c:988:        sprintf(fname, "%s_target_after_histo.mgz", parms.base_name) ;
+mri_ca_register.c:989:        printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:1007:    printf("initial white matter registration...\n") ;
+mri_ca_register.c:1010:    printf("initial white matter registration complete - "
+mri_ca_register.c:1060:    sprintf(fname, "%s.gca", parms.base_name) ;
+mri_ca_register.c:1062:    sprintf(fname, "%s.lta", parms.base_name) ;
+mri_ca_register.c:1068:      sprintf(fname, "%s.log", parms.base_name) ;
+mri_ca_register.c:1087:      sprintf(fname, "%s.log", parms.base_name) ;
+mri_ca_register.c:1092:      sprintf(fname, "%s_array.lta", parms.base_name) ;
+mri_ca_register.c:1117:          printf("---------------- doing initial registration ----------------------\n") ;
+mri_ca_register.c:1122:          printf("---------------- initial registration complete ----------------------\n") ;
+mri_ca_register.c:1156:          printf("2nd pass renormalization with updated "
+mri_ca_register.c:1168:          printf("writing normalized gca to %s...\n", write_gca_fname) ;
+mri_ca_register.c:1212:        printf("2nd pass renormalization with updated "
+mri_ca_register.c:1225:      sprintf(fname, "%s.gca", parms.base_name) ;
+mri_ca_register.c:1226:      printf("writing gca to %s...\n", fname) ;
+mri_ca_register.c:1231:      sprintf(fname, "%s_array.lta", parms.base_name) ;
+mri_ca_register.c:1286:      sprintf(fname, "%s_target", parms.base_name) ;
+mri_ca_register.c:1288:      sprintf(fname, "%s_target.mgz", parms.base_name) ;
+mri_ca_register.c:1289:      printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:1303:        printf("careg: extracting %dth frame\n", mri_gca->nframes-1) ;
+mri_ca_register.c:1309:      sprintf(fname, "%s_target", parms.base_name) ;
+mri_ca_register.c:1311:      sprintf(fname, "%s_target.mgz", parms.base_name) ;
+mri_ca_register.c:1312:      printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:1345:      printf("reading label scales and offsets from %s\n", fname) ;
+mri_ca_register.c:1382:    printf("reading %d labels from %s...\n", nlines,renormalization_fname) ;
+mri_ca_register.c:1419:    printf("registering ventricular system...\n") ;
+mri_ca_register.c:1428:      printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! resetting metric properties !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1438://  printf("registration complete, removing remaining folds if any exist\n") ;
+mri_ca_register.c:1457:      sprintf(fname, "%s.log", parms.base_name) ;
+mri_ca_register.c:1482:          sprintf(fname, "%s_target", parms.base_name) ;
+mri_ca_register.c:1484:          sprintf(fname, "%s_target.mgz", parms.base_name) ;
+mri_ca_register.c:1485:          printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:1496:            printf("careg: extracting %dth frame\n", mri_gca->nframes-1) ;
+mri_ca_register.c:1501:          sprintf(fname, "%s_target", parms.base_name) ;
+mri_ca_register.c:1503:          sprintf(fname, "%s_target1.mgz", parms.base_name) ;
+mri_ca_register.c:1504:          printf("writing target volume to %s...\n", fname) ;
+mri_ca_register.c:1527:      printf("writing normalized gca to %s...\n", write_gca_fname) ;
+mri_ca_register.c:1537:      printf("********************* ALLOWING NEGATIVE NODES IN DEFORMATION"
+mri_ca_register.c:1553:    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1554:    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1555:    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1556:    printf("!!!!!!!!!!!!!!!! PERFORMING LESS-CONSTRAINED BIG-VENT IN DEFORMATION!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1557:    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1558:    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1559:    printf("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n") ;
+mri_ca_register.c:1582:    printf("***************** morphing with label term set to 0 "
+mri_ca_register.c:1608:  printf("writing output transformation to %s...\n", out_fname) ;
+mri_ca_register.c:1640:  printf("mri_ca_register took %d hours, %d minutes and %d seconds.\n",
+mri_ca_register.c:1648:  printf("FSRUNTIME@ mri_ca_register %7.4f hours %d threads\n",msec/(1000.0*60.0*60.0),n_omp_threads);
+mri_ca_register.c:1677:    printf("l_dist = %2.2f\n", parms.l_distance) ;
+mri_ca_register.c:1682:    printf("smoothing atlas with a Gaussian with sigma = %2.2f mm\n",
+mri_ca_register.c:1689:    printf("regularizing variance to be sigma+%2.1fC(noise)\n", regularize) ;
+mri_ca_register.c:1695:    printf("specifying temporal white matter using control points in %s\n",
+mri_ca_register.c:1702:    printf("limiting max grad to be %2.2f (scaling gradients that exceed this norm)\n", parms.max_grad) ;
+mri_ca_register.c:1708:    printf("removing right hemisphere labels\n") ;
+mri_ca_register.c:1714:    printf("morphing diagnostics from atlas\n") ;
+mri_ca_register.c:1720:    printf("writing gradients each iteration\n") ;
+mri_ca_register.c:1725:    printf("removing left hemisphere labels\n") ;
+mri_ca_register.c:1730:    printf("removing cerebellum from atlas\n") ;
+mri_ca_register.c:1735:    printf("writing gca to file name %s\n", write_gca_fname) ;
+mri_ca_register.c:1741:    printf("setting min # of averages to %d\n", parms.min_avgs) ;
+mri_ca_register.c:1747:    printf("regularizing means to be %2.2f u(global) + %2.2f u(r)\n",
+mri_ca_register.c:1755:    printf("%sscaling smooothness coefficient (default=1), "
+mri_ca_register.c:1763:    printf("removing bright non-brain structures...\n") ;
+mri_ca_register.c:1768:    printf("handling expanded ventricles...\n") ;
+mri_ca_register.c:1773:    printf("not handling expanded ventricles...\n") ;
+mri_ca_register.c:1778:    printf("parms.uncompress=1...\n") ;
+mri_ca_register.c:1783:    printf("performing 2nd-pass renormalization...\n") ;
+mri_ca_register.c:1788:    printf("renormalizing GCA to MAP estimate of means\n") ;
+mri_ca_register.c:1793:    printf("reading LTA from <base-name>.lta\n") ;
+mri_ca_register.c:1799:    printf("l_smoothness = %2.2f\n", parms.l_smoothness) ;
+mri_ca_register.c:1805:    printf("writing control points to %s...\n", sample_fname) ;
+mri_ca_register.c:1811:    printf("allowing %d small steps before terminating integration\n",
+mri_ca_register.c:1817:    printf("using fixed time-step integration\n") ;
+mri_ca_register.c:1822:    printf("using optimal time-step integration\n") ;
+mri_ca_register.c:1828:    printf("%s allowing temporary folds during numerical minimization\n",
+mri_ca_register.c:1848:    printf("%s allowing temporary folds during numerical minimization (%d)\n",
+mri_ca_register.c:1855:    printf("setting diagnostic image size to %d\n", IMAGE_SIZE) ;
+mri_ca_register.c:1860:    printf("registering white matter in initial pass...\n") ;
+mri_ca_register.c:1866:    printf("reading temporal lobe atlas from %s...\n", tl_fname) ;
+mri_ca_register.c:1872:    printf("%srelabeling nodes with MAP estimates\n",
+mri_ca_register.c:1879:    printf("relabeling nodes with MAP estimates at avgs=%d\n",
+mri_ca_register.c:1886:    printf("resetting metric properties at avgs=%d\n", parms.reset_avgs) ;
+mri_ca_register.c:1891:    printf("resetting metric properties...\n") ;
+mri_ca_register.c:1897:    printf("writing vector field to %s...\n", vf_fname) ;
+mri_ca_register.c:1912:    printf("inserting label %d (%s) at (%d, %d, %d) with intensity = %d, in %d voxel nbhd\n",
+mri_ca_register.c:1928:    printf("using MR volume %s to mask input volume...\n", mask_fname) ;
+mri_ca_register.c:1941:    printf("using T2 volume %s thresholded at %f to mask input volume...\n",
+mri_ca_register.c:1950:    printf("using aparc+aseg vol %s and T2 volume %s thresholded at %f to mask input volume...\n",
+mri_ca_register.c:1959:    printf("opening diag file %s for writing\n", argv[2]) ;
+mri_ca_register.c:1966:    printf("using TR=%2.1f msec\n", TR) ;
+mri_ca_register.c:1972:    printf("using %s and %s as example T1 and segmentations respectively.\n",
+mri_ca_register.c:1980:    printf("using TE=%2.1f msec\n", TE) ;
+mri_ca_register.c:1986:    printf("using alpha=%2.0f degrees\n", DEGREES(alpha)) ;
+mri_ca_register.c:1992:    printf("writing transformed control points to %s...\n",
+mri_ca_register.c:1999:    printf("writing  transformed normalization control points to %s...\n",
+mri_ca_register.c:2005:    printf("using contrast to find labels...\n") ;
+mri_ca_register.c:2011:    printf("renormalizing using predicted intensity values in %s...\n",
+mri_ca_register.c:2017:    printf("using FLASH forward model to predict intensity values...\n") ;
+mri_ca_register.c:2023:    printf("using FLASH forward model and tissue parms in %s to predict"
+mri_ca_register.c:2029:    printf("only computing translation parameters...\n") ;
+mri_ca_register.c:2035:    printf("writing gca means to %s...\n", gca_mean_fname) ;
+mri_ca_register.c:2041:    printf("using prior threshold %2.2f\n", min_prior) ;
+mri_ca_register.c:2046:    printf("not using variance estimates\n") ;
+mri_ca_register.c:2051:    printf("using variance estimates\n") ;
+mri_ca_register.c:2057:    printf("dt = %2.2e\n", parms.dt) ;
+mri_ca_register.c:2063:    printf("tol = %2.2e\n", parms.tol) ;
+mri_ca_register.c:2068:    printf("using GCA centroid as origin of transform\n") ;
+mri_ca_register.c:2073:    printf("disabling scaling...\n") ;
+mri_ca_register.c:2079:    printf("levels = %d\n", parms.levels) ;
+mri_ca_register.c:2085:    printf("l_likelihood = %2.2f\n", parms.l_likelihood) ;
+mri_ca_register.c:2091:    printf("l_log_likelihood = %2.2f\n", parms.l_log_likelihood) ;
+mri_ca_register.c:2097:    printf("l_label = %2.2f\n", parms.l_label) ;
+mri_ca_register.c:2103:    printf("l_map = %2.2f\n", parms.l_map) ;
+mri_ca_register.c:2109:    printf("label_dist = %2.2f\n", parms.label_dist) ;
+mri_ca_register.c:2115:    printf("reducing input images %d times before aligning...\n",
+mri_ca_register.c:2124:    printf("debugging node (%d, %d, %d)\n", Gx, Gy, Gz) ;
+mri_ca_register.c:2132:    printf("writing snapshots of planes through (%d, %d, %d)\n", Gsx, Gsy, Gsz) ;
+mri_ca_register.c:2138:    printf("reading intensity scaling from %s...\n", read_intensity_fname[nreads]) ;
+mri_ca_register.c:2151:    printf("debugging voxel (%d, %d, %d)\n", Gvx, Gvy, Gvz) ;
+mri_ca_register.c:2157:    printf("intensity normalizing and writing to %s...\n",norm_fname);
+mri_ca_register.c:2163:    fprintf(stderr,
+mri_ca_register.c:2173:    printf("registering sequences, equivalent to:\n") ;
+mri_ca_register.c:2174:    printf("\t-renormalize\n\t-avgs %d\n\t-regularize %2.3f\n",
+mri_ca_register.c:2187:    printf("renormalizing sequences with structure "
+mri_ca_register.c:2189:    printf("\t-renormalize\n\t-regularize_mean %2.3f\n\t-regularize %2.3f\n",
+mri_ca_register.c:2210:    printf("registering sequences, equivalent to:\n") ;
+mri_ca_register.c:2211:    printf("\t-renormalize\n\t-avgs %d\n\t-regularize %2.3f\n",
+mri_ca_register.c:2218:    printf("using l_area=%2.3f\n", parms.l_area) ;
+mri_ca_register.c:2224:    printf("using compression ratio threshold = %2.3f...\n",
+mri_ca_register.c:2229:    printf("Loading, Inverting, Saving, Exiting ...\n");
+mri_ca_register.c:2235:    printf("using prior subject histograms for initial GCA renormalization\n") ;
+mri_ca_register.c:2240:    printf("using histogram matching of prior subjects for initial gca renormalization\n") ;
+mri_ca_register.c:2252:      printf("reading previously computed atlas xform %s "
+mri_ca_register.c:2259:      printf("using l_jacobian=%2.3f\n", parms.l_jacobian) ;
+mri_ca_register.c:2264:      printf("smoothing gradient with %d averages...\n", parms.navgs) ;
+mri_ca_register.c:2268:      printf("%sdisabling zero nodes\n", nozero ? "" : "NOT ") ;
+mri_ca_register.c:2274:      printf("reading manually defined control points from %s\n",
+mri_ca_register.c:2280:      printf("reading previous transform from %s...\n", xform_name) ;
+mri_ca_register.c:2284:      printf("setting exp_k to %2.2f (default=%2.2f)\n",
+mri_ca_register.c:2298:      printf("using previously computed transform %s\n", argv[2]) ;
+mri_ca_register.c:2304:      printf("blurring input image with sigma=%2.3f\n", blur_sigma);
+mri_ca_register.c:2312:      printf("using sigma=%2.3f as upper bound on blurring.\n",
+mri_ca_register.c:2325:      printf("niterations = %d\n", parms.niterations) ;
+mri_ca_register.c:2330:      printf("write iterations = %d\n", parms.write_iterations) ;
+mri_ca_register.c:2336:      printf("using top %2.1f%% wm points as control points....\n",
+mri_ca_register.c:2342:      printf("momentum = %2.2f\n", parms.momentum) ;
+mri_ca_register.c:2345:      printf("unknown option %s\n", argv[1]) ;
+mri_ca_register.c:2378:        fprintf(fp, "%f %f %f %f\n",
+mri_ca_register.c:2452:  printf("removing voxels brighter than %2.1f\n", thresh) ;
+mri_ca_register.c:2522:  printf("%d bright voxels found - %d segments\n", num, mriseg->nsegments) ;
+mri_ca_register.c:2546:        printf("erasing segment %d (%d voxels) with centroid "
+mri_ca_register.c:2562:  printf("%d bright voxels erased\n", num) ;

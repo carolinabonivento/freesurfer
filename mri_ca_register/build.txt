@@ -1,0 +1,826 @@
+cd .. && make  am--refresh
+make[1]: Entering directory `/root/freesurfer'
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /root/freesurfer/config/missing aclocal-1.14 -I m4
+ cd . && /bin/bash /root/freesurfer/config/missing automake-1.14 --gnu Makefile
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /root/freesurfer/config/missing autoconf
+/bin/bash ./config.status --recheck
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --disable-Werror --with-pkgs-dir=/root/centos6-x86_64-packages --disable-xawplus-apps --disable-tcltk-apps --no-create --no-recursion
+configure: Setting System...
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+using '/root/centos6-x86_64-packages'
+checking AMD Open64 compiler directories... Open64 directory is not supplied
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking for g++... g++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking for style of include used by make... GNU
+checking dependency style of g++... gcc3
+checking for gawk... (cached) mawk
+checking for gcc... gcc
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -B
+checking how to recognise dependent libraries... file_magic ELF [0-9][0-9]*-bit [LM]SB (shared object|dynamic lib )
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... gfortran
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+checking the maximum length of command line arguments... 32768
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for file... /usr/bin/file
+checking if gcc static flag  works... yes
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC
+checking if gcc PIC flag -fPIC works... yes
+checking if gcc supports -c -o file.o... yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... no
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC
+checking if g++ PIC flag -fPIC works... yes
+checking if g++ supports -c -o file.o... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+appending configuration tag "F77" to libtool
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for gfortran option to produce PIC... -fPIC
+checking if gfortran PIC flag -fPIC works... yes
+checking if gfortran supports -c -o file.o... yes
+checking whether the gfortran linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking whether we are using the GNU Fortran 77 compiler... (cached) yes
+checking whether gfortran accepts -g... (cached) yes
+configure: Have gcc
+configure: Have gcc 4.x where x >= 4
+configure: Have gcc 4.x where x >= 8
+configure: Copying /usr/bin/libtool overtop the PROG_LIBTOOL
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking for unistd.h... (cached) yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for sys/types.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for mode_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for ptrdiff_t... yes
+checking whether closedir returns void... no
+checking for error_at_line... yes
+checking whether lstat correctly handles trailing slash... yes
+checking whether lstat accepts an empty string... no
+checking whether lstat correctly handles trailing slash... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking return type of signal handlers... void
+checking whether stat accepts an empty string... no
+checking for working strtod... yes
+checking for vprintf... yes
+checking for _doprnt... no
+checking for working volatile... yes
+checking for pid_t... yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for working memcmp... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for pid_t... (cached) yes
+checking for bzero... yes
+checking for calloc... yes
+checking for dup2... yes
+checking for floor... no
+checking for ftime... yes
+checking for getdelim... yes
+checking for getenv... yes
+checking for getcwd... yes
+checking for getpagesize... (cached) yes
+checking for gettimeofday... yes
+checking for isascii... yes
+checking for memmove... yes
+checking for memset... yes
+checking for mkdir... yes
+checking for munmap... yes
+checking for pow... no
+checking for putenv... yes
+checking for rint... no
+checking for select... yes
+checking for setenv... yes
+checking for sqrt... no
+checking for strcasecmp... yes
+checking for strchr... yes
+checking for strcspn... yes
+checking for strdup... yes
+checking for strerror... yes
+checking for strncasecmp... yes
+checking for strrchr... yes
+checking for strspn... yes
+checking for strstr... yes
+checking for strtol... yes
+checking for uname... yes
+checking for /bin/tcsh... yes
+checking for zcat... 1
+checking for gzip... 1
+checking for latex... no
+checking for xxd... 1
+checking for xmllint... xmllint
+checking whether byte ordering is bigendian... no
+byte order is  1234
+configure: Setting OS from target...
+configure: OS is Linux
+checking for _gfortran_compare_string in -lgfortran... yes
+configure: openmp available? yes
+configure: openmp being used? yes
+configure: Using OpenMP
+configure: openmp used? yes
+configure: mcheck available? no
+configure: mcheck being used? no
+configure: mcheck used? no
+checking for /cl.h... no
+checking for nvcc... no
+configure: Nvidia CUDA nvcc compiler not found or --without-cuda used.
+configure: CUDA support will not be built.
+configure: If you have CUDA and need CUDA support
+configure: check the path to CUDA and specify --with-cuda=/path/to/cuda
+configure: Setting CPU optimization...
+configure: CPUTYPE is x86_64
+checking CPU optimization...... -m64
+checking whether gcc accepts -m64... yes
+checking for the pthreads library -lpthreads... no
+checking whether pthreads work without any flags... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... no
+checking for cc_r... gcc
+checking for X... libraries , headers 
+configure: x_includes set to   If not correct specify using --x-includes=
+configure: x_libraries set to /usr/lib/x86_64-linux-gnu  If not correct specify using --x-libraries=
+checking for XOpenDisplay in -lX11 -L/usr/lib/x86_64-linux-gnu... yes
+checking for XmuClientWindow in -lXmu -L/usr/lib/x86_64-linux-gnu... yes
+configure: Checking for directory specification of 3rd-party libraries...
+checking MNI directory... MNI directory is not supplied. Using local minc and netcdf.
+checking NIfTI directory... NIfTI directory is not supplied
+checking VXL directory... VXL directory is /root/centos6-x86_64-packages/vxl/current
+checking PETSc directory... PETSc directory is /root/centos6-x86_64-packages/petsc/current
+checking MPI directory... MPI directory is not supplied
+checking BOOST directory... BOOST directory is not supplied
+checking ANN Approximate Nearest Neighbors directory... ANN directory is /root/centos6-x86_64-packages/ann/current
+checking Tcl/Tk config... Tcl directory is /root/centos6-x86_64-packages/tcltktixblt/current
+Not building Tcl/Tk apps.
+checking for tixwish... no
+checking for tixwish8.1.8.3... no
+checking for tixwish8.1.8.4... no
+checking BLT directory... BLT directory is not supplied
+checking XawPlus directory... XawPlus directory is /root/centos6-x86_64-packages/xawplus/current
+checking Tiff directory... Tiff directory is not supplied
+checking Jpeg directory... Jpeg directory is not supplied
+checking Expat directory... Expat directory is not supplied
+checking for qmake... /root/centos6-x86_64-packages/qt/current/bin/qmake
+checking for moc... /root/centos6-x86_64-packages/qt/current/bin/moc
+checking for uic... /root/centos6-x86_64-packages/qt/current/bin/uic
+checking for rcc... /root/centos6-x86_64-packages/qt/current/bin/rcc
+checking whether host operating system is Darwin... no
+checking whether we can build a simple Qt app... ok, looks like Qt 4
+checking for the DEFINES to use with Qt... -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_WIDGETS_LIB -DQT_X11EXTRAS_LIB -DQT_GUI_LIB -DQT_SCRIPT_LIB -DQT_SCRIPTTOOLS_LIB -DQT_CORE_LIB
+checking for the CFLAGS to use with Qt... -pipe -O2 -Wall -W -D_REENTRANT -fPIC $(QT_DEFINES)
+checking for the CXXFLAGS to use with Qt... -pipe -O2 -std=gnu++0x -Wall -W -D_REENTRANT -fPIC $(QT_DEFINES)
+checking for the INCPATH to use with Qt... -I. -I. -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtOpenGL -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtWidgets -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtX11Extras -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtGui -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtScript -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtScriptTools -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/include/QtCore -I. -I/root/centos6-x86_64-packages/qt/5.6.2/5.6/gcc_64/mkspecs/linux-g++
+checking for the LDFLAGS to use with Qt... -Wl,-O1 -Wl,-rpath,/root/centos6-x86_64-packages/qt/current/lib -Wl,-rpath-link,/root/centos6-x86_64-packages/qt/current/lib
+checking for the LIBS to use with Qt... -L/root/centos6-x86_64-packages/qt/current/lib -lQt5OpenGL -L/usr/lib64 -lQt5Widgets -lQt5X11Extras -L/usr/pubsw/packages/qt/5.6.2/5.6/gcc_64/lib -lQt5Gui -lQt5Script -lQt5ScriptTools -lQt5Core -lGL -lpthread 
+checking CppUnit directory... CppUnit directory is /root/centos6-x86_64-packages/cppunit/current
+checking VTK config... VTK directory is /root/centos6-x86_64-packages/vtk/current
+checking Cocoa VTK config... checking KWWidgets config... KWWidgets directory is /root/centos6-x86_64-packages/KWWidgets/current
+Enabled building of KWWidgets apps.
+checking wxWidgets config... Enabled building of wxWidgets apps.
+checking GTS config... Not building GTS apps.
+checking ITK directory... ITK directory is /root/centos6-x86_64-packages/itk/current
+Enabled building of ITK apps.
+checking GDCM directory... Not building GDCM apps.
+configure: Getting OpenGL info...
+checking GL directory... OpenGL directory is not supplied
+checking windows.h usability... no
+checking windows.h presence... no
+checking for windows.h... no
+checking for OpenGL library... -lGL
+GL found:
+Setting GL_CFLAGS=' '
+and GL_LIBS='-lGL -L/usr/lib/x86_64-linux-gnu -lX11  -lm'
+checking for OpenGL Utility library... -lGLU
+GLu found:
+Setting GLU_CFLAGS=' '
+and GLU_LIBS='-lGLU -lGL -L/usr/lib/x86_64-linux-gnu -lX11  -lm'
+Performing an off-site installation.
+configure: Making sure that all libraries can be compiled...
+checking for floor in -lm... yes
+checking for gzopen in -lz... yes
+checking for crypt in -lcrypt... yes
+checking for /root/centos6-x86_64-packages/vxl/current/lib/libvnl.so... no
+checking for main in -lvnl... yes
+checking for main in -lvnl_algo... yes
+checking for PetscInitialize in -lpetsc -lmpich -lpthread ... yes
+checking for znzread in -lznz... no
+checking for FTC_Manager_LookupSize in -lvtkfreetype... no
+checking for vtk_freetype_FTC_Manager_LookupSize in -lvtkfreetype... no
+checking for FTC_Manager_LookupSize in -lfreetype... yes
+checking for gzopen in -lvtkzlib... yes
+checking for main in -lvtkpng -lvtkzlib... yes
+checking for /root/centos6-x86_64-packages/vtk/current/lib/vtk-5.6/libvtkCommon.so... yes
+checking for main in -lvtkCommon -lstdc++... yes
+checking for main in -lverdict... no
+checking for main in -lvtkverdict... yes
+checking for main in -lvtksqlite... yes
+checking for main in -lvtkMPEG2Encode... no
+checking for main in -lvtkmetaio... yes
+checking for main in -lvtkpng... yes
+checking for main in -lvtkzlib... yes
+checking for main in -lvtkhdf5... no
+checking for main in -lvtkNetCDF_cxx... no
+checking for main in -lLSDyna... no
+checking for main in -lKWWidgets... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+
+FreeSurfer is now configured for x86_64-unknown-linux-gnu
+
+  Source directory:  .
+  Build directory:   /root/freesurfer
+  Install directory: /usr/local/freesurfer/dev
+
+  C compiler:   gcc -g -O3 -msse2 -mfpmath=sse -Wall  -Wno-unused-but-set-variable -Wno-unused-result -Wno-unused-local-typedefs -DUSE_SSE_MATHFUN -fopenmp -DHAVE_OPENMP -m64 -DLinux -DANSI -fdata-sections -ffunction-sections -Wl,--gc-sections -DUSE_LOCAL_MINC -I../netcdf_3_6_0_p1 
+  C++ compiler: g++ -g -O3 -msse2 -mfpmath=sse -Wall  -Wno-unused-but-set-variable -Wno-unused-result -Wno-unused-local-typedefs -DUSE_SSE_MATHFUN -fopenmp -DHAVE_OPENMP -m64 -DLinux -DANSI -fdata-sections -ffunction-sections -Wl,--gc-sections -DUSE_LOCAL_MINC -I../netcdf_3_6_0_p1 
+  Fortran:      gfortran -g -O3 -msse2 -mfpmath=sse
+  Linker:       /usr/bin/ld -m elf_x86_64 -L/root/centos6-x86_64-packages/qt/current/lib -L/usr/lib64 -L/usr/X11R6/lib64  -fopenmp -fdata-sections -ffunction-sections -Wl,--gc-sections -Wl,-Map,ld_map.txt -Wl,--no-demangle    -L/root/centos6-x86_64-packages/vxl/current/lib  -L/root/centos6-x86_64-packages/itk/current/lib/InsightToolkit 
+  Libs:             /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKIO.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKAlgorithms.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKCommon.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKNumerics.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKMetaIO.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKniftiio.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKNrrdIO.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkpng.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitksys.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitktiff.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkv3p_netlib.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkzlib.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkgdcm.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkopenjpeg.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg8.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg12.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libitkjpeg16.a   /root/centos6-x86_64-packages/itk/current/lib/InsightToolkit/libITKDICOMParser.a /usr/lib/x86_64-linux-gnu/libuuid.a -lrt -lz -lm -lcrypt -ldl -lpthread      -lvnl_algo -lvnl -lvcl -lnetlib -lv3p_netlib 
+
+ /bin/bash ./config.status
+config.status: creating Makefile
+config.status: creating Makefile.smalldist
+config.status: creating BrainstemSS/Makefile
+config.status: creating BrainstemSS/linux_x86_64/Makefile
+config.status: creating BrainstemSS/mac_osx/Makefile
+config.status: creating HippoSF/Makefile
+config.status: creating HippoSF/linux_x86_64/Makefile
+config.status: creating HippoSF/mac_osx/Makefile
+config.status: creating check_siemens_dir/Makefile
+config.status: creating connectgraph/Makefile
+config.status: creating cudatest/Makefile
+config.status: creating cudatest/gcatest/Makefile
+config.status: creating cudatest/mrilabeltest/Makefile
+config.status: creating cudatest/volumecopy/Makefile
+config.status: creating dicom/Makefile
+config.status: creating distribution/Makefile
+config.status: creating distribution/average/Buckner_JNeurophysiol11_MNI152/Makefile
+config.status: creating distribution/average/Choi_JNeurophysiol12_MNI152/Makefile
+config.status: creating distribution/average/Makefile
+config.status: creating distribution/average/Yeo_JNeurophysiol11_MNI152/Makefile
+config.status: creating distribution/average/samseg/Makefile
+config.status: creating distribution/average/surf/Makefile
+config.status: creating distribution/diffusion/Makefile
+config.status: creating distribution/diffusion/mgh-dti-seqpack/Makefile
+config.status: creating distribution/docs/Makefile
+config.status: creating distribution/fsafd/Makefile
+config.status: creating distribution/fsl-extra/Makefile
+config.status: creating distribution/lib/Makefile
+config.status: creating distribution/lib/bem/Makefile
+config.status: creating distribution/sessions/Makefile
+config.status: creating distribution/subjects/Makefile
+config.status: creating distribution/trctrain/Makefile
+config.status: creating dmri_tensoreig/Makefile
+config.status: creating dngtester/Makefile
+config.status: creating dummy/Makefile
+config.status: creating dummy_qt/Makefile
+config.status: creating expat/Makefile
+config.status: creating fem_elastic/Makefile
+config.status: creating freeview/Makefile
+config.status: creating fsfast/Makefile
+config.status: creating fsfast/bin/Makefile
+config.status: creating fsfast/docs/Makefile
+config.status: creating fsfast/toolbox/Makefile
+config.status: creating fsgdf/Makefile
+config.status: creating fslutils/Makefile
+config.status: creating glut/Makefile
+config.status: creating gpu_utils/Makefile
+config.status: creating hiam_make_surfaces/Makefile
+config.status: creating hiam_make_template/Makefile
+config.status: creating hiam_register/Makefile
+config.status: creating hipsstubs/Makefile
+config.status: creating histo_compute_joint_density/Makefile
+config.status: creating histo_fix_topology/Makefile
+config.status: creating histo_register/Makefile
+config.status: creating histo_register/ParticleVideoLib/Makefile
+config.status: creating histo_register/SimpleBaseLib/Makefile
+config.status: creating histo_register_block/Makefile
+config.status: creating histo_segment/Makefile
+config.status: creating histo_synthesize/Makefile
+config.status: creating images/Makefile
+config.status: creating include/Makefile
+config.status: creating include/NrrdIO/Makefile
+config.status: creating include/dicom/Makefile
+config.status: creating include/fs_vnl/Makefile
+config.status: creating include/pixrect/Makefile
+config.status: creating include/sys/Makefile
+config.status: creating include/topology/Makefile
+config.status: creating include/xview/Makefile
+config.status: creating itkio/Makefile
+config.status: creating itkutils/Makefile
+config.status: creating jpeg/Makefile
+config.status: creating label2flat/Makefile
+config.status: creating label2patch/Makefile
+config.status: creating label_area/Makefile
+config.status: creating label_border/Makefile
+config.status: creating lineprof/Makefile
+config.status: creating log/Makefile
+config.status: creating lta_convert/Makefile
+config.status: creating matlab/Makefile
+config.status: creating minc_1_5_1/Makefile
+config.status: creating mkxsubjreg/Makefile
+config.status: creating mri_add_xform_to_header/Makefile
+config.status: creating mri_and/Makefile
+config.status: creating mri_annotation2label/Makefile
+config.status: creating mri_aparc2aseg/Makefile
+config.status: creating mri_aparc2wmseg/Makefile
+config.status: creating mri_apply_inu_correction/Makefile
+config.status: creating mri_aseg_edit_reclassify/Makefile
+config.status: creating mri_aseg_edit_train/Makefile
+config.status: creating mri_auto_fill/Makefile
+config.status: creating mri_average/Makefile
+config.status: creating mri_bc_sc_bias_correct/Makefile
+config.status: creating mri_bias/Makefile
+config.status: creating mri_binarize/Makefile
+config.status: creating mri_build_priors/Makefile
+config.status: creating mri_ca_label/Makefile
+config.status: creating mri_ca_normalize/Makefile
+config.status: creating mri_ca_register/Makefile
+config.status: creating mri_ca_tissue_parms/Makefile
+config.status: creating mri_ca_train/Makefile
+config.status: creating mri_cal_renormalize_gca/Makefile
+config.status: creating mri_cc/Makefile
+config.status: creating mri_cht2p/Makefile
+config.status: creating mri_classify/Makefile
+config.status: creating mri_cnr/Makefile
+config.status: creating mri_compile_edits/Makefile
+config.status: creating mri_compute_change_map/Makefile
+config.status: creating mri_compute_overlap/Makefile
+config.status: creating mri_compute_seg_overlap/Makefile
+config.status: creating mri_compute_structure_transforms/Makefile
+config.status: creating mri_compute_volume_fractions/Makefile
+config.status: creating mri_concat/Makefile
+config.status: creating mri_concatenate_gcam/Makefile
+config.status: creating mri_concatenate_lta/Makefile
+config.status: creating mri_convert/Makefile
+config.status: creating mri_convert_mdh/Makefile
+config.status: creating mri_copy_values/Makefile
+config.status: creating mri_cor2label/Makefile
+config.status: creating mri_coreg/Makefile
+config.status: creating mri_correct_segmentations/Makefile
+config.status: creating mri_cvs_register/Makefile
+config.status: creating mri_dct_align/Makefile
+config.status: creating mri_deface/Makefile
+config.status: creating mri_diff/Makefile
+config.status: creating mri_distance_transform/Makefile
+config.status: creating mri_divide_segmentation/Makefile
+config.status: creating mri_edit_segmentation/Makefile
+config.status: creating mri_edit_segmentation_with_surfaces/Makefile
+config.status: creating mri_edit_wm_with_aseg/Makefile
+config.status: creating mri_elastic_energy/Makefile
+config.status: creating mri_em_register/Makefile
+config.status: creating mri_estimate_tissue_parms/Makefile
+config.status: creating mri_evaluate_morph/Makefile
+config.status: creating mri_extract/Makefile
+config.status: creating mri_extract_conditions/Makefile
+config.status: creating mri_extract_fcd_features/Makefile
+config.status: creating mri_extract_label/Makefile
+config.status: creating mri_extract_largest_CC/Makefile
+config.status: creating mri_fcili/Makefile
+config.status: creating mri_fdr/Makefile
+config.status: creating mri_fieldsign/Makefile
+config.status: creating mri_fill/Makefile
+config.status: creating mri_fit_bias/Makefile
+config.status: creating mri_fslmat_to_lta/Makefile
+config.status: creating mri_fuse_intensity_images/Makefile
+config.status: creating mri_fuse_segmentations/Makefile
+config.status: creating mri_fwhm/Makefile
+config.status: creating mri_gca_ambiguous/Makefile
+config.status: creating mri_gcab_train/Makefile
+config.status: creating mri_gcut/Makefile
+config.status: creating mri_gdfglm/Makefile
+config.status: creating mri_glmfit/Makefile
+config.status: creating mri_gtmpvc/Makefile
+config.status: creating mri_gtmseg/Makefile
+config.status: creating mri_hausdorff_dist/Makefile
+config.status: creating mri_head/Makefile
+config.status: creating mri_hires_register/Makefile
+config.status: creating mri_histo_eq/Makefile
+config.status: creating mri_histo_normalize/Makefile
+config.status: creating mri_ibmc/Makefile
+config.status: creating mri_iic/Makefile
+config.status: creating mri_info/Makefile
+config.status: creating mri_interpolate/Makefile
+config.status: creating mri_jacobian/Makefile
+config.status: creating mri_joint_density/Makefile
+config.status: creating mri_label2label/Makefile
+config.status: creating mri_label2vol/Makefile
+config.status: creating mri_label_accuracy/Makefile
+config.status: creating mri_label_histo/Makefile
+config.status: creating mri_label_vals/Makefile
+config.status: creating mri_label_volume/Makefile
+config.status: creating mri_linear_register/Makefile
+config.status: creating mri_log_likelihood/Makefile
+config.status: creating mri_make_bem_surfaces/Makefile
+config.status: creating mri_make_density_map/Makefile
+config.status: creating mri_make_labels/Makefile
+config.status: creating mri_make_register/Makefile
+config.status: creating mri_make_template/Makefile
+config.status: creating mri_map_cpdat/Makefile
+config.status: creating mri_mark_temporal_lobe/Makefile
+config.status: creating mri_mask/Makefile
+config.status: creating mri_matrix_multiply/Makefile
+config.status: creating mri_mc/Makefile
+config.status: creating mri_mcsim/Makefile
+config.status: creating mri_mi/Makefile
+config.status: creating mri_modify/Makefile
+config.status: creating mri_morphology/Makefile
+config.status: creating mri_mosaic/Makefile
+config.status: creating mri_ms_EM/Makefile
+config.status: creating mri_ms_EM_with_atlas/Makefile
+config.status: creating mri_ms_LDA/Makefile
+config.status: creating mri_ms_fitparms/Makefile
+config.status: creating mri_multiscale_segment/Makefile
+config.status: creating mri_multispectral_segment/Makefile
+config.status: creating mri_nlfilter/Makefile
+config.status: creating mri_normalize/Makefile
+config.status: creating mri_normalize_tp2/Makefile
+config.status: creating mri_otl/Makefile
+config.status: creating mri_paint/Makefile
+config.status: creating mri_parse_sdcmdir/Makefile
+config.status: creating mri_parselabel/Makefile
+config.status: creating mri_partial_ribbon/Makefile
+config.status: creating mri_path2label/Makefile
+config.status: creating mri_polv/Makefile
+config.status: creating mri_probe_ima/Makefile
+config.status: creating mri_probedicom/Makefile
+config.status: creating mri_reduce/Makefile
+config.status: creating mri_register/Makefile
+config.status: creating mri_relabel_hypointensities/Makefile
+config.status: creating mri_relabel_nonwm_hypos/Makefile
+config.status: creating mri_remove_neck/Makefile
+config.status: creating mri_rf_label/Makefile
+config.status: creating mri_rf_long_label/Makefile
+config.status: creating mri_rf_long_train/Makefile
+config.status: creating mri_rf_train/Makefile
+config.status: creating mri_ribbon/Makefile
+config.status: creating mri_rigid_register/Makefile
+config.status: creating mri_robust_register/Makefile
+config.status: creating mri_sbbr/Makefile
+config.status: creating mri_seg_diff/Makefile
+config.status: creating mri_segcentroids/Makefile
+config.status: creating mri_seghead/Makefile
+config.status: creating mri_segment/Makefile
+config.status: creating mri_segment_tumor/Makefile
+config.status: creating mri_segment_wm_damage/Makefile
+config.status: creating mri_segreg/Makefile
+config.status: creating mri_segstats/Makefile
+config.status: creating mri_simulate_atrophy/Makefile
+config.status: creating mri_stats2seg/Makefile
+config.status: creating mri_strip_nonwhite/Makefile
+config.status: creating mri_strip_subject_info/Makefile
+config.status: creating mri_surf2surf/Makefile
+config.status: creating mri_surf2vol/Makefile
+config.status: creating mri_surfacemask/Makefile
+config.status: creating mri_surfcluster/Makefile
+config.status: creating mri_synthesize/Makefile
+config.status: creating mri_tessellate/Makefile
+config.status: creating mri_threshold/Makefile
+config.status: creating mri_topologycorrection/Makefile
+config.status: creating mri_train/Makefile
+config.status: creating mri_train_autoencoder/Makefile
+config.status: creating mri_transform/Makefile
+config.status: creating mri_transform_to_COR/Makefile
+config.status: creating mri_twoclass/Makefile
+config.status: creating mri_update_gca/Makefile
+config.status: creating mri_vol2roi/Makefile
+config.status: creating mri_vol2surf/Makefile
+config.status: creating mri_vol2vol/Makefile
+config.status: creating mri_volcluster/Makefile
+config.status: creating mri_voldiff/Makefile
+config.status: creating mri_volsynth/Makefile
+config.status: creating mri_warp_concat/Makefile
+config.status: creating mri_warp_convert/Makefile
+config.status: creating mri_watershed/Makefile
+config.status: creating mri_watershed/brain_volume/Makefile
+config.status: creating mri_wbc/Makefile
+config.status: creating mri_wmfilter/Makefile
+config.status: creating mri_xcorr/Makefile
+config.status: creating mri_xvolavg/Makefile
+config.status: creating mri_z2p/Makefile
+config.status: creating mris2rgb/Makefile
+config.status: creating mris_BA_segment/Makefile
+config.status: creating mris_add_template/Makefile
+config.status: creating mris_anatomical_stats/Makefile
+config.status: creating mris_annot_to_segmentation/Makefile
+config.status: creating mris_apply_reg/Makefile
+config.status: creating mris_aseg_distance/Makefile
+config.status: creating mris_average_curvature/Makefile
+config.status: creating mris_average_parcellation/Makefile
+config.status: creating mris_ca_label/Makefile
+config.status: creating mris_ca_train/Makefile
+config.status: creating mris_calc/Makefile
+config.status: creating mris_classify_thickness/Makefile
+config.status: creating mris_compute_acorr/Makefile
+config.status: creating mris_compute_lgi/Makefile
+config.status: creating mris_compute_optimal_kernel/Makefile
+config.status: creating mris_compute_overlap/Makefile
+config.status: creating mris_compute_parc_overlap/Makefile
+config.status: creating mris_compute_volume_fractions/Makefile
+config.status: creating mris_congeal/Makefile
+config.status: creating mris_convert/Makefile
+config.status: creating mris_copy_header/Makefile
+config.status: creating mris_curvature/Makefile
+config.status: creating mris_curvature_stats/Makefile
+config.status: creating mris_decimate/Makefile
+config.status: creating mris_decimate_gui/Makefile
+config.status: creating mris_deform/Makefile
+config.status: creating mris_density/Makefile
+config.status: creating mris_diff/Makefile
+config.status: creating mris_distance_map/Makefile
+config.status: creating mris_distance_to_label/Makefile
+config.status: creating mris_distance_transform/Makefile
+config.status: creating mris_divide_parcellation/Makefile
+config.status: creating mris_entropy/Makefile
+config.status: creating mris_errors/Makefile
+config.status: creating mris_euler_number/Makefile
+config.status: creating mris_expand/Makefile
+config.status: creating mris_extract_patches/Makefile
+config.status: creating mris_fbirn_annot/Makefile
+config.status: creating mris_fill/Makefile
+config.status: creating mris_find_flat_regions/Makefile
+config.status: creating mris_fix_topology/Makefile
+config.status: creating mris_flatten/Makefile
+config.status: creating mris_fwhm/Makefile
+config.status: creating mris_glm/Makefile
+config.status: creating mris_hausdorff_dist/Makefile
+config.status: creating mris_inflate/Makefile
+config.status: creating mris_info/Makefile
+config.status: creating mris_init_global_tractography/Makefile
+config.status: creating mris_interpolate_warp/Makefile
+config.status: creating mris_jacobian/Makefile
+config.status: creating mris_label2annot/Makefile
+config.status: creating mris_label_area/Makefile
+config.status: creating mris_label_calc/Makefile
+config.status: creating mris_label_mode/Makefile
+config.status: creating mris_left_right_register/Makefile
+config.status: creating mris_longitudinal_surfaces/Makefile
+config.status: creating mris_make_average_surface/Makefile
+config.status: creating mris_make_face_parcellation/Makefile
+config.status: creating mris_make_map_surfaces/Makefile
+config.status: creating mris_make_surfaces/Makefile
+config.status: creating mris_make_template/Makefile
+config.status: creating mris_map_cuts/Makefile
+config.status: creating mris_merge_parcellations/Makefile
+config.status: creating mris_mesh_subdivide/Makefile
+config.status: creating mris_morph_stats/Makefile
+config.status: creating mris_ms_refine/Makefile
+config.status: creating mris_ms_surface_CNR/Makefile
+config.status: creating mris_multiscale_stats/Makefile
+config.status: creating mris_niters2fwhm/Makefile
+config.status: creating mris_parcellate_connectivity/Makefile
+config.status: creating mris_pmake/Makefile
+config.status: creating mris_register/Makefile
+config.status: creating mris_register_label_map/Makefile
+config.status: creating mris_register_to_volume/Makefile
+config.status: creating mris_remove_variance/Makefile
+config.status: creating mris_resample/Makefile
+config.status: creating mris_rescale/Makefile
+config.status: creating mris_reverse/Makefile
+config.status: creating mris_rf_label/Makefile
+config.status: creating mris_rf_train/Makefile
+config.status: creating mris_rotate/Makefile
+config.status: creating mris_sample_label/Makefile
+config.status: creating mris_sample_parc/Makefile
+config.status: creating mris_seg2annot/Makefile
+config.status: creating mris_segment/Makefile
+config.status: creating mris_segment_vals/Makefile
+config.status: creating mris_segmentation_stats/Makefile
+config.status: creating mris_shrinkwrap/Makefile
+config.status: creating mris_simulate_atrophy/Makefile
+config.status: creating mris_smooth/Makefile
+config.status: creating mris_sphere/Makefile
+config.status: creating mris_spherical_average/Makefile
+config.status: creating mris_surface_change/Makefile
+config.status: creating mris_surface_stats/Makefile
+config.status: creating mris_surface_to_vol_distances/Makefile
+config.status: creating mris_svm_classify/Makefile
+config.status: creating mris_svm_train/Makefile
+config.status: creating mris_talairach/Makefile
+config.status: creating mris_thickness/Makefile
+config.status: creating mris_thickness_comparison/Makefile
+config.status: creating mris_thickness_diff/Makefile
+config.status: creating mris_topo_fixer/Makefile
+config.status: creating mris_transform/Makefile
+config.status: creating mris_translate_annotation/Makefile
+config.status: creating mris_transmantle_dysplasia_paths/Makefile
+config.status: creating mris_twoclass/Makefile
+config.status: creating mris_volmask/Makefile
+config.status: creating mris_volume/Makefile
+config.status: creating mris_w_to_curv/Makefile
+config.status: creating mris_warp/Makefile
+config.status: creating mris_watershed/Makefile
+config.status: creating mrisp_paint/Makefile
+config.status: creating mrisp_write/Makefile
+config.status: creating netcdf_3_6_0_p1/Makefile
+config.status: creating nmovie/Makefile
+config.status: creating nmovie_qt/Makefile
+config.status: creating oct_register_mosaic/Makefile
+config.status: creating oct_train/Makefile
+config.status: creating opencl_algorithms/Makefile
+config.status: creating optseq2/Makefile
+config.status: creating orient_mri/Makefile
+config.status: creating qdec/Makefile
+config.status: creating qdec_glmfit/Makefile
+config.status: creating qdecproject/Makefile
+config.status: creating rbftest/Makefile
+config.status: creating regdat2xfm/Makefile
+config.status: creating repair_siemens_file/Makefile
+config.status: creating rgb/Makefile
+config.status: creating scripts/InfantFS/Makefile
+config.status: creating scripts/Makefile
+config.status: creating spherical_stats/Makefile
+config.status: creating spline3/Makefile
+config.status: creating stat_normalize/Makefile
+config.status: creating stim_polar/Makefile
+config.status: creating svm-lib/Makefile
+config.status: creating swi_processing/Makefile
+config.status: creating talairach_afd/Makefile
+config.status: creating talairach_avi/Makefile
+config.status: creating template/Makefile
+config.status: creating test_makevol/Makefile
+config.status: creating tetgen/Makefile
+config.status: creating tiff/Makefile
+config.status: creating tkmedit/Makefile
+config.status: creating tkregister2/Makefile
+config.status: creating tkregister2/cmdl/Makefile
+config.status: creating tksurfer/Makefile
+config.status: creating trc/Makefile
+config.status: creating tridec/Makefile
+config.status: creating unix/Makefile
+config.status: creating utils/Makefile
+config.status: creating utils/NrrdIO/Makefile
+config.status: creating utils/cephes/Makefile
+config.status: creating utils/test/MRIScomputeBorderValues/Makefile
+config.status: creating utils/test/MRISpositionSurface/Makefile
+config.status: creating utils/test/Makefile
+config.status: creating utils/test/mriBuildVoronoiDiagramFloat/Makefile
+config.status: creating utils/test/mriSoapBubbleFloat/Makefile
+config.status: creating utils/test/mrishash/Makefile
+config.status: creating utilscpp/Makefile
+config.status: creating utilscpp/test/Makefile
+config.status: creating vtkfsio/Makefile
+config.status: creating vtkutils/Makefile
+config.status: creating xml2/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
